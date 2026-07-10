@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 3556.396 1080\" style=\"enable-background:new 0 0 3556.396 1080;\" xml:space=\"preserve\">\n<g id=\"_x33_\">\n\t<g>\n\t\t<polygon id=\"XMLID_23_\" style=\"fill:#93613E;\" points=\"1143.083,461.734 1123.406,461.734 1123.425,402.097 1143.053,402.143 \t\t\n\t\t\t\"/>\n\t\t<polygon id=\"XMLID_22_\" style=\"fill:#C3845B;\" points=\"1123.57,461.734 1077.115,461.734 1077.161,402.097 1123.501,402.143 \t\t\"/>\n\t\t<path style=\"fill:#C3845B;\" d=\"M1077.146,395.997c0.473,0,47.965,0,47.965,0v-26.464l-15.122-5.434l-25.046,9.924\n\t\t\tL1077.146,395.997z\"/>\n\t\t<polygon style=\"fill:#93613E;\" points=\"1125.111,369.534 1133.854,374.023 1142.36,395.997 1125.111,395.997 \t\t\"/>\n\t\t<path style=\"fill:#C3845B;\" d=\"M1100.926,368.116c0.147,0,14.261,0,14.261,0v-8.233l-4.705-1.691l-7.792,3.087L1100.926,368.116z\"\n\t\t\t/>\n\t\t<polygon style=\"fill:#93613E;\" points=\"1115.187,359.883 1117.907,361.28 1120.553,368.116 1115.187,368.116 \t\t\"/>\n\t\t<rect x=\"1109.044\" y=\"352.522\" style=\"fill:#C3845B;\" width=\"1.654\" height=\"8.27\"/>\n\t\t<rect x=\"1082.58\" y=\"395.997\" style=\"fill:#C3845B;\" width=\"2.363\" height=\"6.616\"/>\n\t\t<rect x=\"1092.977\" y=\"395.761\" style=\"fill:#C3845B;\" width=\"2.363\" height=\"6.616\"/>\n\t\t<rect x=\"1127.947\" y=\"396.234\" style=\"fill:#93613E;\" width=\"2.363\" height=\"6.616\"/>\n\t\t<rect x=\"1138.343\" y=\"395.997\" style=\"fill:#93613E;\" width=\"2.363\" height=\"6.616\"/>\n\t</g>\n</g>\n<g id=\"Calque_1\">\n</g>\n</svg>\n"
+  _title:
+  _description:

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg id="eyes" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><style>.cls-1{fill:#e53366;opacity:0;}.cls-2{fill:#1d1d1b;}</style></defs><path class="cls-1" d="M502,493.65A18.58,18.58,0,0,1,483.48,512H7.25C-2.82,512-10,503.72-10,493.65V17.42C-10,7.35-2.82,0,7.25,0H483.48C493.55,0,502,7.35,502,17.42Z"/><polygon class="cls-2" points="218.23 222.38 210.35 222.38 210.35 211.37 210.35 177.77 218.23 177.77 218.23 222.38"/><polygon class="cls-2" points="281.65 222.39 273.77 222.39 273.77 205.02 273.77 177.77 281.65 177.77 281.65 222.39"/></svg>'
+  _title:
+  _description:

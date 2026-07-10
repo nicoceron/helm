@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.27 79.27"><defs><style>.cls-1{fill:#fff;}</style></defs><title>planete_ui_1</title><g id="factions"><polygon class="cls-1" points="47.47 0.25 31.8 0.25 17.32 6.25 6.25 17.32 0.25 31.8 0.25 47.47 6.25 61.94 17.32 73.02 31.8 79.02 47.47 79.02 61.94 73.02 73.02 61.94 79.02 47.47 79.02 31.8 73.02 17.32 61.94 6.25 47.47 0.25"/></g></svg>'
+  _title:
+  _description:

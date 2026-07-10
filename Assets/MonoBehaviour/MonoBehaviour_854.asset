@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 138"><defs><style>.cls-1{fill:#a0c755;}</style></defs><title>UI_oxygen</title><g id="BG"><circle class="cls-1" cx="76.99" cy="40.35" r="18.38"/><circle class="cls-1" cx="49.81" cy="37.92" r="3.92"/><circle class="cls-1" cx="84.16" cy="93.48" r="11.31"/><circle class="cls-1" cx="56.28" cy="73.84" r="13.75"/><circle class="cls-1" cx="65.48" cy="112.18" r="7.85"/></g></svg>'
+  _title:
+  _description:

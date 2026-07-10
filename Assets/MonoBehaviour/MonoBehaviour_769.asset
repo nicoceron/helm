@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg id="intercom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><style>.cls-1{fill:none;stroke:#17181a;stroke-miterlimit:10;stroke-width:4px;opacity:0.11;}.cls-2{fill:#fef5e6;}.cls-3{fill:#181818;}.cls-4{opacity:0.06;}.cls-5{fill:#758b9b;}</style></defs><title>intercomShark_intercom</title><rect class="cls-1" x="69.02" y="69.02" width="373.97" height="373.97" rx="15.96"/><path class="cls-2" d="M493.48,0H17.25C7.18,0,0,7.35,0,17.42V493.65C0,503.72,7.18,512,17.25,512H493.48A18.58,18.58,0,0,0,512,493.65V17.42C512,7.35,503.55,0,493.48,0ZM443.1,429.69a13.57,13.57,0,0,1-13.53,13.41H81.51c-7.36,0-12.61-6.05-12.61-13.41V81.63c0-7.36,5.25-12.73,12.61-12.73H429.57c7.36,0,13.53,5.37,13.53,12.73Z"/><rect class="cls-3" x="86.02" y="453.57" width="9.67" height="46.87"/><rect class="cls-3" x="103.16" y="453.57" width="9.67" height="46.87"/><rect class="cls-3" x="120.29" y="453.57" width="9.67" height="46.87"/><polygon class="cls-3" points="262.96 22.32 249.59 22.32 242.91 33.9 249.59 45.48 262.96 45.48 269.65 33.9 262.96 22.32"/><rect class="cls-4" y="256.12" width="68.9" height="10.88"/><rect class="cls-4" x="441.47" y="261.55" width="68.9" height="10.88"/><polygon class="cls-5" points="257.98 31.75 254.57 31.75 252.87 34.7 254.57 37.65 257.98 37.65 259.69 34.7 257.98 31.75"/></svg>'
+  _title:
+  _description:

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg xmlns="http://www.w3.org/2000/svg" width="97.80859" height="35.75745" viewBox="0 0 97.80859 35.75745"><title>dead_eyes</title><g id="eyes"><polygon points="97.809 5.364 92.445 0 79.93 12.515 67.415 0 62.051 5.364 74.566 17.879 62.051 30.393 67.415 35.757 79.93 23.243 92.445 35.757 97.809 30.393 85.294 17.879 97.809 5.364" style="fill:#1d1e1c"/><polygon points="35.757 30.393 23.242 17.878 35.757 5.364 30.394 0.001 17.879 12.515 5.364 0 0 5.364 12.515 17.879 0.001 30.394 5.364 35.757 17.878 23.242 30.393 35.757 35.757 30.393" style="fill:#1d1e1c"/></g></svg>'
+  _title:
+  _description:

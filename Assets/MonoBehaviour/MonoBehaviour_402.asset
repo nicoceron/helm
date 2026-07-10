@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><style>.cls-1{fill:#17262b;}.cls-2{fill:#ece8d4;}.cls-3{fill:#d4cfbf;}.cls-4{fill:#fff;}.cls-5{fill:#af1d12;}.cls-6{fill:#cba73a;}.cls-7{fill:#eac81a;}.cls-10,.cls-8,.cls-9{fill:#060709;}.cls-8{opacity:0.15;}.cls-9{opacity:0.08;}</style></defs><g id="BG"><path class="cls-1" d="M513,493c0,10.07-8,19-18.23,19H20C9.74,512,1,503.1,1,493V17.73C1,7.66,9.74,0,20,0H494.77C505,0,513,7.66,513,17.73Z"/></g><g id="characters"><polygon class="cls-2" points="255.25 137.45 65.52 511.29 444.99 511.29 255.25 137.45"/><polygon class="cls-3" points="255.25 137.45 256.12 511.29 445.35 512 255.25 137.45"/><polygon class="cls-4" points="297.17 290.92 203.69 290.92 156.95 371.7 203.69 452.48 297.17 452.48 343.91 371.7 297.17 290.92"/><polygon class="cls-5" points="392.71 465.27 393.65 489.42 405.77 512 481.49 512 462.14 495.78 444.81 473.49 430.88 455.67 392.71 465.27"/><polygon class="cls-6" points="438.01 416.31 402.69 399.54 443.24 314.54 478.55 331.32 438.01 416.31"/><polygon class="cls-6" points="423.33 479.67 372.44 455.5 406.7 383.67 457.59 407.84 423.33 479.67"/><polygon class="cls-6" points="383.44 457.32 383.4 467.37 373.97 475.92 360.21 471.17 351.78 468.94 348.26 485.03 366.83 490.89 380.22 488.96 391.28 478.22 396.51 463.53 383.44 457.32"/><polygon class="cls-7" points="420.5 472.25 380.82 453.4 410.76 390.62 450.45 409.47 420.5 472.25"/><polygon class="cls-8" points="395.32 466.85 423.33 479.67 440.26 445.22 449.28 470.11 444.99 484.01 431.59 500.06 402.65 506.47 393.65 489.42 393.02 473.32 395.32 466.85"/><polygon class="cls-9" points="414.83 469.58 402.27 463.55 427.44 411.36 439.99 417.39 414.83 469.58"/><polygon class="cls-9" points="392.49 458.86 383.79 454.68 408.95 402.49 417.65 406.67 392.49 458.86"/><polygon class="cls-6" points="453.56 447.29 448.92 457.63 430.81 457.01 431.23 463.87 453.33 463.07 460.99 448.95 447.29 429.45 443.74 437.3 453.56 447.29"/><polygon class="cls-10" points="426.8 472.6 435.52 485.26 444.45 487.04 453.56 447.29 443.74 437.3 426.8 472.6"/><polygon class="cls-10" points="451.6 472.42 454.82 474.92 462.68 474.56 473.04 485.26 467.68 499.88 456.25 512 433.26 511.95 446.6 474.56 451.6 472.42"/></g></svg>'
+  _title:
+  _description:

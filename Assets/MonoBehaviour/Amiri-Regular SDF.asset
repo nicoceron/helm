@@ -1,0 +1,3268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -667331979, guid: 67dfb1fdfb2b407222eda8e23ac8b724, type: 3}
+  m_Name: Amiri-Regular SDF
+  m_EditorClassIdentifier:
+  hashCode: 1806044920
+  material: {fileID: 2100000, guid: e5e76ebb394b4364ba5879892c3f51bb, type: 2}
+  materialHashCode: 1453281880
+  m_Version: 1.1.0
+  m_SourceFontFileGUID: 9a4d20677c8ff4b058fc19e7a747cddc
+  m_SourceFontFile: {fileID: 12800000, guid: 01652a111a06c86489918a0f9b7ad82d, type: 3}
+  m_AtlasPopulationMode: 1
+  m_FaceInfo:
+    m_FaceIndex: 0
+    m_FamilyName: Amiri
+    m_StyleName: Regular
+    m_PointSize: 127
+    m_Scale: 1
+    m_LineHeight: 223.26599
+    m_AscentLine: 142.748
+    m_CapLine: 83
+    m_MeanLine: 54
+    m_Baseline: 0
+    m_DescentLine: -80.518
+    m_SuperscriptOffset: 142.748
+    m_SuperscriptSize: 0.5
+    m_SubscriptOffset: -80.518
+    m_SubscriptSize: 0.5
+    m_UnderlineOffset: -68.199
+    m_UnderlineThickness: 6.35
+    m_StrikethroughOffset: 21.6
+    m_StrikethroughThickness: 6.35
+    m_TabWidth: 37
+  m_GlyphTable:
+  - m_Index: 3
+    m_Metrics:
+      m_Width: 0
+      m_Height: 0
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 0
+      m_HorizontalAdvance: 37.078125
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 0
+      m_Height: 0
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 4
+    m_Metrics:
+      m_Width: 13.59375
+      m_Height: 85.96875
+      m_HorizontalBearingX: 8.125
+      m_HorizontalBearingY: 84.578125
+      m_HorizontalAdvance: 29.84375
+    m_GlyphRect:
+      m_X: 396
+      m_Y: 491
+      m_Width: 14
+      m_Height: 87
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 5
+    m_Metrics:
+      m_Width: 24.515625
+      m_Height: 28.0625
+      m_HorizontalBearingX: 4.828125
+      m_HorizontalBearingY: 86.734375
+      m_HorizontalAdvance: 34.671875
+    m_GlyphRect:
+      m_X: 113
+      m_Y: 448
+      m_Width: 26
+      m_Height: 29
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 7
+    m_Metrics:
+      m_Width: 49.28125
+      m_Height: 91.1875
+      m_HorizontalBearingX: 6.34375
+      m_HorizontalBearingY: 84.703125
+      m_HorizontalAdvance: 61.71875
+    m_GlyphRect:
+      m_X: 303
+      m_Y: 640
+      m_Width: 50
+      m_Height: 92
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 8
+    m_Metrics:
+      m_Width: 72.515625
+      m_Height: 81.546875
+      m_HorizontalBearingX: 4.953125
+      m_HorizontalBearingY: 80.015625
+      m_HorizontalAdvance: 82.671875
+    m_GlyphRect:
+      m_X: 419
+      m_Y: 389
+      m_Width: 74
+      m_Height: 83
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 10
+    m_Metrics:
+      m_Width: 9.65625
+      m_Height: 28.0625
+      m_HorizontalBearingX: 4.828125
+      m_HorizontalBearingY: 86.734375
+      m_HorizontalAdvance: 19.8125
+    m_GlyphRect:
+      m_X: 158
+      m_Y: 448
+      m_Width: 11
+      m_Height: 29
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 11
+    m_Metrics:
+      m_Width: 34.15625
+      m_Height: 140.07812
+      m_HorizontalBearingX: 18.546875
+      m_HorizontalBearingY: 91.0625
+      m_HorizontalAdvance: 58.171875
+    m_GlyphRect:
+      m_X: 10
+      m_Y: 175
+      m_Width: 35
+      m_Height: 142
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 12
+    m_Metrics:
+      m_Width: 34.03125
+      m_Height: 140.07812
+      m_HorizontalBearingX: 5.59375
+      m_HorizontalBearingY: 91.0625
+      m_HorizontalAdvance: 58.171875
+    m_GlyphRect:
+      m_X: 10
+      m_Y: 336
+      m_Width: 35
+      m_Height: 142
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 13
+    m_Metrics:
+      m_Width: 45.84375
+      m_Height: 46.109375
+      m_HorizontalBearingX: 4.0625
+      m_HorizontalBearingY: 82.9375
+      m_HorizontalAdvance: 54.859375
+    m_GlyphRect:
+      m_X: 940
+      m_Y: 942
+      m_Width: 46
+      m_Height: 47
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 15
+    m_Metrics:
+      m_Width: 16.390625
+      m_Height: 32.5
+      m_HorizontalBearingX: 2.15625
+      m_HorizontalBearingY: 15.234375
+      m_HorizontalAdvance: 24.890625
+    m_GlyphRect:
+      m_X: 402
+      m_Y: 117
+      m_Width: 17
+      m_Height: 34
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 16
+    m_Metrics:
+      m_Width: 32.390625
+      m_Height: 9.265625
+      m_HorizontalBearingX: 7.234375
+      m_HorizontalBearingY: 33.90625
+      m_HorizontalAdvance: 46.734375
+    m_GlyphRect:
+      m_X: 220
+      m_Y: 146
+      m_Width: 33
+      m_Height: 10
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 17
+    m_Metrics:
+      m_Width: 13.59375
+      m_Height: 13.703125
+      m_HorizontalBearingX: 5.96875
+      m_HorizontalBearingY: 12.3125
+      m_HorizontalAdvance: 25.65625
+    m_GlyphRect:
+      m_X: 284
+      m_Y: 606
+      m_Width: 15
+      m_Height: 15
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 18
+    m_Metrics:
+      m_Width: 37.96875
+      m_Height: 112.78125
+      m_HorizontalBearingX: 1.90625
+      m_HorizontalBearingY: 89.15625
+      m_HorizontalAdvance: 43.6875
+    m_GlyphRect:
+      m_X: 113
+      m_Y: 315
+      m_Width: 39
+      m_Height: 114
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 19
+    m_Metrics:
+      m_Width: 54.09375
+      m_Height: 79.875
+      m_HorizontalBearingX: 6.734375
+      m_HorizontalBearingY: 79.5
+      m_HorizontalAdvance: 67.5625
+    m_GlyphRect:
+      m_X: 516
+      m_Y: 739
+      m_Width: 55
+      m_Height: 81
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 20
+    m_Metrics:
+      m_Width: 31.375
+      m_Height: 80
+      m_HorizontalBearingX: 18.15625
+      m_HorizontalBearingY: 79.625
+      m_HorizontalAdvance: 67.5625
+    m_GlyphRect:
+      m_X: 385
+      m_Y: 705
+      m_Width: 32
+      m_Height: 81
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 21
+    m_Metrics:
+      m_Width: 50.9375
+      m_Height: 79.625
+      m_HorizontalBearingX: 8.375
+      m_HorizontalBearingY: 79.625
+      m_HorizontalAdvance: 67.5625
+    m_GlyphRect:
+      m_X: 880
+      m_Y: 812
+      m_Width: 52
+      m_Height: 80
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 22
+    m_Metrics:
+      m_Width: 46.609375
+      m_Height: 80.265625
+      m_HorizontalBearingX: 10.40625
+      m_HorizontalBearingY: 79.625
+      m_HorizontalAdvance: 67.5625
+    m_GlyphRect:
+      m_X: 691
+      m_Y: 814
+      m_Width: 48
+      m_Height: 81
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 23
+    m_Metrics:
+      m_Width: 55
+      m_Height: 80.65625
+      m_HorizontalBearingX: 6.21875
+      m_HorizontalBearingY: 79.890625
+      m_HorizontalAdvance: 67.5625
+    m_GlyphRect:
+      m_X: 958
+      m_Y: 666
+      m_Width: 56
+      m_Height: 81
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 24
+    m_Metrics:
+      m_Width: 46.609375
+      m_Height: 80.53125
+      m_HorizontalBearingX: 10.40625
+      m_HorizontalBearingY: 79.890625
+      m_HorizontalAdvance: 67.5625
+    m_GlyphRect:
+      m_X: 873
+      m_Y: 911
+      m_Width: 48
+      m_Height: 81
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 25
+    m_Metrics:
+      m_Width: 49.53125
+      m_Height: 81.03125
+      m_HorizontalBearingX: 9.015625
+      m_HorizontalBearingY: 80.265625
+      m_HorizontalAdvance: 67.5625
+    m_GlyphRect:
+      m_X: 951
+      m_Y: 841
+      m_Width: 50
+      m_Height: 82
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 26
+    m_Metrics:
+      m_Width: 52.0625
+      m_Height: 79.5
+      m_HorizontalBearingX: 7.75
+      m_HorizontalBearingY: 78.859375
+      m_HorizontalAdvance: 67.5625
+    m_GlyphRect:
+      m_X: 960
+      m_Y: 85
+      m_Width: 53
+      m_Height: 80
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 27
+    m_Metrics:
+      m_Width: 46.75
+      m_Height: 80.890625
+      m_HorizontalBearingX: 10.40625
+      m_HorizontalBearingY: 79.75
+      m_HorizontalAdvance: 67.5625
+    m_GlyphRect:
+      m_X: 691
+      m_Y: 713
+      m_Width: 48
+      m_Height: 82
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 28
+    m_Metrics:
+      m_Width: 49.40625
+      m_Height: 81.03125
+      m_HorizontalBearingX: 9.140625
+      m_HorizontalBearingY: 80.265625
+      m_HorizontalAdvance: 67.5625
+    m_GlyphRect:
+      m_X: 570
+      m_Y: 839
+      m_Width: 50
+      m_Height: 82
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 29
+    m_Metrics:
+      m_Width: 13.59375
+      m_Height: 54.859375
+      m_HorizontalBearingX: 7.234375
+      m_HorizontalBearingY: 53.46875
+      m_HorizontalAdvance: 27.9375
+    m_GlyphRect:
+      m_X: 1000
+      m_Y: 362
+      m_Width: 14
+      m_Height: 56
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 31
+    m_Metrics:
+      m_Width: 51.4375
+      m_Height: 55.25
+      m_HorizontalBearingX: 3.6875
+      m_HorizontalBearingY: 53.34375
+      m_HorizontalAdvance: 60.953125
+    m_GlyphRect:
+      m_X: 881
+      m_Y: 737
+      m_Width: 53
+      m_Height: 56
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 33
+    m_Metrics:
+      m_Width: 51.3125
+      m_Height: 55.25
+      m_HorizontalBearingX: 5.96875
+      m_HorizontalBearingY: 53.34375
+      m_HorizontalAdvance: 61.09375
+    m_GlyphRect:
+      m_X: 953
+      m_Y: 766
+      m_Width: 53
+      m_Height: 56
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 36
+    m_Metrics:
+      m_Width: 80.390625
+      m_Height: 82.546875
+      m_HorizontalBearingX: -1.78125
+      m_HorizontalBearingY: 82.171875
+      m_HorizontalAdvance: 77.71875
+    m_GlyphRect:
+      m_X: 887
+      m_Y: 460
+      m_Width: 81
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 37
+    m_Metrics:
+      m_Width: 63.375
+      m_Height: 82.421875
+      m_HorizontalBearingX: 5.078125
+      m_HorizontalBearingY: 82.046875
+      m_HorizontalAdvance: 73.90625
+    m_GlyphRect:
+      m_X: 612
+      m_Y: 364
+      m_Width: 64
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 38
+    m_Metrics:
+      m_Width: 72.390625
+      m_Height: 83.4375
+      m_HorizontalBearingX: 5.96875
+      m_HorizontalBearingY: 82.671875
+      m_HorizontalAdvance: 83.5625
+    m_GlyphRect:
+      m_X: 693
+      m_Y: 525
+      m_Width: 74
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 39
+    m_Metrics:
+      m_Width: 76.703125
+      m_Height: 82.421875
+      m_HorizontalBearingX: 5.078125
+      m_HorizontalBearingY: 82.046875
+      m_HorizontalAdvance: 88.015625
+    m_GlyphRect:
+      m_X: 415
+      m_Y: 881
+      m_Width: 77
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 40
+    m_Metrics:
+      m_Width: 64.265625
+      m_Height: 82.8125
+      m_HorizontalBearingX: 5.078125
+      m_HorizontalBearingY: 82.296875
+      m_HorizontalAdvance: 72.765625
+    m_GlyphRect:
+      m_X: 702
+      m_Y: 216
+      m_Width: 65
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 42
+    m_Metrics:
+      m_Width: 80.265625
+      m_Height: 83.4375
+      m_HorizontalBearingX: 5.96875
+      m_HorizontalBearingY: 82.671875
+      m_HorizontalAdvance: 89.28125
+    m_GlyphRect:
+      m_X: 786
+      m_Y: 383
+      m_Width: 82
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 43
+    m_Metrics:
+      m_Width: 79.890625
+      m_Height: 82.421875
+      m_HorizontalBearingX: 5.078125
+      m_HorizontalBearingY: 82.046875
+      m_HorizontalAdvance: 89.921875
+    m_GlyphRect:
+      m_X: 786
+      m_Y: 486
+      m_Width: 80
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 44
+    m_Metrics:
+      m_Width: 30.234375
+      m_Height: 82.421875
+      m_HorizontalBearingX: 5.078125
+      m_HorizontalBearingY: 82.046875
+      m_HorizontalAdvance: 40.125
+    m_GlyphRect:
+      m_X: 981
+      m_Y: 563
+      m_Width: 31
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 47
+    m_Metrics:
+      m_Width: 64.265625
+      m_Height: 82.5625
+      m_HorizontalBearingX: 5.078125
+      m_HorizontalBearingY: 82.046875
+      m_HorizontalAdvance: 69.84375
+    m_GlyphRect:
+      m_X: 702
+      m_Y: 319
+      m_Width: 65
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 48
+    m_Metrics:
+      m_Width: 105.65625
+      m_Height: 82.421875
+      m_HorizontalBearingX: 2.921875
+      m_HorizontalBearingY: 82.046875
+      m_HorizontalAdvance: 112.390625
+    m_GlyphRect:
+      m_X: 556
+      m_Y: 158
+      m_Width: 107
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 49
+    m_Metrics:
+      m_Width: 88.390625
+      m_Height: 83.0625
+      m_HorizontalBearingX: 4.578125
+      m_HorizontalBearingY: 82.421875
+      m_HorizontalAdvance: 96.140625
+    m_GlyphRect:
+      m_X: 594
+      m_Y: 261
+      m_Width: 89
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 50
+    m_Metrics:
+      m_Width: 80.640625
+      m_Height: 83.9375
+      m_HorizontalBearingX: 6.09375
+      m_HorizontalBearingY: 82.671875
+      m_HorizontalAdvance: 92.703125
+    m_GlyphRect:
+      m_X: 512
+      m_Y: 381
+      m_Width: 81
+      m_Height: 85
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 51
+    m_Metrics:
+      m_Width: 59.1875
+      m_Height: 82.421875
+      m_HorizontalBearingX: 5.078125
+      m_HorizontalBearingY: 82.046875
+      m_HorizontalAdvance: 67.9375
+    m_GlyphRect:
+      m_X: 604
+      m_Y: 542
+      m_Width: 60
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 52
+    m_Metrics:
+      m_Width: 90.046875
+      m_Height: 99.5625
+      m_HorizontalBearingX: 6.09375
+      m_HorizontalBearingY: 82.671875
+      m_HorizontalAdvance: 92.578125
+    m_GlyphRect:
+      m_X: 275
+      m_Y: 769
+      m_Width: 91
+      m_Height: 100
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 53
+    m_Metrics:
+      m_Width: 75.5625
+      m_Height: 82.421875
+      m_HorizontalBearingX: 5.078125
+      m_HorizontalBearingY: 82.046875
+      m_HorizontalAdvance: 76.96875
+    m_GlyphRect:
+      m_X: 786
+      m_Y: 589
+      m_Width: 76
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 54
+    m_Metrics:
+      m_Width: 50.796875
+      m_Height: 83.8125
+      m_HorizontalBearingX: 6.09375
+      m_HorizontalBearingY: 82.546875
+      m_HorizontalAdvance: 62.234375
+    m_GlyphRect:
+      m_X: 486
+      m_Y: 162
+      m_Width: 51
+      m_Height: 85
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 55
+    m_Metrics:
+      m_Width: 74.546875
+      m_Height: 84.703125
+      m_HorizontalBearingX: 1.53125
+      m_HorizontalBearingY: 84.328125
+      m_HorizontalAdvance: 77.59375
+    m_GlyphRect:
+      m_X: 429
+      m_Y: 491
+      m_Width: 76
+      m_Height: 86
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 56
+    m_Metrics:
+      m_Width: 84.71875
+      m_Height: 82.6875
+      m_HorizontalBearingX: 3.171875
+      m_HorizontalBearingY: 82.171875
+      m_HorizontalAdvance: 89.65625
+    m_GlyphRect:
+      m_X: 697
+      m_Y: 10
+      m_Width: 85
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 57
+    m_Metrics:
+      m_Width: 81.921875
+      m_Height: 82.296875
+      m_HorizontalBearingX: -0.890625
+      m_HorizontalBearingY: 82.046875
+      m_HorizontalAdvance: 79.125
+    m_GlyphRect:
+      m_X: 931
+      m_Y: 184
+      m_Width: 83
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 58
+    m_Metrics:
+      m_Width: 113.03125
+      m_Height: 82.296875
+      m_HorizontalBearingX: -0.640625
+      m_HorizontalBearingY: 82.046875
+      m_HorizontalAdvance: 111.5
+    m_GlyphRect:
+      m_X: 564
+      m_Y: 10
+      m_Width: 114
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 59
+    m_Metrics:
+      m_Width: 84.453125
+      m_Height: 82.421875
+      m_HorizontalBearingX: -1.265625
+      m_HorizontalBearingY: 82.046875
+      m_HorizontalAdvance: 82.796875
+    m_GlyphRect:
+      m_X: 682
+      m_Y: 113
+      m_Width: 86
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 61
+    m_Metrics:
+      m_Width: 70.734375
+      m_Height: 83.1875
+      m_HorizontalBearingX: 3.9375
+      m_HorizontalBearingY: 83.1875
+      m_HorizontalAdvance: 78.484375
+    m_GlyphRect:
+      m_X: 695
+      m_Y: 422
+      m_Width: 72
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 66
+    m_Metrics:
+      m_Width: 58.03125
+      m_Height: 6.984375
+      m_HorizontalBearingX: 1.78125
+      m_HorizontalBearingY: 1.65625
+      m_HorizontalAdvance: 62.609375
+    m_GlyphRect:
+      m_X: 123
+      m_Y: 621
+      m_Width: 59
+      m_Height: 8
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 68
+    m_Metrics:
+      m_Width: 47.234375
+      m_Height: 55.125
+      m_HorizontalBearingX: 4.578125
+      m_HorizontalBearingY: 54.109375
+      m_HorizontalAdvance: 53.34375
+    m_GlyphRect:
+      m_X: 385
+      m_Y: 805
+      m_Width: 48
+      m_Height: 57
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 69
+    m_Metrics:
+      m_Width: 56.515625
+      m_Height: 87
+      m_HorizontalBearingX: 0.375
+      m_HorizontalBearingY: 86.109375
+      m_HorizontalAdvance: 61.71875
+    m_GlyphRect:
+      m_X: 393
+      m_Y: 282
+      m_Width: 57
+      m_Height: 88
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 70
+    m_Metrics:
+      m_Width: 43.9375
+      m_Height: 55.375
+      m_HorizontalBearingX: 4.828125
+      m_HorizontalBearingY: 54.359375
+      m_HorizontalAdvance: 52.453125
+    m_GlyphRect:
+      m_X: 565
+      m_Y: 942
+      m_Width: 45
+      m_Height: 57
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 71
+    m_Metrics:
+      m_Width: 56.765625
+      m_Height: 87.125
+      m_HorizontalBearingX: 4.828125
+      m_HorizontalBearingY: 86.109375
+      m_HorizontalAdvance: 63.75
+    m_GlyphRect:
+      m_X: 319
+      m_Y: 491
+      m_Width: 58
+      m_Height: 89
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 72
+    m_Metrics:
+      m_Width: 43.6875
+      m_Height: 55.375
+      m_HorizontalBearingX: 4.953125
+      m_HorizontalBearingY: 54.359375
+      m_HorizontalAdvance: 53.21875
+    m_GlyphRect:
+      m_X: 452
+      m_Y: 801
+      m_Width: 45
+      m_Height: 57
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 73
+    m_Metrics:
+      m_Width: 37.46875
+      m_Height: 86.859375
+      m_HorizontalBearingX: 3.046875
+      m_HorizontalBearingY: 86.484375
+      m_HorizontalAdvance: 38.09375
+    m_GlyphRect:
+      m_X: 429
+      m_Y: 170
+      m_Width: 38
+      m_Height: 88
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 74
+    m_Metrics:
+      m_Width: 53.71875
+      m_Height: 82.671875
+      m_HorizontalBearingX: 2.796875
+      m_HorizontalBearingY: 54.484375
+      m_HorizontalAdvance: 57.78125
+    m_GlyphRect:
+      m_X: 591
+      m_Y: 645
+      m_Width: 55
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 75
+    m_Metrics:
+      m_Width: 60.96875
+      m_Height: 86.484375
+      m_HorizontalBearingX: 2.15625
+      m_HorizontalBearingY: 86.109375
+      m_HorizontalAdvance: 63.875
+    m_GlyphRect:
+      m_X: 348
+      m_Y: 175
+      m_Width: 62
+      m_Height: 88
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 76
+    m_Metrics:
+      m_Width: 27.4375
+      m_Height: 80.546875
+      m_HorizontalBearingX: 3.9375
+      m_HorizontalBearingY: 80.171875
+      m_HorizontalAdvance: 33.40625
+    m_GlyphRect:
+      m_X: 832
+      m_Y: 762
+      m_Width: 29
+      m_Height: 82
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 77
+    m_Metrics:
+      m_Width: 24.25
+      m_Height: 108.875
+      m_HorizontalBearingX: -2.40625
+      m_HorizontalBearingY: 80.171875
+      m_HorizontalAdvance: 29.59375
+    m_GlyphRect:
+      m_X: 72
+      m_Y: 780
+      m_Width: 25
+      m_Height: 110
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 78
+    m_Metrics:
+      m_Width: 61.59375
+      m_Height: 86.625
+      m_HorizontalBearingX: 2.15625
+      m_HorizontalBearingY: 86.109375
+      m_HorizontalAdvance: 64.140625
+    m_GlyphRect:
+      m_X: 298
+      m_Y: 10
+      m_Width: 62
+      m_Height: 88
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 79
+    m_Metrics:
+      m_Width: 27.4375
+      m_Height: 86.484375
+      m_HorizontalBearingX: 2.15625
+      m_HorizontalBearingY: 86.109375
+      m_HorizontalAdvance: 31.625
+    m_GlyphRect:
+      m_X: 456
+      m_Y: 10
+      m_Width: 28
+      m_Height: 88
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 80
+    m_Metrics:
+      m_Width: 92.96875
+      m_Height: 54.984375
+      m_HorizontalBearingX: 3.9375
+      m_HorizontalBearingY: 54.609375
+      m_HorizontalAdvance: 97.921875
+    m_GlyphRect:
+      m_X: 912
+      m_Y: 287
+      m_Width: 94
+      m_Height: 56
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 81
+    m_Metrics:
+      m_Width: 60.953125
+      m_Height: 54.984375
+      m_HorizontalBearingX: 3.9375
+      m_HorizontalBearingY: 54.609375
+      m_HorizontalAdvance: 65.90625
+    m_GlyphRect:
+      m_X: 612
+      m_Y: 467
+      m_Width: 62
+      m_Height: 56
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 82
+    m_Metrics:
+      m_Width: 52.953125
+      m_Height: 55.375
+      m_HorizontalBearingX: 5.078125
+      m_HorizontalBearingY: 54.484375
+      m_HorizontalAdvance: 63.125
+    m_GlyphRect:
+      m_X: 960
+      m_Y: 10
+      m_Width: 54
+      m_Height: 56
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 83
+    m_Metrics:
+      m_Width: 56.765625
+      m_Height: 82.671875
+      m_HorizontalBearingX: 1.65625
+      m_HorizontalBearingY: 54.609375
+      m_HorizontalAdvance: 63.25
+    m_GlyphRect:
+      m_X: 436
+      m_Y: 698
+      m_Width: 58
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 84
+    m_Metrics:
+      m_Width: 56.890625
+      m_Height: 82.546875
+      m_HorizontalBearingX: 4.828125
+      m_HorizontalBearingY: 54.359375
+      m_HorizontalAdvance: 61.59375
+    m_GlyphRect:
+      m_X: 514
+      m_Y: 636
+      m_Width: 58
+      m_Height: 84
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 85
+    m_Metrics:
+      m_Width: 41.78125
+      m_Height: 54.984375
+      m_HorizontalBearingX: 3.9375
+      m_HorizontalBearingY: 54.609375
+      m_HorizontalAdvance: 47.5
+    m_GlyphRect:
+      m_X: 629
+      m_Y: 942
+      m_Width: 43
+      m_Height: 56
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 86
+    m_Metrics:
+      m_Width: 35.6875
+      m_Height: 55.625
+      m_HorizontalBearingX: 5.078125
+      m_HorizontalBearingY: 54.234375
+      m_HorizontalAdvance: 45.71875
+    m_GlyphRect:
+      m_X: 590
+      m_Y: 748
+      m_Width: 36
+      m_Height: 57
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 87
+    m_Metrics:
+      m_Width: 33.90625
+      m_Height: 71.125
+      m_HorizontalBearingX: 2.546875
+      m_HorizontalBearingY: 70.234375
+      m_HorizontalAdvance: 38.484375
+    m_GlyphRect:
+      m_X: 511
+      m_Y: 942
+      m_Width: 35
+      m_Height: 72
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 88
+    m_Metrics:
+      m_Width: 59.8125
+      m_Height: 55.625
+      m_HorizontalBearingX: 1.65625
+      m_HorizontalBearingY: 54.609375
+      m_HorizontalAdvance: 63.75
+    m_GlyphRect:
+      m_X: 524
+      m_Y: 485
+      m_Width: 61
+      m_Height: 57
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 89
+    m_Metrics:
+      m_Width: 58.921875
+      m_Height: 54.734375
+      m_HorizontalBearingX: -0.125
+      m_HorizontalBearingY: 53.34375
+      m_HorizontalAdvance: 58.546875
+    m_GlyphRect:
+      m_X: 524
+      m_Y: 561
+      m_Width: 60
+      m_Height: 56
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 90
+    m_Metrics:
+      m_Width: 89.53125
+      m_Height: 54.734375
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 53.34375
+      m_HorizontalAdvance: 89.40625
+    m_GlyphRect:
+      m_X: 786
+      m_Y: 308
+      m_Width: 90
+      m_Height: 56
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 91
+    m_Metrics:
+      m_Width: 57.03125
+      m_Height: 53.71875
+      m_HorizontalBearingX: 1.265625
+      m_HorizontalBearingY: 53.34375
+      m_HorizontalAdvance: 58.921875
+    m_GlyphRect:
+      m_X: 881
+      m_Y: 663
+      m_Width: 58
+      m_Height: 55
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 92
+    m_Metrics:
+      m_Width: 58.296875
+      m_Height: 81.671875
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 53.34375
+      m_HorizontalAdvance: 58.171875
+    m_GlyphRect:
+      m_X: 436
+      m_Y: 596
+      m_Width: 59
+      m_Height: 83
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 93
+    m_Metrics:
+      m_Width: 47.75
+      m_Height: 54.484375
+      m_HorizontalBearingX: 4.1875
+      m_HorizontalBearingY: 54.484375
+      m_HorizontalAdvance: 55.375
+    m_GlyphRect:
+      m_X: 691
+      m_Y: 942
+      m_Width: 48
+      m_Height: 55
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 101
+    m_Metrics:
+      m_Width: 49.140625
+      m_Height: 79.875
+      m_HorizontalBearingX: 5.46875
+      m_HorizontalBearingY: 78.859375
+      m_HorizontalAdvance: 59.0625
+    m_GlyphRect:
+      m_X: 758
+      m_Y: 778
+      m_Width: 50
+      m_Height: 81
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 114
+    m_Metrics:
+      m_Width: 24.375
+      m_Height: 24.375
+      m_HorizontalBearingX: 4.703125
+      m_HorizontalBearingY: 78.609375
+      m_HorizontalAdvance: 33.90625
+    m_GlyphRect:
+      m_X: 542
+      m_Y: 114
+      m_Width: 26
+      m_Height: 25
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 365
+    m_Metrics:
+      m_Width: 25.515625
+      m_Height: 51.046875
+      m_HorizontalBearingX: 11.4375
+      m_HorizontalBearingY: 51.8125
+      m_HorizontalAdvance: 46.859375
+    m_GlyphRect:
+      m_X: 987
+      m_Y: 460
+      m_Width: 26
+      m_Height: 52
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 383
+    m_Metrics:
+      m_Width: 43.953125
+      m_Height: 86.359375
+      m_HorizontalBearingX: 1.390625
+      m_HorizontalBearingY: 84.96875
+      m_HorizontalAdvance: 52.453125
+    m_GlyphRect:
+      m_X: 372
+      m_Y: 599
+      m_Width: 45
+      m_Height: 87
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 385
+    m_Metrics:
+      m_Width: 34.03125
+      m_Height: 38.09375
+      m_HorizontalBearingX: 7.109375
+      m_HorizontalBearingY: 37.84375
+      m_HorizontalAdvance: 48.390625
+    m_GlyphRect:
+      m_X: 240
+      m_Y: 436
+      m_Width: 35
+      m_Height: 39
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 386
+    m_Metrics:
+      m_Width: 58.046875
+      m_Height: 115.96875
+      m_HorizontalBearingX: -19.34375
+      m_HorizontalBearingY: 115.328125
+      m_HorizontalAdvance: 27.5625
+    m_GlyphRect:
+      m_X: 220
+      m_Y: 10
+      m_Width: 59
+      m_Height: 117
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 387
+    m_Metrics:
+      m_Width: 29.078125
+      m_Height: 128.875
+      m_HorizontalBearingX: 0.015625
+      m_HorizontalBearingY: 128.23438
+      m_HorizontalAdvance: 29.71875
+    m_GlyphRect:
+      m_X: 64
+      m_Y: 175
+      m_Width: 30
+      m_Height: 130
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 388
+    m_Metrics:
+      m_Width: 54.359375
+      m_Height: 111.6875
+      m_HorizontalBearingX: -11.125
+      m_HorizontalBearingY: 83.234375
+      m_HorizontalAdvance: 50.796875
+    m_GlyphRect:
+      m_X: 10
+      m_Y: 648
+      m_Width: 56
+      m_Height: 113
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 389
+    m_Metrics:
+      m_Width: 29.078125
+      m_Height: 128.71875
+      m_HorizontalBearingX: 5.015625
+      m_HorizontalBearingY: 91.3125
+      m_HorizontalAdvance: 27.5625
+    m_GlyphRect:
+      m_X: 64
+      m_Y: 324
+      m_Width: 30
+      m_Height: 130
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 390
+    m_Metrics:
+      m_Width: 85.09375
+      m_Height: 104.90625
+      m_HorizontalBearingX: 6.859375
+      m_HorizontalBearingY: 78.234375
+      m_HorizontalAdvance: 97.03125
+    m_GlyphRect:
+      m_X: 205
+      m_Y: 903
+      m_Width: 86
+      m_Height: 106
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 391
+    m_Metrics:
+      m_Width: 15.125
+      m_Height: 91.953125
+      m_HorizontalBearingX: 7.359375
+      m_HorizontalBearingY: 91.3125
+      m_HorizontalAdvance: 27.5625
+    m_GlyphRect:
+      m_X: 284
+      m_Y: 494
+      m_Width: 16
+      m_Height: 93
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 392
+    m_Metrics:
+      m_Width: 105.03125
+      m_Height: 83.265625
+      m_HorizontalBearingX: 5.328125
+      m_HorizontalBearingY: 49.015625
+      m_HorizontalAdvance: 117.609375
+    m_GlyphRect:
+      m_X: 469
+      m_Y: 277
+      m_Width: 106
+      m_Height: 85
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 393
+    m_Metrics:
+      m_Width: 33.53125
+      m_Height: 81.59375
+      m_HorizontalBearingX: 6.734375
+      m_HorizontalBearingY: 78.296875
+      m_HorizontalAdvance: 46.859375
+    m_GlyphRect:
+      m_X: 516
+      m_Y: 839
+      m_Width: 35
+      m_Height: 83
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 394
+    m_Metrics:
+      m_Width: 105.03125
+      m_Height: 66.703125
+      m_HorizontalBearingX: 5.328125
+      m_HorizontalBearingY: 64.296875
+      m_HorizontalAdvance: 117.609375
+    m_GlyphRect:
+      m_X: 294
+      m_Y: 404
+      m_Width: 106
+      m_Height: 68
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 395
+    m_Metrics:
+      m_Width: 105.03125
+      m_Height: 79.921875
+      m_HorizontalBearingX: 5.328125
+      m_HorizontalBearingY: 77.515625
+      m_HorizontalAdvance: 117.609375
+    m_GlyphRect:
+      m_X: 787
+      m_Y: 208
+      m_Width: 106
+      m_Height: 81
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 396
+    m_Metrics:
+      m_Width: 92.828125
+      m_Height: 100.953125
+      m_HorizontalBearingX: 3.5625
+      m_HorizontalBearingY: 33.140625
+      m_HorizontalAdvance: 83.953125
+    m_GlyphRect:
+      m_X: 92
+      m_Y: 909
+      m_Width: 94
+      m_Height: 102
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 397
+    m_Metrics:
+      m_Width: 92.828125
+      m_Height: 100.953125
+      m_HorizontalBearingX: 3.5625
+      m_HorizontalBearingY: 33.140625
+      m_HorizontalAdvance: 83.953125
+    m_GlyphRect:
+      m_X: 190
+      m_Y: 648
+      m_Width: 94
+      m_Height: 102
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 398
+    m_Metrics:
+      m_Width: 92.828125
+      m_Height: 131.32812
+      m_HorizontalBearingX: 3.5625
+      m_HorizontalBearingY: 63.515625
+      m_HorizontalAdvance: 83.953125
+    m_GlyphRect:
+      m_X: 10
+      m_Y: 497
+      m_Width: 94
+      m_Height: 132
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 399
+    m_Metrics:
+      m_Width: 40.890625
+      m_Height: 51.1875
+      m_HorizontalBearingX: 7.75
+      m_HorizontalBearingY: 50.171875
+      m_HorizontalAdvance: 57.15625
+    m_GlyphRect:
+      m_X: 758
+      m_Y: 942
+      m_Width: 42
+      m_Height: 53
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 400
+    m_Metrics:
+      m_Width: 40.890625
+      m_Height: 83.53125
+      m_HorizontalBearingX: 7.75
+      m_HorizontalBearingY: 82.515625
+      m_HorizontalAdvance: 57.15625
+    m_GlyphRect:
+      m_X: 503
+      m_Y: 10
+      m_Width: 42
+      m_Height: 85
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 401
+    m_Metrics:
+      m_Width: 53.984375
+      m_Height: 65.921875
+      m_HorizontalBearingX: -10.546875
+      m_HorizontalBearingY: 36.328125
+      m_HorizontalAdvance: 50.671875
+    m_GlyphRect:
+      m_X: 758
+      m_Y: 692
+      m_Width: 55
+      m_Height: 67
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 402
+    m_Metrics:
+      m_Width: 53.984375
+      m_Height: 105.109375
+      m_HorizontalBearingX: -10.546875
+      m_HorizontalBearingY: 75.515625
+      m_HorizontalAdvance: 50.671875
+    m_GlyphRect:
+      m_X: 123
+      m_Y: 496
+      m_Width: 55
+      m_Height: 106
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 403
+    m_Metrics:
+      m_Width: 110.75
+      m_Height: 76.96875
+      m_HorizontalBearingX: 7.234375
+      m_HorizontalBearingY: 47.375
+      m_HorizontalAdvance: 125.984375
+    m_GlyphRect:
+      m_X: 801
+      m_Y: 111
+      m_Width: 111
+      m_Height: 78
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 404
+    m_Metrics:
+      m_Width: 110.75
+      m_Height: 120.109375
+      m_HorizontalBearingX: 7.234375
+      m_HorizontalBearingY: 90.515625
+      m_HorizontalAdvance: 125.984375
+    m_GlyphRect:
+      m_X: 113
+      m_Y: 175
+      m_Width: 111
+      m_Height: 121
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 405
+    m_Metrics:
+      m_Width: 138.9375
+      m_Height: 80.640625
+      m_HorizontalBearingX: 7.75
+      m_HorizontalBearingY: 50.03125
+      m_HorizontalAdvance: 153.92188
+    m_GlyphRect:
+      m_X: 801
+      m_Y: 10
+      m_Width: 140
+      m_Height: 82
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 406
+    m_Metrics:
+      m_Width: 138.9375
+      m_Height: 107.125
+      m_HorizontalBearingX: 7.75
+      m_HorizontalBearingY: 76.515625
+      m_HorizontalAdvance: 153.92188
+    m_GlyphRect:
+      m_X: 116
+      m_Y: 776
+      m_Width: 140
+      m_Height: 108
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 407
+    m_Metrics:
+      m_Width: 85.859375
+      m_Height: 96.015625
+      m_HorizontalBearingX: 7.109375
+      m_HorizontalBearingY: 92.453125
+      m_HorizontalAdvance: 100.578125
+    m_GlyphRect:
+      m_X: 243
+      m_Y: 175
+      m_Width: 86
+      m_Height: 97
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 408
+    m_Metrics:
+      m_Width: 85.859375
+      m_Height: 96.015625
+      m_HorizontalBearingX: 7.109375
+      m_HorizontalBearingY: 92.453125
+      m_HorizontalAdvance: 100.578125
+    m_GlyphRect:
+      m_X: 310
+      m_Y: 888
+      m_Width: 86
+      m_Height: 97
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 409
+    m_Metrics:
+      m_Width: 85.59375
+      m_Height: 120.515625
+      m_HorizontalBearingX: 7.109375
+      m_HorizontalBearingY: 59.9375
+      m_HorizontalAdvance: 68.578125
+    m_GlyphRect:
+      m_X: 115
+      m_Y: 10
+      m_Width: 86
+      m_Height: 121
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 410
+    m_Metrics:
+      m_Width: 85.59375
+      m_Height: 145.09375
+      m_HorizontalBearingX: 7.109375
+      m_HorizontalBearingY: 84.515625
+      m_HorizontalAdvance: 68.578125
+    m_GlyphRect:
+      m_X: 10
+      m_Y: 10
+      m_Width: 86
+      m_Height: 146
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 416
+    m_Metrics:
+      m_Width: 0
+      m_Height: 11.4375
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 11.4375
+      m_HorizontalAdvance: 0
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 0
+      m_Height: 12
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 417
+    m_Metrics:
+      m_Width: 109.59375
+      m_Height: 92.78125
+      m_HorizontalBearingX: 7.625
+      m_HorizontalBearingY: 91.515625
+      m_HorizontalAdvance: 124.84375
+    m_GlyphRect:
+      m_X: 263
+      m_Y: 291
+      m_Width: 111
+      m_Height: 94
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 418
+    m_Metrics:
+      m_Width: 72.53125
+      m_Height: 100.890625
+      m_HorizontalBearingX: 7.359375
+      m_HorizontalBearingY: 79.296875
+      m_HorizontalAdvance: 87.25
+    m_GlyphRect:
+      m_X: 171
+      m_Y: 315
+      m_Width: 73
+      m_Height: 102
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 419
+    m_Metrics:
+      m_Width: 67.4375
+      m_Height: 101.34375
+      m_HorizontalBearingX: 8
+      m_HorizontalBearingY: 100.578125
+      m_HorizontalAdvance: 83.4375
+    m_GlyphRect:
+      m_X: 197
+      m_Y: 496
+      m_Width: 68
+      m_Height: 102
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 420
+    m_Metrics:
+      m_Width: 61.59375
+      m_Height: 103.625
+      m_HorizontalBearingX: 7.875
+      m_HorizontalBearingY: 95.375
+      m_HorizontalAdvance: 76.578125
+    m_GlyphRect:
+      m_X: 10
+      m_Y: 909
+      m_Width: 63
+      m_Height: 105
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 421
+    m_Metrics:
+      m_Width: 42.421875
+      m_Height: 108.703125
+      m_HorizontalBearingX: 7.109375
+      m_HorizontalBearingY: 43.046875
+      m_HorizontalAdvance: 57.40625
+    m_GlyphRect:
+      m_X: 10
+      m_Y: 780
+      m_Width: 43
+      m_Height: 110
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 422
+    m_Metrics:
+      m_Width: 57.265625
+      m_Height: 86.90625
+      m_HorizontalBearingX: 7.625
+      m_HorizontalBearingY: 77.515625
+      m_HorizontalAdvance: 72.640625
+    m_GlyphRect:
+      m_X: 379
+      m_Y: 10
+      m_Width: 58
+      m_Height: 88
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 423
+    m_Metrics:
+      m_Width: 33.53125
+      m_Height: 46.09375
+      m_HorizontalBearingX: 6.734375
+      m_HorizontalBearingY: 42.796875
+      m_HorizontalAdvance: 46.859375
+    m_GlyphRect:
+      m_X: 819
+      m_Y: 878
+      m_Width: 35
+      m_Height: 47
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 424
+    m_Metrics:
+      m_Width: 54.359375
+      m_Height: 65.40625
+      m_HorizontalBearingX: -11.125
+      m_HorizontalBearingY: 36.953125
+      m_HorizontalAdvance: 50.796875
+    m_GlyphRect:
+      m_X: 683
+      m_Y: 628
+      m_Width: 56
+      m_Height: 66
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 425
+    m_Metrics:
+      m_Width: 85.09375
+      m_Height: 77.984375
+      m_HorizontalBearingX: 6.859375
+      m_HorizontalBearingY: 51.3125
+      m_HorizontalAdvance: 97.03125
+    m_GlyphRect:
+      m_X: 895
+      m_Y: 362
+      m_Width: 86
+      m_Height: 79
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 426
+    m_Metrics:
+      m_Width: 85.09375
+      m_Height: 107.5625
+      m_HorizontalBearingX: 6.859375
+      m_HorizontalBearingY: 51.3125
+      m_HorizontalAdvance: 97.03125
+    m_GlyphRect:
+      m_X: 85
+      m_Y: 648
+      m_Width: 86
+      m_Height: 109
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 427
+    m_Metrics:
+      m_Width: 31.5
+      m_Height: 37.84375
+      m_HorizontalBearingX: 14.734375
+      m_HorizontalBearingY: 143.51562
+      m_HorizontalAdvance: 0
+    m_GlyphRect:
+      m_X: 298
+      m_Y: 117
+      m_Width: 33
+      m_Height: 39
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 428
+    m_Metrics:
+      m_Width: 28.5625
+      m_Height: 49.65625
+      m_HorizontalBearingX: 16.515625
+      m_HorizontalBearingY: 156.46875
+      m_HorizontalAdvance: 0
+    m_GlyphRect:
+      m_X: 832
+      m_Y: 692
+      m_Width: 30
+      m_Height: 51
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 429
+    m_Metrics:
+      m_Width: 31.5
+      m_Height: 37.84375
+      m_HorizontalBearingX: 14.734375
+      m_HorizontalBearingY: -43.484375
+      m_HorizontalAdvance: 0
+    m_GlyphRect:
+      m_X: 350
+      m_Y: 117
+      m_Width: 33
+      m_Height: 39
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 430
+    m_Metrics:
+      m_Width: 31.890625
+      m_Height: 25.15625
+      m_HorizontalBearingX: 16.25
+      m_HorizontalBearingY: 131.57812
+      m_HorizontalAdvance: 0
+    m_GlyphRect:
+      m_X: 490
+      m_Y: 117
+      m_Width: 33
+      m_Height: 26
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 431
+    m_Metrics:
+      m_Width: 31.875
+      m_Height: 40.125
+      m_HorizontalBearingX: 15.75
+      m_HorizontalBearingY: 145.92188
+      m_HorizontalAdvance: 0
+    m_GlyphRect:
+      m_X: 188
+      m_Y: 436
+      m_Width: 33
+      m_Height: 41
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 432
+    m_Metrics:
+      m_Width: 31.890625
+      m_Height: 25.15625
+      m_HorizontalBearingX: 16.25
+      m_HorizontalBearingY: -38.421875
+      m_HorizontalAdvance: 0
+    m_GlyphRect:
+      m_X: 438
+      m_Y: 117
+      m_Width: 33
+      m_Height: 26
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 433
+    m_Metrics:
+      m_Width: 33.78125
+      m_Height: 23.375
+      m_HorizontalBearingX: 8
+      m_HorizontalBearingY: 127.765625
+      m_HorizontalAdvance: 0
+    m_GlyphRect:
+      m_X: 587
+      m_Y: 113
+      m_Width: 34
+      m_Height: 24
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 793
+    m_Metrics:
+      m_Width: 76.84375
+      m_Height: 80.140625
+      m_HorizontalBearingX: 4.0625
+      m_HorizontalBearingY: 79.375
+      m_HorizontalAdvance: 87.75
+    m_GlyphRect:
+      m_X: 885
+      m_Y: 563
+      m_Width: 77
+      m_Height: 81
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 243
+    m_Metrics:
+      m_Width: 27.4375
+      m_Height: 54.984375
+      m_HorizontalBearingX: 3.9375
+      m_HorizontalBearingY: 54.609375
+      m_HorizontalAdvance: 33.40625
+    m_GlyphRect:
+      m_X: 639
+      m_Y: 824
+      m_Width: 29
+      m_Height: 56
+    m_Scale: 1
+    m_AtlasIndex: 0
+  m_CharacterTable:
+  - m_ElementType: 1
+    m_Unicode: 32
+    m_GlyphIndex: 3
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 33
+    m_GlyphIndex: 4
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 34
+    m_GlyphIndex: 5
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 36
+    m_GlyphIndex: 7
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 37
+    m_GlyphIndex: 8
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 39
+    m_GlyphIndex: 10
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 40
+    m_GlyphIndex: 11
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 41
+    m_GlyphIndex: 12
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 42
+    m_GlyphIndex: 13
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 44
+    m_GlyphIndex: 15
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 45
+    m_GlyphIndex: 16
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 46
+    m_GlyphIndex: 17
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 47
+    m_GlyphIndex: 18
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 48
+    m_GlyphIndex: 19
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 49
+    m_GlyphIndex: 20
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 50
+    m_GlyphIndex: 21
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 51
+    m_GlyphIndex: 22
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 52
+    m_GlyphIndex: 23
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 53
+    m_GlyphIndex: 24
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 54
+    m_GlyphIndex: 25
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 55
+    m_GlyphIndex: 26
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 56
+    m_GlyphIndex: 27
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 57
+    m_GlyphIndex: 28
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 58
+    m_GlyphIndex: 29
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 60
+    m_GlyphIndex: 31
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 62
+    m_GlyphIndex: 33
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 65
+    m_GlyphIndex: 36
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 66
+    m_GlyphIndex: 37
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 67
+    m_GlyphIndex: 38
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 68
+    m_GlyphIndex: 39
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 69
+    m_GlyphIndex: 40
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 71
+    m_GlyphIndex: 42
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 72
+    m_GlyphIndex: 43
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 73
+    m_GlyphIndex: 44
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 76
+    m_GlyphIndex: 47
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 77
+    m_GlyphIndex: 48
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 78
+    m_GlyphIndex: 49
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 79
+    m_GlyphIndex: 50
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 80
+    m_GlyphIndex: 51
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 81
+    m_GlyphIndex: 52
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 82
+    m_GlyphIndex: 53
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 83
+    m_GlyphIndex: 54
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 84
+    m_GlyphIndex: 55
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 85
+    m_GlyphIndex: 56
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 86
+    m_GlyphIndex: 57
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 87
+    m_GlyphIndex: 58
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 88
+    m_GlyphIndex: 59
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 90
+    m_GlyphIndex: 61
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 95
+    m_GlyphIndex: 66
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 97
+    m_GlyphIndex: 68
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 98
+    m_GlyphIndex: 69
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 99
+    m_GlyphIndex: 70
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 100
+    m_GlyphIndex: 71
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 101
+    m_GlyphIndex: 72
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 102
+    m_GlyphIndex: 73
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 103
+    m_GlyphIndex: 74
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 104
+    m_GlyphIndex: 75
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 105
+    m_GlyphIndex: 76
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 106
+    m_GlyphIndex: 77
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 107
+    m_GlyphIndex: 78
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 108
+    m_GlyphIndex: 79
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 109
+    m_GlyphIndex: 80
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 110
+    m_GlyphIndex: 81
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 111
+    m_GlyphIndex: 82
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 112
+    m_GlyphIndex: 83
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 113
+    m_GlyphIndex: 84
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 114
+    m_GlyphIndex: 85
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 115
+    m_GlyphIndex: 86
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 116
+    m_GlyphIndex: 87
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 117
+    m_GlyphIndex: 88
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 118
+    m_GlyphIndex: 89
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 119
+    m_GlyphIndex: 90
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 120
+    m_GlyphIndex: 91
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 121
+    m_GlyphIndex: 92
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 122
+    m_GlyphIndex: 93
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 163
+    m_GlyphIndex: 101
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 176
+    m_GlyphIndex: 114
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1548
+    m_GlyphIndex: 365
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1567
+    m_GlyphIndex: 383
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1569
+    m_GlyphIndex: 385
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1570
+    m_GlyphIndex: 386
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1571
+    m_GlyphIndex: 387
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1572
+    m_GlyphIndex: 388
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1573
+    m_GlyphIndex: 389
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1574
+    m_GlyphIndex: 390
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1575
+    m_GlyphIndex: 391
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1576
+    m_GlyphIndex: 392
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1577
+    m_GlyphIndex: 393
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1578
+    m_GlyphIndex: 394
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1579
+    m_GlyphIndex: 395
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1580
+    m_GlyphIndex: 396
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1581
+    m_GlyphIndex: 397
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1582
+    m_GlyphIndex: 398
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1583
+    m_GlyphIndex: 399
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1584
+    m_GlyphIndex: 400
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1585
+    m_GlyphIndex: 401
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1586
+    m_GlyphIndex: 402
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1587
+    m_GlyphIndex: 403
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1588
+    m_GlyphIndex: 404
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1589
+    m_GlyphIndex: 405
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1590
+    m_GlyphIndex: 406
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1591
+    m_GlyphIndex: 407
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1592
+    m_GlyphIndex: 408
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1593
+    m_GlyphIndex: 409
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1594
+    m_GlyphIndex: 410
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1600
+    m_GlyphIndex: 416
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1601
+    m_GlyphIndex: 417
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1602
+    m_GlyphIndex: 418
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1603
+    m_GlyphIndex: 419
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1604
+    m_GlyphIndex: 420
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1605
+    m_GlyphIndex: 421
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1606
+    m_GlyphIndex: 422
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1607
+    m_GlyphIndex: 423
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1608
+    m_GlyphIndex: 424
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1609
+    m_GlyphIndex: 425
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1610
+    m_GlyphIndex: 426
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1611
+    m_GlyphIndex: 427
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1612
+    m_GlyphIndex: 428
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1613
+    m_GlyphIndex: 429
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1614
+    m_GlyphIndex: 430
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1615
+    m_GlyphIndex: 431
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1616
+    m_GlyphIndex: 432
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 1617
+    m_GlyphIndex: 433
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 8364
+    m_GlyphIndex: 793
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 305
+    m_GlyphIndex: 243
+    m_Scale: 1
+  m_AtlasTextures:
+  - {fileID: 2800000, guid: 9f7d87f97de2be548ac62cc3028aaadf, type: 3}
+  m_AtlasTextureIndex: 0
+  m_IsMultiAtlasTexturesEnabled: 0
+  m_ClearDynamicDataOnBuild: 0
+  m_UsedGlyphRects:
+  - m_X: 0
+    m_Y: 0
+    m_Width: 105
+    m_Height: 165
+  - m_X: 0
+    m_Y: 165
+    m_Width: 54
+    m_Height: 161
+  - m_X: 0
+    m_Y: 326
+    m_Width: 54
+    m_Height: 161
+  - m_X: 0
+    m_Y: 487
+    m_Width: 113
+    m_Height: 151
+  - m_X: 54
+    m_Y: 165
+    m_Width: 49
+    m_Height: 149
+  - m_X: 54
+    m_Y: 314
+    m_Width: 49
+    m_Height: 149
+  - m_X: 103
+    m_Y: 165
+    m_Width: 130
+    m_Height: 140
+  - m_X: 105
+    m_Y: 0
+    m_Width: 105
+    m_Height: 140
+  - m_X: 210
+    m_Y: 0
+    m_Width: 78
+    m_Height: 136
+  - m_X: 210
+    m_Y: 136
+    m_Width: 52
+    m_Height: 29
+  - m_X: 103
+    m_Y: 305
+    m_Width: 58
+    m_Height: 133
+  - m_X: 103
+    m_Y: 438
+    m_Width: 45
+    m_Height: 48
+  - m_X: 0
+    m_Y: 638
+    m_Width: 75
+    m_Height: 132
+  - m_X: 0
+    m_Y: 770
+    m_Width: 62
+    m_Height: 129
+  - m_X: 0
+    m_Y: 899
+    m_Width: 82
+    m_Height: 124
+  - m_X: 62
+    m_Y: 770
+    m_Width: 44
+    m_Height: 129
+  - m_X: 82
+    m_Y: 899
+    m_Width: 113
+    m_Height: 121
+  - m_X: 75
+    m_Y: 638
+    m_Width: 105
+    m_Height: 128
+  - m_X: 106
+    m_Y: 766
+    m_Width: 159
+    m_Height: 127
+  - m_X: 195
+    m_Y: 893
+    m_Width: 105
+    m_Height: 125
+  - m_X: 113
+    m_Y: 486
+    m_Width: 74
+    m_Height: 125
+  - m_X: 113
+    m_Y: 611
+    m_Width: 78
+    m_Height: 27
+  - m_X: 148
+    m_Y: 438
+    m_Width: 30
+    m_Height: 48
+  - m_X: 180
+    m_Y: 638
+    m_Width: 113
+    m_Height: 121
+  - m_X: 161
+    m_Y: 305
+    m_Width: 92
+    m_Height: 121
+  - m_X: 178
+    m_Y: 426
+    m_Width: 52
+    m_Height: 60
+  - m_X: 187
+    m_Y: 486
+    m_Width: 87
+    m_Height: 121
+  - m_X: 230
+    m_Y: 426
+    m_Width: 54
+    m_Height: 58
+  - m_X: 265
+    m_Y: 759
+    m_Width: 110
+    m_Height: 119
+  - m_X: 233
+    m_Y: 165
+    m_Width: 105
+    m_Height: 116
+  - m_X: 300
+    m_Y: 878
+    m_Width: 105
+    m_Height: 116
+  - m_X: 253
+    m_Y: 281
+    m_Width: 130
+    m_Height: 113
+  - m_X: 274
+    m_Y: 484
+    m_Width: 35
+    m_Height: 112
+  - m_X: 284
+    m_Y: 394
+    m_Width: 125
+    m_Height: 87
+  - m_X: 274
+    m_Y: 596
+    m_Width: 34
+    m_Height: 34
+  - m_X: 293
+    m_Y: 630
+    m_Width: 69
+    m_Height: 111
+  - m_X: 309
+    m_Y: 481
+    m_Width: 77
+    m_Height: 108
+  - m_X: 288
+    m_Y: 0
+    m_Width: 81
+    m_Height: 107
+  - m_X: 288
+    m_Y: 107
+    m_Width: 52
+    m_Height: 58
+  - m_X: 338
+    m_Y: 165
+    m_Width: 81
+    m_Height: 107
+  - m_X: 340
+    m_Y: 107
+    m_Width: 52
+    m_Height: 58
+  - m_X: 369
+    m_Y: 0
+    m_Width: 77
+    m_Height: 107
+  - m_X: 392
+    m_Y: 107
+    m_Width: 36
+    m_Height: 53
+  - m_X: 383
+    m_Y: 272
+    m_Width: 76
+    m_Height: 107
+  - m_X: 419
+    m_Y: 160
+    m_Width: 57
+    m_Height: 107
+  - m_X: 428
+    m_Y: 107
+    m_Width: 52
+    m_Height: 45
+  - m_X: 446
+    m_Y: 0
+    m_Width: 47
+    m_Height: 107
+  - m_X: 362
+    m_Y: 589
+    m_Width: 64
+    m_Height: 106
+  - m_X: 386
+    m_Y: 481
+    m_Width: 33
+    m_Height: 106
+  - m_X: 409
+    m_Y: 379
+    m_Width: 93
+    m_Height: 102
+  - m_X: 419
+    m_Y: 481
+    m_Width: 95
+    m_Height: 105
+  - m_X: 459
+    m_Y: 267
+    m_Width: 125
+    m_Height: 104
+  - m_X: 502
+    m_Y: 371
+    m_Width: 100
+    m_Height: 104
+  - m_X: 476
+    m_Y: 152
+    m_Width: 70
+    m_Height: 104
+  - m_X: 480
+    m_Y: 107
+    m_Width: 52
+    m_Height: 45
+  - m_X: 493
+    m_Y: 0
+    m_Width: 61
+    m_Height: 104
+  - m_X: 532
+    m_Y: 104
+    m_Width: 45
+    m_Height: 44
+  - m_X: 554
+    m_Y: 0
+    m_Width: 133
+    m_Height: 103
+  - m_X: 546
+    m_Y: 148
+    m_Width: 126
+    m_Height: 103
+  - m_X: 577
+    m_Y: 103
+    m_Width: 53
+    m_Height: 43
+  - m_X: 584
+    m_Y: 251
+    m_Width: 108
+    m_Height: 103
+  - m_X: 672
+    m_Y: 103
+    m_Width: 105
+    m_Height: 103
+  - m_X: 687
+    m_Y: 0
+    m_Width: 104
+    m_Height: 103
+  - m_X: 791
+    m_Y: 0
+    m_Width: 159
+    m_Height: 101
+  - m_X: 950
+    m_Y: 0
+    m_Width: 73
+    m_Height: 75
+  - m_X: 950
+    m_Y: 75
+    m_Width: 72
+    m_Height: 99
+  - m_X: 791
+    m_Y: 101
+    m_Width: 130
+    m_Height: 97
+  - m_X: 921
+    m_Y: 174
+    m_Width: 102
+    m_Height: 103
+  - m_X: 777
+    m_Y: 198
+    m_Width: 125
+    m_Height: 100
+  - m_X: 692
+    m_Y: 206
+    m_Width: 84
+    m_Height: 103
+  - m_X: 902
+    m_Y: 277
+    m_Width: 113
+    m_Height: 75
+  - m_X: 776
+    m_Y: 298
+    m_Width: 109
+    m_Height: 75
+  - m_X: 692
+    m_Y: 309
+    m_Width: 84
+    m_Height: 103
+  - m_X: 602
+    m_Y: 354
+    m_Width: 83
+    m_Height: 103
+  - m_X: 885
+    m_Y: 352
+    m_Width: 105
+    m_Height: 98
+  - m_X: 990
+    m_Y: 352
+    m_Width: 33
+    m_Height: 75
+  - m_X: 776
+    m_Y: 373
+    m_Width: 101
+    m_Height: 103
+  - m_X: 685
+    m_Y: 412
+    m_Width: 91
+    m_Height: 103
+  - m_X: 602
+    m_Y: 457
+    m_Width: 81
+    m_Height: 75
+  - m_X: 514
+    m_Y: 475
+    m_Width: 80
+    m_Height: 76
+  - m_X: 877
+    m_Y: 450
+    m_Width: 100
+    m_Height: 103
+  - m_X: 977
+    m_Y: 450
+    m_Width: 45
+    m_Height: 71
+  - m_X: 776
+    m_Y: 476
+    m_Width: 99
+    m_Height: 103
+  - m_X: 683
+    m_Y: 515
+    m_Width: 93
+    m_Height: 103
+  - m_X: 594
+    m_Y: 532
+    m_Width: 79
+    m_Height: 103
+  - m_X: 514
+    m_Y: 551
+    m_Width: 79
+    m_Height: 75
+  - m_X: 426
+    m_Y: 586
+    m_Width: 78
+    m_Height: 102
+  - m_X: 504
+    m_Y: 626
+    m_Width: 77
+    m_Height: 103
+  - m_X: 426
+    m_Y: 688
+    m_Width: 77
+    m_Height: 103
+  - m_X: 375
+    m_Y: 695
+    m_Width: 51
+    m_Height: 100
+  - m_X: 375
+    m_Y: 795
+    m_Width: 67
+    m_Height: 76
+  - m_X: 405
+    m_Y: 871
+    m_Width: 96
+    m_Height: 103
+  - m_X: 442
+    m_Y: 791
+    m_Width: 64
+    m_Height: 76
+  - m_X: 875
+    m_Y: 553
+    m_Width: 96
+    m_Height: 100
+  - m_X: 971
+    m_Y: 553
+    m_Width: 50
+    m_Height: 103
+  - m_X: 776
+    m_Y: 579
+    m_Width: 95
+    m_Height: 103
+  - m_X: 871
+    m_Y: 653
+    m_Width: 77
+    m_Height: 74
+  - m_X: 948
+    m_Y: 656
+    m_Width: 75
+    m_Height: 100
+  - m_X: 673
+    m_Y: 618
+    m_Width: 75
+    m_Height: 85
+  - m_X: 581
+    m_Y: 635
+    m_Width: 74
+    m_Height: 103
+  - m_X: 506
+    m_Y: 729
+    m_Width: 74
+    m_Height: 100
+  - m_X: 748
+    m_Y: 682
+    m_Width: 74
+    m_Height: 86
+  - m_X: 822
+    m_Y: 682
+    m_Width: 49
+    m_Height: 70
+  - m_X: 871
+    m_Y: 727
+    m_Width: 72
+    m_Height: 75
+  - m_X: 822
+    m_Y: 752
+    m_Width: 48
+    m_Height: 101
+  - m_X: 943
+    m_Y: 756
+    m_Width: 72
+    m_Height: 75
+  - m_X: 870
+    m_Y: 802
+    m_Width: 71
+    m_Height: 99
+  - m_X: 941
+    m_Y: 831
+    m_Width: 69
+    m_Height: 101
+  - m_X: 501
+    m_Y: 932
+    m_Width: 54
+    m_Height: 91
+  - m_X: 506
+    m_Y: 829
+    m_Width: 54
+    m_Height: 102
+  - m_X: 555
+    m_Y: 932
+    m_Width: 64
+    m_Height: 76
+  - m_X: 560
+    m_Y: 829
+    m_Width: 69
+    m_Height: 101
+  - m_X: 580
+    m_Y: 738
+    m_Width: 55
+    m_Height: 76
+  - m_X: 619
+    m_Y: 932
+    m_Width: 62
+    m_Height: 75
+  - m_X: 681
+    m_Y: 703
+    m_Width: 67
+    m_Height: 101
+  - m_X: 748
+    m_Y: 768
+    m_Width: 69
+    m_Height: 100
+  - m_X: 681
+    m_Y: 804
+    m_Width: 67
+    m_Height: 100
+  - m_X: 681
+    m_Y: 932
+    m_Width: 67
+    m_Height: 74
+  - m_X: 748
+    m_Y: 932
+    m_Width: 61
+    m_Height: 72
+  - m_X: 809
+    m_Y: 868
+    m_Width: 54
+    m_Height: 66
+  - m_X: 863
+    m_Y: 901
+    m_Width: 67
+    m_Height: 100
+  - m_X: 930
+    m_Y: 932
+    m_Width: 65
+    m_Height: 66
+  - m_X: 629
+    m_Y: 814
+    m_Width: 48
+    m_Height: 75
+  m_FreeGlyphRects:
+  - m_X: 105
+    m_Y: 140
+    m_Width: 105
+    m_Height: 25
+  - m_X: 54
+    m_Y: 463
+    m_Width: 49
+    m_Height: 24
+  - m_X: 75
+    m_Y: 766
+    m_Width: 31
+    m_Height: 4
+  - m_X: 106
+    m_Y: 893
+    m_Width: 89
+    m_Height: 6
+  - m_X: 54
+    m_Y: 486
+    m_Width: 59
+    m_Height: 1
+  - m_X: 161
+    m_Y: 426
+    m_Width: 17
+    m_Height: 12
+  - m_X: 180
+    m_Y: 759
+    m_Width: 85
+    m_Height: 7
+  - m_X: 265
+    m_Y: 878
+    m_Width: 35
+    m_Height: 15
+  - m_X: 233
+    m_Y: 281
+    m_Width: 20
+    m_Height: 24
+  - m_X: 230
+    m_Y: 484
+    m_Width: 44
+    m_Height: 2
+  - m_X: 253
+    m_Y: 394
+    m_Width: 31
+    m_Height: 32
+  - m_X: 187
+    m_Y: 607
+    m_Width: 87
+    m_Height: 4
+  - m_X: 191
+    m_Y: 607
+    m_Width: 83
+    m_Height: 31
+  - m_X: 191
+    m_Y: 630
+    m_Width: 102
+    m_Height: 8
+  - m_X: 284
+    m_Y: 481
+    m_Width: 25
+    m_Height: 3
+  - m_X: 262
+    m_Y: 136
+    m_Width: 26
+    m_Height: 29
+  - m_X: 338
+    m_Y: 272
+    m_Width: 45
+    m_Height: 9
+  - m_X: 392
+    m_Y: 160
+    m_Width: 27
+    m_Height: 5
+  - m_X: 308
+    m_Y: 596
+    m_Width: 54
+    m_Height: 34
+  - m_X: 309
+    m_Y: 589
+    m_Width: 53
+    m_Height: 41
+  - m_X: 383
+    m_Y: 379
+    m_Width: 26
+    m_Height: 15
+  - m_X: 419
+    m_Y: 267
+    m_Width: 40
+    m_Height: 5
+  - m_X: 459
+    m_Y: 371
+    m_Width: 43
+    m_Height: 8
+  - m_X: 428
+    m_Y: 152
+    m_Width: 48
+    m_Height: 8
+  - m_X: 493
+    m_Y: 104
+    m_Width: 39
+    m_Height: 3
+  - m_X: 532
+    m_Y: 148
+    m_Width: 14
+    m_Height: 4
+  - m_X: 554
+    m_Y: 103
+    m_Width: 23
+    m_Height: 1
+  - m_X: 476
+    m_Y: 256
+    m_Width: 108
+    m_Height: 11
+  - m_X: 546
+    m_Y: 251
+    m_Width: 38
+    m_Height: 16
+  - m_X: 577
+    m_Y: 146
+    m_Width: 95
+    m_Height: 2
+  - m_X: 630
+    m_Y: 103
+    m_Width: 42
+    m_Height: 45
+  - m_X: 1022
+    m_Y: 75
+    m_Width: 1
+    m_Height: 99
+  - m_X: 921
+    m_Y: 101
+    m_Width: 29
+    m_Height: 73
+  - m_X: 777
+    m_Y: 103
+    m_Width: 14
+    m_Height: 95
+  - m_X: 672
+    m_Y: 206
+    m_Width: 20
+    m_Height: 45
+  - m_X: 902
+    m_Y: 198
+    m_Width: 19
+    m_Height: 79
+  - m_X: 776
+    m_Y: 206
+    m_Width: 1
+    m_Height: 92
+  - m_X: 584
+    m_Y: 354
+    m_Width: 18
+    m_Height: 17
+  - m_X: 885
+    m_Y: 298
+    m_Width: 17
+    m_Height: 54
+  - m_X: 1015
+    m_Y: 277
+    m_Width: 8
+    m_Height: 75
+  - m_X: 685
+    m_Y: 354
+    m_Width: 7
+    m_Height: 58
+  - m_X: 502
+    m_Y: 475
+    m_Width: 12
+    m_Height: 6
+  - m_X: 877
+    m_Y: 373
+    m_Width: 8
+    m_Height: 77
+  - m_X: 990
+    m_Y: 427
+    m_Width: 33
+    m_Height: 23
+  - m_X: 683
+    m_Y: 457
+    m_Width: 2
+    m_Height: 58
+  - m_X: 594
+    m_Y: 475
+    m_Width: 8
+    m_Height: 57
+  - m_X: 386
+    m_Y: 587
+    m_Width: 40
+    m_Height: 2
+  - m_X: 419
+    m_Y: 586
+    m_Width: 7
+    m_Height: 3
+  - m_X: 504
+    m_Y: 586
+    m_Width: 10
+    m_Height: 40
+  - m_X: 293
+    m_Y: 741
+    m_Width: 82
+    m_Height: 18
+  - m_X: 362
+    m_Y: 695
+    m_Width: 13
+    m_Height: 64
+  - m_X: 375
+    m_Y: 871
+    m_Width: 30
+    m_Height: 7
+  - m_X: 503
+    m_Y: 688
+    m_Width: 1
+    m_Height: 103
+  - m_X: 426
+    m_Y: 791
+    m_Width: 16
+    m_Height: 4
+  - m_X: 875
+    m_Y: 476
+    m_Width: 2
+    m_Height: 77
+  - m_X: 977
+    m_Y: 521
+    m_Width: 46
+    m_Height: 32
+  - m_X: 871
+    m_Y: 579
+    m_Width: 4
+    m_Height: 74
+  - m_X: 1022
+    m_Y: 427
+    m_Width: 1
+    m_Height: 229
+  - m_X: 1021
+    m_Y: 521
+    m_Width: 2
+    m_Height: 135
+  - m_X: 948
+    m_Y: 653
+    m_Width: 23
+    m_Height: 3
+  - m_X: 673
+    m_Y: 532
+    m_Width: 10
+    m_Height: 86
+  - m_X: 593
+    m_Y: 551
+    m_Width: 1
+    m_Height: 84
+  - m_X: 581
+    m_Y: 626
+    m_Width: 13
+    m_Height: 9
+  - m_X: 503
+    m_Y: 729
+    m_Width: 3
+    m_Height: 62
+  - m_X: 748
+    m_Y: 618
+    m_Width: 28
+    m_Height: 64
+  - m_X: 1015
+    m_Y: 756
+    m_Width: 8
+    m_Height: 267
+  - m_X: 943
+    m_Y: 727
+    m_Width: 5
+    m_Height: 29
+  - m_X: 870
+    m_Y: 752
+    m_Width: 1
+    m_Height: 50
+  - m_X: 1010
+    m_Y: 831
+    m_Width: 13
+    m_Height: 192
+  - m_X: 941
+    m_Y: 802
+    m_Width: 2
+    m_Height: 29
+  - m_X: 82
+    m_Y: 1020
+    m_Width: 419
+    m_Height: 3
+  - m_X: 195
+    m_Y: 1018
+    m_Width: 306
+    m_Height: 5
+  - m_X: 300
+    m_Y: 994
+    m_Width: 201
+    m_Height: 29
+  - m_X: 405
+    m_Y: 974
+    m_Width: 96
+    m_Height: 49
+  - m_X: 442
+    m_Y: 867
+    m_Width: 64
+    m_Height: 4
+  - m_X: 501
+    m_Y: 867
+    m_Width: 5
+    m_Height: 65
+  - m_X: 555
+    m_Y: 1008
+    m_Width: 468
+    m_Height: 15
+  - m_X: 580
+    m_Y: 729
+    m_Width: 1
+    m_Height: 9
+  - m_X: 619
+    m_Y: 1007
+    m_Width: 404
+    m_Height: 16
+  - m_X: 681
+    m_Y: 1006
+    m_Width: 342
+    m_Height: 17
+  - m_X: 748
+    m_Y: 1004
+    m_Width: 275
+    m_Height: 19
+  - m_X: 501
+    m_Y: 931
+    m_Width: 308
+    m_Height: 1
+  - m_X: 560
+    m_Y: 930
+    m_Width: 249
+    m_Height: 2
+  - m_X: 817
+    m_Y: 853
+    m_Width: 53
+    m_Height: 15
+  - m_X: 817
+    m_Y: 768
+    m_Width: 5
+    m_Height: 100
+  - m_X: 629
+    m_Y: 904
+    m_Width: 180
+    m_Height: 28
+  - m_X: 748
+    m_Y: 868
+    m_Width: 61
+    m_Height: 64
+  - m_X: 863
+    m_Y: 853
+    m_Width: 7
+    m_Height: 48
+  - m_X: 809
+    m_Y: 1001
+    m_Width: 214
+    m_Height: 22
+  - m_X: 809
+    m_Y: 934
+    m_Width: 54
+    m_Height: 89
+  - m_X: 930
+    m_Y: 901
+    m_Width: 11
+    m_Height: 31
+  - m_X: 930
+    m_Y: 998
+    m_Width: 93
+    m_Height: 25
+  - m_X: 995
+    m_Y: 932
+    m_Width: 28
+    m_Height: 91
+  - m_X: 655
+    m_Y: 635
+    m_Width: 18
+    m_Height: 179
+  - m_X: 655
+    m_Y: 703
+    m_Width: 26
+    m_Height: 111
+  - m_X: 677
+    m_Y: 703
+    m_Width: 4
+    m_Height: 229
+  - m_X: 635
+    m_Y: 738
+    m_Width: 46
+    m_Height: 76
+  - m_X: 580
+    m_Y: 814
+    m_Width: 49
+    m_Height: 15
+  - m_X: 629
+    m_Y: 889
+    m_Width: 52
+    m_Height: 43
+  m_fontInfo:
+    Name:
+    PointSize: 0
+    Scale: 0
+    CharacterCount: 0
+    LineHeight: 0
+    Baseline: 0
+    Ascender: 0
+    CapHeight: 0
+    Descender: 0
+    CenterLine: 0
+    SuperscriptOffset: 0
+    SubscriptOffset: 0
+    SubSize: 0
+    Underline: 0
+    UnderlineThickness: 0
+    strikethrough: 0
+    strikethroughThickness: 0
+    TabWidth: 0
+    Padding: 0
+    AtlasWidth: 0
+    AtlasHeight: 0
+  atlas: {fileID: 0}
+  m_AtlasWidth: 1024
+  m_AtlasHeight: 1024
+  m_AtlasPadding: 9
+  m_AtlasRenderMode: 4165
+  m_glyphInfoList: []
+  m_KerningTable:
+    kerningPairs: []
+  m_FontFeatureTable:
+    m_GlyphPairAdjustmentRecords: []
+  fallbackFontAssets: []
+  m_FallbackFontAssetTable: []
+  m_CreationSettings:
+    sourceFontFileName:
+    sourceFontFileGUID: 9a4d20677c8ff4b058fc19e7a747cddc
+    pointSizeSamplingMode: 0
+    pointSize: 127
+    padding: 9
+    packingMode: 0
+    atlasWidth: 1024
+    atlasHeight: 1024
+    characterSetSelectionMode: 8
+    characterSequence: "ar\nالأول\nالثاني\nالثالث\nالرابع\nبناء ساندمان\nكتابة بطاقات النجوم\nتنشيط القسم\nسيدوما\nجولترون\nمارا\nبالريون\nهذا\nهكذا مات\n<journey>\n<num>\nالمستنسخ\n<nickname>\n<nickname>\nقُطعت <length> من السنوات الضوئية\n<rank>\nتصنيف\n$<money>\nمتابعو <nb_fame>\nاضغط على أي زر للخروج\nيمكن أن تدعه الآن\nاضغط على أي زر للإنعاش\nانقر فوق أي مكان للإنعاش\nممتاز!!!\nقراصنة أرض الأرواح\nالتدفق النقدي للأموال\nالدب اللطيف\nبلان سيال\nالقصيدة الغنائية لإخوان الفضاء\nنحن كائنات بشرية\nالوصول إلى الأرض\nتجنب الذبذبات\nخلف الباب\nارفع مستوى الصوت والتقط الجيتار!\nبواسطة <band>\nمقدار الكمية المتاحة لديك: <number>\nالتقط نفسًا\nاسحب ببطءٍ لمعرفة ردودك وعواقبها على ساندمان.\nأبقِ إصبعك على الشاشة للعزف\nاضغط على أي زر للعزف\nعجبًا!\nأحب العزف على الجيتار\nأين دورات المياه؟\nلم تكن المشروبات زهيدة الثمن\nبراسيلور سامبو!\nتحكم في الجيتار!\nآسف، تفضل بالمرور\nدعنا نرقص!\nأنت تدوس على أصابع قدمي!\nهذا جيد!\nأنا أصم!\nتزوجيني!\nمن هم؟\nأحب هذه الأغنية!\nشخص ما فقد الوعي هنا...\nأبهرهم!\nتخلص من كل شيء!\nرائع!!!!\nبابوم!!!!!\nلعبة جديدة\nالتالي\nاضغط\nانطلاق!\nالتالي\nاختر\nالقائمة\nاهتزازات\nس ض\nس ض\nنعم\nلا\nعثرنا على <number> من النهايات\nبطاقات جديدة\nخيارات\nالعودة\nصوت مشاهد الخيال العلمي\nشخصيات التعليق الصوتي\nصوت الموسيقي\nاللغة\nمقدار دقة الشاشة\nالشاشة بالكامل\nتطبيق\nالدعاية والاعتمادات\nالبدء\nتمرير\nالنهاية\nReigns: ترغب Beyond في استخدام الكاميرا الخاصة بك حتى تتمكن الشخصيات التي تثق فيك من النظر إليك وجهًا لوجه.\nتبدو بيانات اللعبة تالفة. هل تود إعادة ضبط كل شيء؟\nهل ترغب في إعادة ضبط اللعبة؟\nإعادة ضبط بيانات اللعبة\nهل ترغب في إنهاء اللعبة؟\nإنهاء\nإلغاء\nبطاقات جديدة!\nالرحلات\nأعمال فلكية\n<number> / <total> من الأهداف التي تمت\nميمنتو موري\n<number> / <total> من الأقدار الواقعة\nمعرض الصور\n<number> / <total> الشخصيات التي واجهتها\nغرفة الجيتار\n<number> / <total> النقاط الممتازة\nالنهايات التي شهدتها\n<number> / <total> من مرات انتهاء اللعبة تم العثور عليها\nصفر\nتم اكتشاف <number> من البطاقات\nالمستنسخ الأفضل\nمصير جديد\nالمجهول\n<nickname>, <number><num> مستنسخ\nقُطعت <number> من السنوات الضوئية\nمازلت حيًّا!!\nوضع الصورة\nالإنجازات\nاللعبة أحدث بكثير عن تلك المحفوظة على iCloud أي واحدة ترغب في تحميلها؟\nلعبة iCloud\nاللعبة المحلية\nقائمة المتصدرين\nReigns\nBeyond\nReigns: Beyond\nرحلات الفضاء موسيقى الروك آند رول!\nاحصل عليها الآن\nشاهد المقطورة\nعدم التنفس\nالثقب الواحد\nالجمر\n60 ثانية\nشمس جديدة\nماتشو-ميتشو-ماتشو\nعين الإبرة\nليفاياثان الفضاء\nسيئ جدًا\nمفكك\nسبات طويل الأمد\nإمداد الحفلة\nرحلة طويلة\nالمشجعون على الجوع\nالنوم الطويل\nموسيقى الروك آند رول\nتذكارات\nمصاصو الطاقة في الفضاء\nصاحبة الجلالة\nالقراصنة\nعمال المناجم\nالمزارعون\nالأبطال\nالإمبراطورة\nالمخلوقات الفضائية\nالجنود\nالسفينة الأم\nالمستشعرون\nالمدينة\nChi\nAbs\nVol\nIl\nEyl\nSol\nVuz\nPom\nAz\nWi\nNo\nQo\nZ\nImmo\nUs\nOst\nBam\nRox\nPadana\nGra\nQush\nMali\nPuz\nLico\nBy\nous\nkra\nmi\n-S\nq\nbos\ntre\npii\nazu\ns\nol\nup\nam\nus\nip\ner\na\n_\n°\n-Pla\non\nuj\neb\nx\nys\nhu\nen\nvos\nta\nris\nzon\njen\nnu\ngon\ntris\nloss\n-2\n-3\n-4\nite\nks\nrite\nrei\nest\nana\nis\nei\nun\nsol\nsee\ngrad\nluf\nd'O\nstern\nmaan\nكليسا\nأليني\nأديسون\nمارو\nسيرا\nتاريا\nليلى\nماسي\nجنى\nبانسي\nجوني\nراينا\nناليا\nإلينا\nشانا\nريلون\nجيراد\nجوفارن\nدوغاز\nتايرون\nأشتر\nألرين\nجرين\nجور\nروناس\nتيريس\nستفون\nإليون\nكيفان\nإدارد\nرودري\nفابيار\nجورا\nفيرنان\nفريدريك\nأوفو\nشاكو\nزينو\nكرافو\nراكهارو\nأرو\nشارب\nستارليون\nطريقة أخرى\nجازيانت\nبول\nبيشب\nأولد ستار\nمافروك\nزيبليون\nسكينر\nلونجور\nكالي\nالقطيع المفقود\nالخفقان المخي\nالمستنقع الصغير\nالاعتراف\nالنجمة اللامعة\nحانة الخردة\nالإنشطار والإلتحام\nلو بال دي سيكلوبس\nالنقاط 56\nكوخ ثاليوم\nماتشو\nسيرج\nXvyX-2\nالمراكز\nبالرين\nالارتشاح المتزامن\nالزائر\nالحصان والعريس\nبير روم\nممر المياه\nبيكو بار\nسيليست\nالوفرة\nسيلاس\nمزخرف\nزفير\nمنطقة ماريان\nبا-مالar_question\n      هل أنت مستيقظ، أيها الرجل الآلي التافه؟\n      نعم، أنت الآلة ID312 من الفئة 3. استيقظ.\n      توقف عن تكرار الكلام نفسه، قف. هذا أمر.\n      هل تعتقد أن لدي مساحة في قاعدة بياناتي لتحمل اسمك؟ فكّر ثانيةً.\n      باتباع نظام 512-c، أوشك أن أُسند إليك قيادة سفينة ساندمان كليًا. \n      ساندمان هي السفينة التي تقف عليها الآن. أنا.\n      لقد مات كل من على السفينة إلا أنت، لذا عليك أن تتولى القيادة. أظن أن عليّ تهنئتك.\n      تلاشوا تمامًا. وبالتالي، هم موتى.\n      اسمع، لا أريد استعجالك ولكن هناك بعض الإنذارات المتراكمة في أنظمتي وأنا بحاجة إلى قائد للتعامل معها.\n      هل توافق على تولي قيادة هذه السفينة واتباع التشريعات السبعة لديانة ستار دومنيون؟\n      جيد، أنت الآن قائد ساندمان. سوف أُفعّل إمكانية وصولك على جميع المستويات إلى كل الأنظمة الفرعية. \n      إنذار! إنذار! سنصطدم في غضون 10 ثوانٍ. إنذار! شبكة الطاقة ضعيفة!\n      يُوشك الأكسجين أن ينفذ! إخراج إمدادات حالات الطوارئ.\n      ينخفض الضغط داخل هيكل السفينة. إغلاق الجسر.\n      نقترب بسرعةٍ عاليةٍ من كوكب سيدوما. من فضلك شغّل نظام الأمان X12. شغله رجاءً.\n      حاولت إعادة توجيه الطاقة إلى درع الحماية. الفوضى تعُم المكان. استقرار مستوى دخول الأكسجين إلى الجسر.\n      نحن نسقط، أوشكنا على الاصطدام بـ <goal>. إنّ فرصة نجاتك ضئيلة جدًا. أنت تمزح...\n      إذا مت الآن، فهذا يعني أنك كنت قائدًا لمدة 15 ثانيةٍ و34 مللي ثانية بالضبط. أعتقد أنه رقم قياسي.\n      ((تستيقظ في ساحة كبيرةٍ، محاطة بآلاف الكائنات الحية. بدأت نوبة الغضب.))\n      ما هذا...\n      لقد دمرتنا، أيها الأخرق.\n      يا إلهي... لقد قتلت براندون.\n      هل يُسمح لي بدفع ذلك الحثالة إلى طبقة الستراتوسفير؟\n      لا يسألك أنت أيها الأحمق.\n      ((الناس تزداد غضبًا. عليك أن تنسحب قليلًا. جيتار براندون تحت قدميك. أنت تشعر برغبة مُلحّة.))\n      مقزز...\n      لم أسمع أي شيءٍ سيئ مثل هذا. على الأرجح، عليك الخروج من هنا.\n      ماذا تفعل؟ لا يُمكنك التوقف الآن، استمر!\n      ((الجمهور إما متفاجئ جدًا، وإما نائم.))\n      أنت تُبلي حسنًا، لا تتراجع الآن!\n      وماذا؟ أرجوك أخبرني أنك لن تتوقف الآن.\n      الناس منزعجون قليلًا، علينا إنهاء هذه الأغنية حقًا.\n      أحب هذا المقطع! أبهرهم!\n      كان ذلك...\n      أسطوريًا! نحن بحاجة إلى عازف جيتار، هل تود الانضمام إلينا؟\n      حسنًا، سأفكر في الأمر. كما قد نكون عونًا لك، فأنت بحاجة إلى طاقم لإدارة سفينتك.\n      هل هذه سفينتك؟ إنها مُدمرة بدرجةٍ كبيرةٍ. سنتناول مشروبًا الآن، لكن يُمكنني إلقاء نظرة لاحقًا.\n      أنا لست مجرد المبرمج الأكثر جاذبية الذي يبث أعماله مباشرة في هذا الجانب من فرع المجرة الخارجي فحسب. بل أنا أيضًا أفضل مهندس قد تقابله على مر الزمان.\n      هيا أيها الطاقم، دعونا نحتسِ مشروبًا، يا مصدر هذه الفوضى.\n      المُحرك جاهز، أيها القائد. بأي لونٍ تُريدني أن أدهن هيكل السفينة؟\n      تذكر: أنا أسمح لك بدهان هيكل سفينتي لأنه مُحطّم. انتبه لكلمة أسمح لك.\n      إعادة تشغيل مصدر الطاقة ليعمل في غضون 5... 4... 3... 2...\n      إعادة ضبط نُظم إعادة التدوير البيئية كلها. يتوفر الأكسجين والماء.\n      نحن جاهزون لمغادرة سيدوما، أيها القائد. هل نذهب الآن؟\n      نعم، لنذهب! لا أطيق الانتظار حتى أصعد عل متن هذه السفينة وألامس النجوم.\n      تلك الموجودة في الفضاء، هل تعرفها؟ إنها أجسام لامعة متناثرة في كل مكانٍ. هل تتحدث بغموضٍ أم تسخر مني؟\n      نعم، بالطبع. لن تترك مديرك وترحل، أليس كذلك؟\n      ((يُرجى تحديد وجهة...))\n      ينتظرنا الفضاء الشاسع. حيث لا كواكب، أو محطات، إنها وثبة هائلة في عالمٍ مجهولٍ.\n      الطريق إلى <destination> خطير للغاية، سيتعين علينا أن نعمل جاهدين لتخطيه.\n      هذه منطقة منخفضة المخاطر نسبيًا. كما يوجد طعام جاهز جيد.\n      يُسيطر القراصنة على هذه المنطقة. القراصنة المتعطشون للدماء.\n      يؤدي هذا الطريق إلى <destination>، وهي سوق في المنطقة الهامشية.\n      يحكم هذه المنطقة مجموعة التكتل.\n      تُعد <destination> معقلًا مزدحمًا بأصحاب المكائد والثروات. قد تكون محفوفة بالمخاطر.\n      ويُعد هذا الربع منطقة ملغمة بشكل كثيف. يهدر هؤلاء الفقراء المساكين حياتهم بحثًا عن أحجار نادرة تبلغ قيمتها قيمة أجورهم ألف مرةٍ.\n      لا يعيش الكثير من الناس حول <destination>. قد لا تكون مصدرًا كبيرًا للربح.\n      لا يعيش سوى الأغنياء في <destination>. أقصد نخبة المجرة.\n      فهو ربع سكني مليء بالثروة يجذب اهتمام الكثير من القراصنة المحليين.\n      تُعد <destination> مركزًا عالميًا حيث ينضم للبشرية أجناس جديدة بانتظامٍ.\n      وهي إحدى أفقر مناطق المجرة. يوجد الكثير من السجون ومشاعر اليأس.\n      تعد <destination> جمهورية حرة نمت بصورةٍ مستقلةٍ عن مجموعة التكتل.\n      وهي جزء مدهش من المجرة، الذي قد يتضمن أشياء لن تتوقعها.\n      تُعد <destination> منطقة يحميها أمن الفضاء الخاص. لا يوجد قراصنة ولا أنشطة تهريب.\n      يسُرني أنك على قيد الحياة.\n      حسنًا، سيتعين على شخصٍ ما إصلاح الضرر. إذن...\n      لقد فتحت للتو إمكانية وصولك إلى أموال السفينة.\n      أحتاج إلى شخص ما لإجراء الإصلاحات. جميع أنظمتي معطلة.\n      هيا يا رفاق، أنا بحاجة لكم على متن السفينة.\n      ما هذا؟ هل هذا احتفال؟ هل يجب أن أرتدي ثيابًا مناسبة أيضًا؟ يُمكنني صنع آلة حاسبة مناسبة.\n      هنا، هل هذا أفضل، يا صاحب الوجه الشاحب؟ هل هذا الزي الممل يتوافق مع البروتوكولات المرئية لديك؟\n      التشخيص سهل جدًا، هناك ثقب كبير في المفاعل على إثر قوة إطلاق رصاصة ريلغان. الأمر يلزمه إلى مُحرك جديد.\n      أهلًا بك على متن السفينة، أيها القائد. اليوم هو يوم حظك.\n      أنطون مُحق. يجب أن نحاول الحصول على مُحرك جديد من التاجر.\n      إلى متى سنبقى على كرة الغبار هذه؟ أشعر بأني مُحطم.\n      مرحبًا بك في متجر المجرة المُدهش، كيف يُمكنني مساعدتك؟\n      زولترون5£((مذكور على مُلصق:)) لن تعيد تشغيل مفاعلنا النووي!\n      حلوى الكولا£((أفضل شوكولاتة داكنة مزيفة يمكن شراؤها بالمال.))\n      وردة £((زهرة رائعة من مُحيط زلفور الجوي.))\n      تحفة أثرية £ ((كماشة مسامير غير عملية مستخدمة قبل السقوط. للبيع لتحقيق الربح في الأراضي الهامشية.))\n      تحفة أثرية £ ((مكتوب على الملصق: )) لا تُطلق النار. ((يُمكنك بيع ذلك للقراصنة العاطفيين.))\n      أنا لا أقدم سوى أفضل البضائع. كلها موثوقة دون شبهة، ولا شيء مهرب.\n      اختيار رائع! يُعجبني الزبون الحازم. سأقدم لك خدمة التوصيل إلى مرفأ السفن مجانًا.\n      لسوء الحظ، ليس بمقدورك دفع تكاليف ذلك.\n      هل اتخذت قرارك بعد؟ سنختنق بالغبار إذا مكثنا لفترةٍ أطول على هذا الكوكب.\n      دعنا نتحدث. هل تريد مشروبًا؟ \n      اسمي دوز، مهندس، وواسع المعرفة. ومبرمج رائع. في مجال المؤثرات والوسائل البصرية الخاصة بالحفلات؟ هذا كل ما أفعله.\n      أنطون. ملاكم مُحترف. ضابط بحري سابق بمجموعة التكتل. ميكانيكي. وطبال.\n      أنا سالا. كنت قائدًا لسفينة الغضب. خبير في المتفجرات وعازف جيتار.\n      نعم، سفينة القراصنة. إن سالا نجم مشهور.\n      إذن، هؤلاء هم الجميع. لديك سفينة، ونحن لا. ليس لديك طاقم، ونحن نعمل لك كطاقم. هل اتفقنا؟\n      سنتقاسم عائدات الحفلات الموسيقية وأي أنشطة أخرى.\n      أنت القائد. ونحن نحترم هذا. لن نتمرد بسرعةٍ.\n      رائع، دعنا نتقابل في مرفأ السفن. سنُلقي نظرة على ساندمان.\n      ((سيدوما هي مستعمرة صغيرة تقع على المنطقة الهامشية لفضاء مجموعة التكتل. مليئة بعمال المناجم الذين يتقاضون أجورًا زهيدة وعمال ماهرين بائسين.))\n      ((بغض النظر عن قاعة الحفلات الموسيقية، فإن أبرز ما في سيدوما هو بار صغير متواضع تُعزف فيه بعض موسيقى البانك روك من أواخر القرن العشرين.))\n      ((يُنظم عمال المناجم في نقابات، تُخصص لكل نوعٍ من المعادن الأساسية المستخرجة في سيدوما نقابة. الليثيوم والكوبالت والثوليوم.))\n      ((يتقاتل بعض الكلاب الضالة في التراب حول بعض الحمام في الفضاء.))\n      ((قاعة الحفلات فارغة. يوجد ثقب كبير في مكان تحطم سفينة ساندمان عند هبوطها. الصمت مخيف.))\n      ((أنت تخرج من ساندمان. الوقوف على خشبة مسرح قاعة حفل سيدوما مُجددًا.))\n      لقد دفعت رسوم الاستنساخ هذه المرة. عيد ميلاد سعيد! عمليًا، في كل مرة تنجو فيها، يكون عيد ميلادك. \n      مرحبًا بكم في نيرفانا. للأسف لم نتمكن من استنساخك. نأسف على الإزعاج.\n      أنا متأكد أنك صدقتني ولو قليلًا. أرى ذلك في عينيك.\n      لا أريد أن أتحامل عليك، لكن أعتقد أنك اتخذت قرارًا سيئًا في هذا الصدد. على أي حالٍ، ستعرف المرة القادمة.\n      أوه لا، لقد متّ مرةً أخرى.\n      عذرًا، تعذر تحميل البيانات اللازمة لاستعادة <sala>.\n      إنها مجرد محاولة واهية للدعابة. أنا على قيد الحياة وبصحةٍ جيدةٍ.\n      هل لديك فكرة كم هو مؤلم بالنسبة لي إعادة بناء بياناتي الأساسية في كل مرةٍ تدمر السفينة؟\n      أتمنى ألّا يتحتم علينا فعل هذا كثيرًا من فضلك. هل يُمكنك أن تكون أكثر حذرًا؟\n      ليس لديك ما يكفي من المال! هل يجب أن أبيع أحد خزانات نظام إعادة التدوير؟ أو ربما طاولة العشاء؟ \n      ليس لديك ما يكفي من المال! سوف أضطر للتضحية بنفسي. حزمة البطارية أو مولد درع الحماية؟ \n      كيف تمكنت من الموت بهذه الطريقة؟ وكل هذا الدم!\n      صباح الخير أيها القائد، كيف حالك؟\n      أتفهم ذلك. لقد جربت للتو الإحياء للمرة الأولى.\n      في كل مرة نهبط فيها، أجهز مستودعًا يحتوي على كل ما هو ضروري لاستنساخ السفينة بأكملها. الأفكار، والأنسجة والبيانات.\n      وعادةً عملية الاستنساخ ليست رخيصة، لكن المحاولة الأولى مجانية! استمتع.\n      نتلقى إشارة واردة. إنها سفينة تجارية. معرض المجرة - السوق الحرة.\n      هذا كل ما لدي!\n      عملة ذهبية € ((عملة ذهبية، وهي قطعة أثرية قيمة جدًا. تحظى بإقبال في أنظمة المنطقة الهامشية.))\n      عملة ذهبية £ ((العملة كبيرة وثقيلة. وتبدو متوازنة.))\n      عملة فضية £ ((مدخر أثري قيم يُمكنك بيعه لتحقيق الربح في فضاء مجموعة التكتل.))\n      عملة فضية £ ((تلمع العملة في الضوء. تبدو غريبة وغير متوازنة.))\n      عملة نحاسية £ ((عملة رخيصة، لا قيمة لها على الإطلاق.))\n      عملة نحاسية £ ((العملة مخدوشة ومتسخة.))\n      مولد أكسجين £ ((يعمل مولد الأكسجين على زيادة قدرة نظام إعادة التدوير.))\n      تنجستن£((تقوية ممتازة للهيكل. ثمنه رخيص لكنه مفيد.))\n      صندوق مصاهر مميز£((يعمل صندوق المصاهر على تحسين أداء قلب المفاعل بشكل كبير.))\n      عطر £ ((رائحة عطرة من زهرة الأوركيد البرية من هالة زولتون. يشتهر هذا العطر في المناطق الغنية.))\n      الاختصار: 368\n      فواكه طازجة£((فواكه طازجة من بورشيا الزاخرة.))\n      فاكهة£((لم تعد الفاكهة طازجة كالسابق.))\n      خريطة£((خريطة نجوم لكوكب جولترون الأسطوري.))\n      أورج£كورج: آلة موسيقية رائعة لإبهار الجمهور. ((اقرأ المكتوب على الملصق.))\n      عناصر قوريون£((عناصر غريبة صنعها السلالات الأسطورية الأكبر. يدفع البشر الكثير من المال مقابل مصابيح لا تُعرف وظيفتها.))\n      الاختصار: 467\n      دمية محشوة£((دمية دب تروي أشياء كثيرًا.))\n      الاختصار: 655\n      باراباك£((باراباك هو صوت عزف الأسطورة فلو مان.))\n      فراشة£((سلالة نادرة من الفراشة الخضراء. تُرفق بصندوق تربيتها وطعام لمدة عامٍ. عناصر رقيقة نادرة في الأراضي الهامشية.))\n      فراشة£((الفراشات مزدهرة ومتكاثرة.))\n      شريط£((مجموعة من الإشارات القديمة يفترض أنها من كوكب الأرض.))\n      الاختصار: 1325\n      طبلة£((مجموعة كلاسيكية من الطبول: طبول جانبية، والطبل الكبير، وطبل التوم، والصنج المزدوج، وعصي طبول سريعة الإيقاع والصنج.))\n      أرز£((الوجبة اليومية لعمال المناجم: الأرز والحمص. يبدو أنه النمط الغذائي في الكواكب الثرية.))\n      أرز£((لا يزال الأرز والحمص صالحين للأكل.))\n      مشبك ورق£((عناصر متبقية من جنس فضائي يحوّل كل شيءٍ يصادفهم إلى مشابك ورق.))\n      الاختصار: 1330\n      ذهب£((كتلة كبيرة من الذهب النقي. لا تساوي الكثير هنا، حاول بيعه على كوكب غني.))\n      الاختصار: 1332\n      الاختصار: 56\n      حلوى الكولا£((بدأت الشوكولاتة تذوب بالفعل. ربما يجب عليك عدم الاحتفاظ بها بجانب المفاعل.))\n      shortcut:57\n      وردة£((زهور مُزهرة ومعطرة باستمرار.))\n      الاختصار: 73\n      تُحفة أثرية£((بالرغم من أنك حاولت جاهدًا، فما زلت لا تتمكن من فتح زجاجة بها. للبيع من أجل الربح في الأراضي الهامشية.))\n      الاختصار: 58\n      تحفة أثرية£((تُوجد بقعة صغيرة من الدم على جانبها.))\n      هل هذا كل ما عليك بيعه؟\n      إنها عملة نحاسية. لا أستخدمها لأي شيءٍ.\n      إنه عنصر رائع. اعتادت جدتي الحبيبة شراء أشياء بعملات معدنية مثل هذه.\n      لدي أوانٍ نحاسية للبيع إذا كنت تريدها.\n      ماذا تريد مني أن أفعل بهذا؟ هل تحاول شراء شيء بها؟\n      إن وزنها ثقيل جدًا بالنسبة لهذه العملة الصغيرة.\n      ((يعض العملة.)) إنها أصلية أوه، أود أن أذهب إلى طبيب أسنان.\n      ((يومئ <merchant> برأسه، وينتقل إلى مدخل المتجر الفارغ، ويلقي نظرة في الخارج، ثم يضغط على زر مخفي. وفي لحظة هادئة، يُغلق المتجر.))\n      ((كمية صغيرة من السلع غير القانونية معروضة في أغلفة شفافة ومكتشفة حديثًا.))\n      هذا كل ما لديّ. أتمنى أنه لم يتّبعك أحد.\n      خردة£((خردة غريبة الشكل قليلًا. إنها ناعمة الملمس ولامعة.))\n      الاختصار: 490\n      الاختصار: 490\n      مسدس£((مسدس غير قانوني، قام القراصنة بتعديل تصميمه بصورةٍ كبيرة. يُمكنك بيعه للصيادين الأغنياء.))\n      مسدس£((يُعد هذا السلاح أقوى بكثير لصيد بروجلور، وهو حيوان هادئ آكل للنباتات في <place>. ولكن، حسنًا... توجد السوق الحرة وما إلى ذلك.))\n      مكعب£((مكعب مصنوع من أجزاء تتبدل باستمرارٍ. ويُقال إن هناك كائنات تجارب محبوسة بداخله، وتحاول الهروب منذ الأزل.))\n      مكعب£((من وقت لآخر، تسمع صرخات خافتة في الداخل. يُعد عنصرًا نادرًا.))\n      قناع£((قناع مُهرب من المستودع الاحتياطي لكوكب الجنون. من المحتمل أن ينتهي الأمر بتزيين الجدران الخاصة بفاحشي الثراء.))\n      الاختصار: 1335\n      لفت£((ثمرات لفت صغيرة. قد يُطرح مقابل أسعار غير معقولةٍ في أسواق الدب الأصغر المشبوهة.))\n      لفت£((أنت لست في أسواق الدب الأصغر وثمرات اللفت خاصتك فاسدة.))\n      ديناميت£((يعمل على تفجير الأشياء. يُفجر الصخور بصفة عامة وقد يُفجرك أنت نفسك. تصل أسعاره في الأماكن الخطرة إلى أرقام مدهشة.))\n      ديناميت£((لن تتساءل عن سبب استعداد الناس لشراء الديناميت في مكان ما مثل <place>.))\n      عيش الغراب£((فطر أحمر برائحة جذابة. يُمكنك بيع هذا للحصول على بعض الربح في بعض المناطق المعزولة.))\n      عيش الغراب£((إذا حدث أي شيء، فإن رائحة عيش الغراب أقوى منه.))\n      جهاز إرسال£((جهاز إرسال مخترق، يُمكنك من اكتشاف الفضاء خارج الطُرق الخاضعة للرقابة.))\n      سكين£((سلاح متعدد الوظائف. تحظى الدرجة 1. يطلبها مجموعة التكتل بالفضاء.))\n      سكين£((فكّر في اختراع قصة عن تاريخ صناعة السكين لإعطائها قيمة أكبر.))\n      مكبرات الصوت£((حُظرت مكبرات الصوت هذه في نصف المجرة. فهي تُصدر صوتًا عاليًا جدًا.))\n      لقد أضفت إحداثيات كوكب جولترون إلى أنظمة الخرائط لدينا. إنه يقع على بُعد وحدات قليلة فقط. هل علينا الذهاب هناك؟\n      نحن في مدار حول جولترون. مستعد للهبوط؟\n      ((جولترون هو كوكب له اتجاهات اقتصادية كلية فريدة تُميزه عن المجرات حيث تسود الرأسمالية.))\n      تحياتي! سوف أدفع لك لأخذ أغراضي. لا أحتاجهم بهذا القدر.\n      نتلقى إشارة من مركبة فضائية قريبة. يبدو أنهم يريدون شراء بعض...الأكسجين الموجود لدينا؟\n      أوه، نعم، هذا واحد من أكثر المعجبين \"الشغوفين\". سوف يدفعون قدرًا جيدًا من المال لاستنشاق الهواء الذي تتنفسه. قل نعم!\n      نتلقى إشارة... إشارة كلاسيكية لنداء استغاثة تشير إلى أننا سنموت جميعًا، ولكن بشفرة مورس. هذا مثير للاهتمام.\n      هل تلقيت رسالتي! شكرًا لك، منقذي. أود أن أطيعك، لكنني وعدت ألا أفعل ذلك مرةً أخرى.\n      لا يُمكنني الكشف عن هذه المعلومات، لكن تسرني مقابلتك جدًا. يُمكنك أن تناديني <cat>.\n      نحن في نطاق إشارة غربية. إنها رسالة قديمة. صدى صوت المسافرين المهمين.\n      استمع! إنها إحدى ترانيم جمال الفضاء. دخلت السفينة في منطقة الاهتزاز التوافقي مع الترانيم.\n      الإشارة تحتوي على رسالة، عبارة عن رمز قديم شاركه القادة. إنها تقول... \"نحن نغني من شاطئ تيتوكوم.\"\n      لا يمكنني العثور على أي تيتوكوم في سجّل المجرة. قد يكون له اسم آخر؟\n      يجب أن يكون في مكان قريبٍ. دعنا نهبط إلى <planet> لإلقاء نظرة على الأرشيفات المحلية.\n      سأحاول العثور على مراجع لتيتوكوم في المكتبة. أرجو أن تُحسن السلوك أثناء غيابي.\n      سمعنا أنك أنت وذلك الكتوم كريه الرائحة تبحثان عن تيتوكوم. أين سمعت هذا الاسم؟\n      هل سمعت نداء لاجنار؟ لقد وقع الاختيار عليك.\n      نحن على استعداد للموت من أجل لاجنار.\n      ((همس)). دعني أتعامل مع ذلك، سأشرح لاحقًا.\n      واتبع طريق التنوير بعد ذلك. أنت في طريقك إلى <Planet>، سوف تضحي بروح النور وتولد من جديد.\n      لا يسعني إلا أن أتساءل ما الذي يعنيه هذا الرفيق الجيد \"بالتضحية بروح النور والولادة من جديد\".\n      نحن في مدار ثابت حول <place>.\n      ها هو القائد. حان وقت \"التضحية بروح النور والولادة من جديد\".\n      عُذرًا، لم أفهم المقصود؟ أي تضحية؟ ماذا؟\n      ألعابك مسلية، لكن هذا لن ينتهي على خيرٍ. هل يُمكنك تأكيد هذا الطلب من فضلك؟\n      بالطبع، مفاعل الاندماج، روح النور! لا بد أن نكون عرفنا مكان تيتوكوم!\n      نواجه فشلًا ذريعًا بالأنظمة الفرعية كلها.\n      حركة جيدة. عبقري. رائع. نحن نسقط، أوشكنا على الاصطدام بـ <place> الآن.\n      ((لكن في اللحظة التي كان ينبغي فيها هبوط ساندمان، يمسك حقل مغناطيسي قوي بالسفينة ويسحبها لأسفل، في حالة سليمة تقريبًا).)\n      نحن بأمانٍ... لقد استخدمنا بعض الآليات القديمة. لا يوجد أحد بالخارج.\n      هذه تقنية متطورة جدًا، منعت تبخير حوالي 60 ألف طن مني.\n      هذا هو، أيها القائد! هذا هو تيتوكوم.\n      ((يتمثل الجزء الخارجي من ساندمان في هيكل معقد مصنوع من أشرطة مواد مترابطة. اهتزاز قوي يملأ الهواء، وهو مصدر وجود...))\n      ((ستار، هو الجيتار الأسطوري للمسافرين المهمين. قطعة أثرية قوية تجعل الكواكب تهتز.))\n      أتلقى رسالة غير واضحة. إنها تأتي من جسم صغير. صغير جدًا.\n      إنها بدلة فضاء! كم هي غريبة. نتلقى إشارة من جهاز إرسالٍ، لكنه لا يتحرك.\n      نتلقى إشارة من المنطقة المجاورة.\n      نحن... نحتضر... فلتُنقذ حمولتنا الثمينة، يا قائد. نحن نعيش ونموت من أجل ستار دومينيون.\n      ثلاثة فراسخ فلكية. لكن... الرسالة قديمة يا قائد. إنها قديمة جدًا.\n      لقد أجريت تحليل تحلل الموجة. وكشف أنها منذ 103 أعوامٍ.\n      ((أنت على متن السفينة القديمة. إنه فطر أرجواني ميت وصامت ينمو في كل مكانٍ. يوجد ضريح في منتصف ظهر السفينة.))\n      ((قاعة الجيتار الإمبراطوري الأسطوري الخاص بستار دومينيون، الذي استخدمته إمبراطورة باليريون.))\n      اقتربنا من محمية لوكوسكيان. لدينا فائض من الأكسجين. هل تُريده؟\n      أتلقى رسالة من مكانٍ ما خارج حقل كويكب <place>.\n      مرحبًا قائدي. مستوى الطاقة منخفض قليلًا. إذا كان لديك القليل من الاحتياطي، يُمكننا تعزيز درع الحماية بسفينتك. وادفع لنا أجرًا إضافيًا.\n      هناك شخص ما يدور حول شمس القزم الأحمر في <place> ينادي علينا.\n      مهلًا، اذهب هناك. لقد توقف مفاعل سفينتنا. هل يُمكنك مساعدتنا؟\n      نحن نقترب من إحداثيات الإشارة و... أعتقد أننا يجب أن ننعطف.\n      يا إلهي! قراصنة! لدي صور، إنه مكوك يسبح نحونا. لا تُوجد قوة دفع ولكنها قد تكون طريقة لمحاولة شن هجومٍ خفي.\n      مهلًا ساندمان... أرى أنك تستهدفنا. أخبرني أنك لا تفعل هذا.\n      حسنًا، نحن قراصنة. ولكننا فقدنا حقًا قلب المفاعل. إننا نسبح في الفضاء بهذا الشكل منذ أيامٍ وأيامٍ.\n      إنها إشارة غريبة. لا يوجد شيء يُمكننا فك تشفيره. إنها تقريبًا أغنية. مثل حوتٍ يُغني؟ هل تحاول التواصل؟\n      الاختصار: 1325\n      أيًا كانت، فإنها تُشبه هذه الموسيقى. لم يسبق لي رؤية ذلك. السفينة، الإشعاع... هل تُجرى معالجتنا؟\n      أنا حقاً لا أعرف ماذا تتوقع أن نفعل بهذا.\n      توشك على الوصول إلى قمر <place>. هل يجب أن أبدأ إجراءات الهبوط؟\n      نحن على مقربة من <place>. هل تريد الهبوط في هذه المحطة؟\n      نحن على مقربة من <place>. هل تريد التوقف في هذا الكوكب؟\n      لقد أجرى أحدهم حجزًا معنا لأداء مهمة على <planet>! إنهم يدفعون مقدمًا!\n      هذه المرة لن تفلتوا مني، أحبائي!\n      نحن نقترب من <place>، ولكن... انتظر... نحن نفقد السيطرة على السفينة. شخص ما ينادي علينا من فوق السطح.\n      إن بروتوكول دخولك غير مكتملٍ ولن يُمكنك الهبوط بسفينتك.\n      يجب عليك إعادة إرسال نموذج نص 4e من نسخة مصورة 7HP.\n      نموذج نص 4e، رمز 7، مختوم مرتين، إن هذا واضح تمامًا بالنسبة لي.\n      هذا ليس صحيحًا، فأنت بحاجة إلى نسخة خضراء 4b مختومة مرتين. طاب يومك.\n      لدينا مكالمة أخرى، هذه المكالمة مشفرة بشدةٍ.\n      أنا مديرك لهذا الحفل الغنائي. لا يزال عليك أن تعزف لنا اليوم. أنا أرسل الإحداثيات إلى الميناء الحر الخاص بنا. انتهى.\n      يدفعنا مجال مغناطيسي قوي جدًا نحو الكوكب. علينا الهبوط.\n      تحياتي، مقبلاتي الشهية. نجح هذا الفخ بدرجة كبيرة، إنه غير لائق.\n      بالتأكيد ليس لدينا هذا المال.\n      يا له من أمر مؤسف. والآن ابقَ هادئًا وأنا أحطم رأسك.\n      ((أنت تقفز على خشبة المسرح، واللورد شارك يركض خلفك. يُلقي إليك سالا الجيتار الخاص بك. توقف الوقت و...))\n      كان هذا أسوأ حفل موسيقي على الإطلاق. مثير للاشمئزاز... أنا... أعتقد أنه يجعلني أشعر بالغثيان.\n      كنت أعلم أن دوز كان جيدًا، ولكن بقيتكم...كان مذهلًا. سمحت لي بأن أكون مديرك، لذا سأعفو عن دينك.\n      لذا... أتريد مني تناول فرقتك الرائعة على قيد الحياة الآن؟ هل هذا آخر كلام لديك؟\n      ((احترامًا لموهبتك الموسيقية، سيحافظ سمك القرش على جثتك حتى يمكن التعرف عليها.))\n      ((لا يمتلك سمك القرش أي مشاعر. بدلًا من ذلك، يأتي تجاهك بحالة تجعلك ترتجف خوفًا.)) هل...توافق؟ هل أنت جاد؟\n      أنا في غاية الحماس الآن! وأنا عندما أشعر بالحماس أشعر بالجوع. أعتقد أنني بحاجة لتناول بعض من رفاقك.\n      هل يجب عليّ توصيل مكبرات الصوت التي اشتريتها؟ سوف يوقظ الجميع!\n      ((تُصدر السماعات نغمات متنافرة من الضوضاء المُزعجة. وقُضي على أشكال الحياة كلها في نطاق بضع مئات من الكيلومترات.))\n      هل تشعر بالإثارة؟ عليك أن تشعر بإثارة. أنت ترغب في إبهار المعجبين. قلها.\n      أعتقد أنه يجب أن نختار شيئًا ناعمًا وجذابًا، إذا كنت تفهم ما أقصد.\n      لا تتناسب أغنية ملكة التمرد الساحرة مع الإيقاع. علينا إذهالهم، إذ يجب أن تعزف شيئًا جريئًا أمامهم.\n      كلاهما خطأ. يرغب هؤلاء الناس في الرقص. أشعر بهذا! فلتعزف لي إيقاعًا قويًا.\n      لماذا تنظر إلي؟ أنا لا أفهم شيئا عن الموسيقى. هذا اختصاصك.\n      انظر أيها القائد، الناس هنا يقضون أيامهم في تكسير الصخور الكبيرة إلى صخور أصغر. يحتاجون إلى علاج جيد بالصدمات.\n      تمكنت من تحويل أحد مخازن البضائع في <place> إلى قاعة حفلات. اجتمع طاقم المحطة بأكمله هنا.\n      جارٍ تجهيز الأدوات كلها. لقد جهزنا لك طقم الجيتار كله.\n      لا تنس اختيار أفضل جيتار لكل حفلةٍ نقدمها. إذ ستكون هناك بعض الأماكن متناغمة بصورة أكبر مع أنواع جيتار مُعينة. \n      الكوكب غني. يُحب الأغنياء الأشياء اللامعة. أمر بسيط.\n      نحن محاطون بالقراصنة. ما لم تكن لديك فكرة أفضل، أقترح أن نبقى مسلحين.\n      هذا المكان مليء بالمخلوقات الفضائية. إنهم يُقدسون الموسيقى الجيدة حرفيًا. \n      نحن على كوكبي الوطن. هناك جيتار واحد فقط علينا العزف عليه هنا.\n      يُبلي هذا بلاءً حسنًا، قائدي! إن جيتار الطيف الأحمر له تأثير غريب على الناس هنا. إنهم فقط... يلقون المال.\n      أشعر... بالحنين إلى الوطن، على ما أعتقد. إن بالريون بعيدة جدا عن الطرق المعروفة.\n      نحن نقترب من بالريون، مسقط رأس ستار دومينيون الأصلي. هل علينا الهبوط على أرضه المقدسة؟\n      ((بالريون هو كوكب أخضر يقع على أطراف أرض الأرواح. إنه المكان الذي ولد فيه <sala>، وهو موطن لستار دومينيون الغامض.))\n      أشعر بخيبة أملٍ. الناس هنا لديهم تفسير مُفصل نوعًا لتشريعات ستار دومينيون السبعة. هيا نذهب.\n      الجو قارصٌ هنا. هل أنت مستعد لإضرام بعض النار على الجمهور يا قائد؟\n      <*جيتار برانتار*>€ ((جيتار براندون. مكتوب عليه \"ماتشو-ميتشو-ماتشو\" على الجانب.))\n      الاختصار: 292\n      <*جيتار لامع*>€ ((جيتار غريب الشكل. يلمع مثل جوهرة ثمينة.))\n      الاختصار: 293\n      <*جيتار النجومية*>€ ((قطعة أثرية غريبة. عندما تعزف به، يبدو وكأن الكوكب يهتز تحتك.))\n      الاختصار: 297\n      <*جيتار المظلة*> € ((صوت نقي لجيتار رائع الشكل.))\n      الاختصار: 294\n      <*الطيف الأحمر*>€ ((جيتار ستار دومينيون المنسي. إمبراطوري.))\n      الاختصار: 295\n      <*جيتار الجمال*>€ ((جيتار جميل بذراع طويلة من كوكب الزهرة.))\n      الاختصار: 296\n      <*جيتار رشاش*>€ ((جيتار خطير الشكل مدمج بنظام سلاح مصغر متكامل.))\n      الاختصار: 298\n      <*جيتار أنيق*>€ ((جيتار صغير الحجم بقوة إعصار الزومبي.))\n      الاختصار: 299\n      <*جيتار المجرة*>€ ((صوته كصوت انفجار عنيف، يدوي بين يديك.))\n      الاختصار: 300\n      هل أنت مغادر أيها القائد؟\n      ((الجمهور هادئ ويشعر بالملل. الجيتار بين يديك...))\n      مرحبًا <place>! هل أنت مستعد لهذا! هل أنت مستعد...\n      ((الجمهور متحمس.))\n      ((تُرفع على المسرح مثل الإمبراطور.))\n      ((بينما يرفع طاقمك معنويات الجمهور، تتقاسم لحظة مع الجيتار الخاص بك.))\n      هذا الجيتار... لا أستطيع رؤية أي شيءٍ، وأنا راضٍ جدًا عن ذلك.\n      مرحبًا <band>! كان ذلك رائعًا! أنت رائع. سأقيم حفلة صغيرة على شرفك. هل أنت مهتم بالحضور؟\n      ((تمتلئ الغرفة بالمخلوقات الفضائية من كل شكلٍ وحجمٍ. إنهم ينحنون أمام جيتار ستار، كما لو أنه إله.))\n      يعزف جيتار المظلة صوتًا رائعًا. انظر إلى الجمهور. يبكي الجميع!\n      شكرًا لك أيها القائد. سوف أظل أتذكر هذه اللحظة لبقية حياتي.\n      لقد عزفت قصيدة غنائية رائعة لستار دومينيون. لهذا سأكشف لكم أسرار المجرة.\n      لا أعرف ما إذا كنت صدمت جمهورنا أم إنهم مذهولون بالأداء. أقترح استخدام الباب الخلفي.\n      يا عزيزي، انهار بعض المعجبين للتو من البهجة. اترك هذا الجيتار من فضلك.\n      ((يرفض، ويتنهد...))\n      كان هذا رائعًا! لم يسبق لي الشعور بهذا.\n      موافق؟ بدأت غيرتك تظهر عليك. كنت مدهشًا.\n      هيا، لنذهب إلى الحفلة! نحن نستحقها بعد هذا الانتصار.\n      لقد جنينا الكثير من المال. سأبكي من الفرح، نحن أغنياء - لن يحدث أي شيء سيئ على الإطلاق.\n      لدي مجموعة من المعجبين المهووسين. أصروا على مقابلتك شخصيًا، إذا كنت تفهم ما أقصد.\n      أستحلفك بجورج بالزيريون، هل أنت حقيقي؟\n      ((يضحك بصوت عالٍ جدًا)). مرحبًا! صاحب المقطوعة الفضائية المشهور هنا. أنا من أشد معجبيك. سأدفع إذا سمحت لي بالصعود إلى سفينتك لفترةٍ.\n      سجل فضاء! تحظى بشعبية كبيرة في ستارجرام. لذا، هل هذا يعني موافقة؟\n      أبلينا حسنًا اليوم. لنتصافح!\n      لقد أغضبت بضعة آلاف من القراصنة المخمورين. أحسنت. الآن، إنهم قادمون إلى هنا.\n      ((ينتشر القراصنة على المسرح. أنت تقاتل بشجاعة، وبرانتار في قبضة يدك - ولكن دون جدوى.))\n      كان ذلك مروعًا.\n      أنت محظوظ لأنهم لم يشنقوك بسبب اشتعال عزفك بإيقاعٍ صريح. ماذا حدث؟\n      لا أعتقد أن ردود فعل الجمهور سيئة جدًا. أعتقد... لا. إنهم نائمون جميعًا.\n      هذه حفلة! هل يسمع أحد آخر النجوم؟!\n      لم أسمع ذلك، ماذا قلت؟ الموسيقى صاخبة حقًا.\n      ... منذ ذلك الحين بدأت أشعر بالمكر. مثل الأسد الكبير، هل تفهم؟\n      هيا لترقص! أنت القائد الراقص الآن! رائع!\n      إنهم يطاردونني!!!\n      شرطة الحفلة... إنهم يأتون سعيًا خلفي. انتهكت قانون الحفلة.\n      لا يُمكنك الوثوق بأحد. نحن، هل تتحدث عنا؟ لقد جعلتك شريكًا. لماذا أنا هكذا؟\n      مهلًا - هل تستمتع؟\n      أرى ذلك، أرى ذلك. هنا، تناول بعض مسليات الحفلات. لا بد أنك مرهق.\n      رائع، أيها القائد. لم يكن عليك فعل ذلك. ألم تخبرك والدتك أن تناول أقراص غريبة من الغرباء فكرة سيئة؟\n      أنا جاد. إنها سامة جدًا. حيث ستقتلك في نهاية المطاف.\n      هل لأنني رجل سيئ؟ أنصت. لا بأس... ليس بالضرورة أن تموت. ما عليك سوى توصيل هذه الطرد الصغير إلى <planet> من أجلي.\n      ترياق! الآن، دعنا نحمل العديد من الزجاجات! للخلود! أتمنى حقًا ألا تموت قبل تسليم الطرد.\n      أنا هنا لاستعادة الطرد. الأسئلة ممنوعة.\n      جيد، ها هو الترياق. انسَ أنك رأيتني. أنا غير موجود\n      ((في النهاية، انتشر السم الذي أخذته أثناء الحفلة في نظامك بأكمله.))\n      هل أنت بخير، قائدي؟ أنت تبدو شاحبًا جدًا... ولماذا تستلقي على الأرض؟\n      ((باب الحانة مغلق.)) إنها حفلة خاصة. لا يمكن إنها أنف... انتظر، آسف، لديك أنف.\n      مرحبًا يا صديقي. كيف أستطيع أن أساعدك؟\n      الجنرال£هو مخضرم مخمور يُثير ضجة حول سعر الخمر. هل أتركه وشأنه؟\n      إخوة أحرار للأبد. فهمت هذا.\n      عنصر£أي عنصرٍ تود عرضه علي؟\n      اخرج£إذا لم يكن لك عمل هنا، وأقترح أن تذهب بعيدًا.\n      الاختصار: 475\n      ((ينظر الخنزير إليك باحترام.)) من أرسلك بالتحديد؟\n      أفهم... ((ضحك - ثم صمت وسكون شديد مفاجئ.)) لقد اصطحبتني إلى أحمق.\n      ((يتعرق وقلق)) أنا... أفهم. إنه هنا، في الأمان. أعطيك إياه مجانًا. لا تقتلني.\n      ((يمنحك الخنزير وهو يرتجف، جيتارًا رائع الجمال، الأسطورة <* جيتار الجمال*>.))\n      ((همس)). لست متأكدًا يا زعيم من وجود حفل ارتجالي في وسط وكر القراصنة.\n      أخي£، نعم، يا صديقي. أتمنى أن تكون تجارتك رابحة وفريستك لذيذة. أستطيع فعل أي شيءٍ تُريده.\n      عذرًا، لم يعُد لدينا أي شيء نناقشه. اذهب الآن، يا صديقي.\n      الاختصار: 516\n      ((باب الحانة مغلق.)) إنها حفلة خاصة. لا أنف، لا دخول.\n      ((ستُحاط بعشرات القراصنة المسلحين ببنادق هجومية بمجرد أن تطأ قدمك الحانة. لقد كسرت الباب على الأقل.))\n      أنت هادئ الأعصاب جدًا، إنهم يلاحقونني! آمل أن يكون لديك بعض السلاح الحقيقي لدعمنا.\n      ((يجمع الخنزير الملابس التي تلف أجسادكم كتذكارٍ. إنه يصنع ثروة بعد انتشار أخبار موتك المفاجئ.))\n      هل عدت من أجل المزيد؟ أعتقد أنك قد تعبت من دفع رسوم الاستنساخ!\n      لقد سئمت من هذا البعوض.\n      أحسنت صُنعًا. يجب أن نغادر. الآن.\n      ((يُحدق بعينيه.))\n      آسف. ماذا؟ ((يُزيل سدادات الأذن)).\n      ((تتقدمها أنين صرخات إثر طلقات الليزر)) إذ إن الأشخاص في هذا المكان أكثر عدائية.\n      ((يرد إطلاق النار على المهاجمين.)) لقد وُجهت إليّ تهمة الغش في البطاقات.\n      بكل تأكيد! وكيف لي أن أفوز؟\n      ((<barname> هي حانة مشروبات غير قانونية ومستترة في داخل المحطة بالقرب من أجهزة إعادة التدوير. الرائحة ليست جميلة.))\n      ((الحانة الوحيدة في <place> عبارة عن حانة سرية صغيرة.وهي أيضًا صالون تجميل طيب السمعة.))\n      ((<barname> هي حانة مميزة من أفضل الحانات، وهي تقع أعلى تلة. تتمايل الأطياف الرقيقة رقصًا بين الزبائن.))\n      ((إذا دخلت حانة <barname>، تجدها حانة محلية مليئة بالعمال المتعبين والكائنات المهتمة بالأعمال التجارية المشبوهة من الأصول كافة.))\n      ((يبدو أن جميع الحانات الموجودة في <place> تقع في أقبية يتصاعد منها الدخان الناتج من البيرة السيئة والقيء. دخلت إحداها عشوائيًا.)) \n      يُمكنني أن أريك بعض الممرات المثيرة الغامضة.\n      ماذا تحب أن تشرب؟\n      أي شيء لك اليوم، يا صديقي؟\n      ماذا تُريد؟ ألا ترى أنني مشغول بإهدار حياتي في الشرب؟\n      ((يأخذك جانبًا.)) أنا أعرفه. يُمكنه مساعدتنا في تشغيل أنظمة أسلحة ساندمان. أخبره بأننا سنتعامل مع الخنزير.\n      أنت مُجددًا؟ اغرب عن وجهي أيها المزعج.\n      اسمع، أنا لا أعرف ماذا تُريد هنا، لكنني لا أشتري أي شيء.\n      هل ترى هذه القلادة؟ لقد حصلت على مكافأة لإرسال عشرة آلاف جندي ليلقوا حتفهم.\n      جنرال <general> لشركة الملاك الثالث. أقصد حتى التقاعد.\n      لا يُمكنك مجابهة جنرال من الدرجة الأولى... حتى إذا كان متقاعدًا مخمورًا.\n      ((إنه يتراجع.)) لم أسمع بهذا الاسم منذ... منذ حدوث الكمين.\n      حصلت على نصيحة من أصدقاء سابقين في مجموعة التكتل. أنا أعرف مكان العثور على الخنزير - فما علينا سوى الذهاب إلى <planet> لإحضاره.\n      إذن أين هو؟ أين رأس الخنزير؟\n      هل تمكنت من إخراج الخنزير؟ عمل جيد. كانوا حقًا يبالغون في أسعار المشروبات.\n      مهلًا، ما الذي تبحث عنه، أيها الغريب؟\n      زيت نباتي، فهو المشروب المُرطب الوحيد الموجود بهذا المكان القذر.\n      لقد تعبت من تقسيم المناطق على هذا القمر. أنا لا أستحق هذا. أنا أمير\n      أنا أدعى <robot>، وريث لمستودع وحدة التحكم. أنا عالق هنا بسبب انقلاب صغير شنته الأحزاب التحريفية.\n      إنني أحبك أيها القائد. اسمح لي بالتواجد على سفينتك، وسوف أكافئك عندما أستعيد عرشي.\n      ((هناك ورقة مُعلقة بالحانة.)) مغلقة حتى إشعار آخر. هيئة الموانئ.\n      طاب يومك أيها القائد. هل تود أن أريك بضاعتي؟\n      مرحبًا بك في مناطقي المتواضعة. كيف يُمكنني خدمتك؟\n      تحياتي أيها الزبون! هل ترغب في شراء شيء ما؟\n      هل تريد بيع شيء؟ في المعتاد، لست الشخص الذي يشتري، ولكن إذا كانت لديك قطع مثيرة للاهتمام، فلمَ لا.\n      هل أبدو مثل سمسار عقارات؟ جرب الكوكب التالي.\n      اسمح لي أن ألقي نظرة على هيكل السفينة مع أنطون. لا يجب أن يستغرق هذا وقتًا طويلًا.\n      لقد أصلحت نظام تنشيط الأكسجين. \n      نحن جاهزون لمغادرة <place> في أي وقتٍ.\n      لم يسبق لي رؤية كرة غبار مخيفة ومملة مثل هذه. فلنخرج من هنا.\n      هل يُمكننا المغادرة الآن؟ إنه أكثر مكان ممل على الإطلاق.\n      ((<place> يُمثل تعميرًا قائمًا على الحب لعدة ولايات من تاريخ بداية الأرض.))\n      ((توجد مدينة واحدة فقط في <place>، حيث يناضل بضعة آلاف من الناس من أجل البقاء.)) \n      ((بُنيت مستعمرة <place> الصغيرة داخل أطلال حضارة مفقودة، مثل الطفيل الذي ينمو داخل المكان.))\n      ((<place> هو طريق تجاري صاخب. ويتميز الكوكب بأكمله بالمدن مترامية الأطراف، التي تتخللها مصابيح تومض باستمرار.))\n      ((<place> مكان بسيط خارج طرق التجارة الرئيسية. وهو ملاذ هادئ يزدهر في ظل الكواكب والإمبراطوريات الكبيرة المحيطة به.))\n      ((تمتلئ الشوارع بالسياح الذين يزورون أطلال <place> الشهيرة. ومن الجدير بالذكر، أن المكان يتميز بالأقواس الطويلة والسلالم والجسر القاري.))\n      ((يشتهر <place> في الغالب بسفارة المجلس الأعلى، وهي مبنى كبير يقع على جزيرة عائمة فوق المدينة الرئيسية.))\n      ((لا يُعرف الكثير عن <place> الغامض. يختبئ شعبه من الغرباء أمثالك.))\n      ((<place> ليست مدينة صغيرة مُريحة تمامًا. إنها قاسية وخطرة وتفوح منها رائحة جثث الموتى المتعفنة. تحرص على عدم النظر إلى أي شخصٍ في عينيه.))\n      تظهر ملامح البهجة على سكان <place>. يرحبون بك ويتحركون بأدبٍ عندما تدخل أنت وطاقمك العاصمة.))\n      (( تشتهر <place> بالبازار الموجود في نهاية المنطقة المدنية الرئيسية. إنه مكانٌ رائع ومليء بالعجائب.))\n      ((<place> هي ميناء حر محاط بقوى مجموعة التكتل. تزاول الأعمال التجارية الصاخبة على طول الساحل تحت قيادتهم.))\n      ((<place> تعيش في حالة حرب منذ أجيال، ليشهد العالم حالة من الذعر والاحتراق. لا يزال عدد قليل من المحاربين القدامى يهاجمون العاصمة.))\n      ((إذ إنه منذ هبوط أسعار حجر الصيدونيوم، أصبح عمال مناجم <place> مجموعة بائسة غاضبة.))\n      ((<place> هي قمر مخصخص بأكمله، ويُعد قصرًا للأثرياء. يُسمح لك بالبقاء بضعة أيام - ولكن ليس أكثر.))\n      ((<place> هو مكان قابع وراء أدخنة الغاز المحلي، وعبارة عن قمر صغير يسكنه القراصنة.))\n      ((كان على المستوطنات الأولى في <place> مكافحة أبواغ أكالة غامضة. ولا تزال الحقول المغناطيسية القوية تُستخدم لحماية المستعمرات حتى يومنا هذا.))\n      ((كان على المستعمرين الحفر بعمقٍ داخل <place> لتجنب الميثان السام الذي يُغطي سطحه.))\n      ((<place> هي محطة بشرية تقع على مركز إستراتيجي في ربع الدائرة المجرية المحلية. تمر بها معظم طرق التجارة المحلية.))\n      ((<place> هي محطة مثل العديد من المحطات في أنحاء المجرة: منفذ مجاني يخضع لبعض القواعد.))\n      ((في <place>، تعيش الكائنات الفضائية من المنطقة الهامشية بين البشر ويحملون سماتهم. بدءًا من النظافة الشخصية السيئة إلى البيروقراطية الفوضوية.))\n      ((كانت <place> قاعدة عسكرية لإحدى مجموعات التكتل. والآن هي محطة قرصنة مزدحمة.))\n      <reporter>، مراسل صحيفة المجرة اليومية. هل صحيح أنك ملأت غرفتك بالفندق الموجود في <place> بالصوص الحار؟\n      <reporter>، مراسل صحيفة المجرة اليومية. هل حطمت مركبة فضائية في حمام سباحة بعد آخر حفلةٍ لك؟\n      أطلقت الفرقة المنافسة كريمسون درون على فرقتك \"فرقة غريبي الأطوار الصغار.\"\n      ديانا لان، مراسلة صحيفة أخبار النجوم. كم عدد الجيتارات التي أضرمتم بها النار؟\n      لدينا تقارير تُفيد بأن العديد من معجبي موسيقاك يرتكبون جرائم أثناء ارتداء أقنعة تحمل صورة وجهك.\n      اتهمك بعض المعجبين بأنك تبيع تذاكر لعروضك.\n      يوجد نقش على صخرة هنا... يقول، \"هذا هو الطريق إلى القبر الأسطوري لرولش سكار\".\n      تغير مجددًا \"هيا يا رفاق، لقد نهبوا قبري بالفعل.\"\n      أعتقد أننا اجتزنا اختبارًا من نوعٍ ما! هل يجب أن نأخذ الحجر الكريم؟\n      هل رأيت محتالًا هنا؟ ثرثار؟ يرتدي زيًّا جميلًا؟ وأسنانه كبيرة؟\n      يؤكد هذا المحتال أنه يُمكن أن يجعلني مشهورًا. إنه كاذب ومحتال. أخبرني بمكانه.\n      لماذا تخونني، أنا مديرك المُخلص؟ هل عليّ حقًا أن آكلكم جميعًا؟ وأنا أتبع نظامي الغذائي!\n      لقد أنقذت حياتي! بعد ذلك، قد أفكر في تقليل نسبتي.\n      سأستفيد من زيارتنا هنا لسد نقص المستلزمات الطبية.\n      ماذا ستضم هذه؟ حليب جومازيان أو غارغل بلاستر؟\n      يصبح القلب غير مستقر قليلًا. أخشى أن أشعة جاما قد تؤثر في...\n      يا إلهي! نظام إعادة التدوير معطل. البيئة بأكملها معرضة للخطر. سيكون من الصعب إصلاحه.\n      درع الحماية مُعطل! أكرر، درع الحماية مُعطل! إذا لم يُعِد شخص ما ذلك بسرعة، فسنُقلى مثل الروبيان في مقلاة الإشعاع.\n      هل فرغت شحن المولّد يا قائد؟ هل أنت مجنون؟\n      لا توجد لدينا طاقة! ستتوقف النظم كلها بسرعة. أنا... 5Gl 46 hhh%%%dXX%\n      ((السفينة تبتعد، وانعطفت إلى مقبرة. يمكنك البقاء حيًا بضعة أيام بما تبقى من الأكسجين والماء. البرد لا يُحتمل.))\n      يوجد المزيد من الضغط المرتفع في نظام إعادة التدوير. هناك ثقب ونصف السفينة مغمور بالماء. أكره السباحة...\n      تقل قدرة مولد درع الحماية. الهيكل الداخلي في خطر. يجب أن أسبح إلى هناك.\n      يغمر الماء كابينة الطاقم. لقد فقدت كل معداتي.\n      فقدنا الطاقة في القطاعات أ، وب، ود، ودرع الحماية مُعرض للخطر. يُمكنني إعادة توجيه الطاقة ولكن دعم الإنعاش سيكون محدودًا.\n      لا يوجد... أكسجين... في الهواء... ((يغمى عليها.))\n      ((تعذر على نظام تنشيط الأكسجين تجديد الهواء بسرعةٍ كافيةٍ. أنت تختنق.))\n      مفاجأة! أقمنا حفلة صغيرة لك يا قائد. كما يُمكننا تجربة الأزياء الجديدة للحفلة القادمة...\n      ((يتعثر ويتلعثم.)) يعلم الجميع أن اسم عشاق الدب كان... هو أفضل اسم صنعه أي شخص على الإطلاق.\n      ماذا تقصد أيها السكير؟ لست سكرانًا! وما هذا... إنه... إنه بيانو. سأعزف مقطوعة لموتسارت.\n      ضغط جارجوموث! ((يبدو أن أنطون يستنشق الأكسجين النقي من نظام إعادة التدوير.))\n      هذا؟ لا شيء. خفضنا إضاءة المولّد حتى تكون الأضواء في الغلاف الجوي أكثر.\n      يؤسفني أن أبلغكم أن الطاقم قد قرر بالإجماع إعفاءك من القيادة.\n      ((تُرسل عبر غرفة معادلة الضغط بعد محاكمة سريعة نسبيًا. عندما ترحل لمكانٍ آخر، تفكر في جمال الكون اللامتناهي.))\n      دروع سفينتي ممتازة. انظروا مدى براقة مجالي المغناطيسي. إنني ألمع حرفيًا! لكن كل ما يفعله الطاقم هو النوم والأكل و...\n      همم... يبدو أن مجالي المغناطيسي قد تفاعل للتو مع قلب المفاعل. تبًا.\n      اقتنع نظام إعادة التدوير أن قدرته على دعم الحياة البشرية تدهورت. يُرجى حبس أنفاسك أثناء التعامل معه.\n      أيقظت الطاقم كله لأبدي إعجابه بسفينتهم. افتخروا بسفينتكم أيها البشر!\n      هيكل السفينة عرضة للخطر. يُمكنك محاولة الوصول إلى مكوك الطوارئ، ولكن...\n      ((تنشق ساندمان إلى نصفين، مع إطلاق قلب المفاعل النووي، ليلتهم كل ما حوله في انفجارٍ مهول.))\n      قبل مقابلة سالا وأنطون، عملت على سفن المنطقة الهامشية في جميع أنحاء ربع الدائرة المجرية. هل تثير هذه المعلومة اهتمامك؟\n      حسنًا. تعال وتحدث إليّ بعد أن نُغادر الكوكب التالي.\n      تسرني رؤيتك أيها القائد. نحتاج إلى القليل من العصير للبدء. أعتقد أنك لا تمانع في زيادة إنتاجية المفاعل؟\n      سُجلت الإحداثيات، لقد أبقينا على مستوى جاذبية جيدٍ. هل ترغب في فحص السفينة قبل زيادة سرعتها؟\n      لقد أبقينا على مستوى جاذبية جيدٍ لـ <last>. السفينة جاهزة حتى تتفقدها. قد تودٌّ ذلك. أعني، ليس عليك ذلك.\n      ((يُرسل إليك الطاقم التقارير.))\n      الملاحة£لا أستطيع أن أخبركم شيئا عن قائد هذا الربع. نحن لا نعرف أي شيءٍ.\n      الملاحة£ ((بعض المعلومات المفيدة حول الربع الذي دخلته.))\n      عذرًا، ليس لدي الكثير لأخبرك به عن منطقة الفضاء هذه.\n      القراصنة£تمتلئ هذه المنطقة بالقراصنة والموانئ الحرة وأوكار المهربين. فلنكن حذرين.\n      القراصنة£يوجد عدد قليل من القراصنة في هذه المنطقة. من المفترض أن نكون بأمانٍ.\n      المنطقة الهامشية£يوجد الكثير من المخلوقات الفضائية في الجوار. تقع مراكز المنطقة الهامشية الخارجية في المستوطنات المجاورة كلها.\n      المنطقة الهامشية£ مُعظم هذه المنطقة الفضائية من البشر. لا يوجد الكثير من المخلوقات الفضائية بالجوار.\n      التكتل£نعمل في فضاء مجموعة التكتل. إنها البيروقراطية الأكثر تعقيدًا التي قد تتصورها على الإطلاق. انتبه لموظفي الضرائب.\n      مجموعة التكتل£نحن بعيدون عن أي من كواكب مجموعة التكتل.\n      الخصائص السكانية£لقد دخلنا إلى ربع غني، غير مكتظٍ بالسكان. العقارات الكوكبية الكبيرة، والرحلات الترفيهية، ...فهي ملاذ لقلة من السعداء.\n      الخصائص السكانية£لقد دخلنا في ربع فقير جدًا. فهو يقع خارج طرق التجارة الرئيسية. تُصارع قلة من الناس من أجل البقاء.))\n      الخصائص السكانية£دخلنا في ربع مزدحم وفقير. معظم الكواكب ملوّثة. ينحشر المواطنون في عمارات بيئية مأهولة بالسكان.\n      الخصائص السكانية£لقد دخلنا في ربع مزدهرٍ. تُمارس الكثير من الأعمال التجارية هنا.\n      خروج£هل انتهينا هنا؟ هل يُمكننا فقط المغادرة الآن؟\n      ليس لدي الكثير لأخبرك به، أتمنى أن يكون هذا مفيدًا.\n      المنطقة الهامشية؟£المنطقة الهامشية هي ما تُعرف بمجلس المجرة. وهي مجموعة فرعية صغيرة من المخلوقات الفضائية المتنوعة بصورة كبيرة والتي قد تصادفها في المجرة.\n      المجلس؟£مجلس المجرة هو الهيئة الإدارية المركزية للمجرة. يترأس فيالقة هذا المجلس المحكمة في مارا، وهي إحدى عجائب قوريون.\n      مارا؟£مارا عبارة عن كرة عملاقة من معدن غير معروفٍ، تقع في وسط النجم كابر.\n      قوريون؟£ هي إحدى سلالات المخلوقات الفضائية التي اختفت قبل مليارات السنين تاركةً تحفًا فنية رائعة. مثل مارا، والسرب الشارد.\n      السرب الشارد؟£السرب الشارد لقوريون هو مجموعة مكوّنة من 21 كوكبًا تسافر عبر المجرة، دون اتجاه واضح في الظاهر. لا أحد يعرف لماذا أو كيف.\n      بالريون؟£ بالريون هو موطن سالا الأصلي. إنه كوكب المنطقة الهامشية لا يبعد كثيرًا عن هنا. أنا لا أعرف الكثير عنه.\n      ستار دومنيون؟£ستار دومينون هي ديانة قديمة في بالريون، بلدي الأم. غريب جدًا أن يثرثر طاقم ساندمان بشأن هذا الهراء.\n      ستار دومينيون هي مصدر الحياة في الكون. إنها رمز التوازن والعدالة... الإعدام.\n      الاختصار: 1382\n      السفينة£((عليك مراعاة خريطة السفينة.))\n      القطاع أ£((هذا هو جسر مدخل القطاع أ، وأنظمة الكمبيوتر والأنظمة الهندسية.))\n      القطاع ب£((هذا هو مدخل مطبخ القطاع ب، والمستشفيات ومقصورات الركاب والفرقة.))\n      القطاع ج£((هذا هو مدخل ورشة الميكانيكا بالقطاع ج، وغرفة المفاعل ومخزن البضائع.))\n      الاختصار: 1382\n      أنا متأكد من أنه من الرائع الذهاب في رحلة قصيرة مثل هذه. ألا يجب أن نُفكر في الرحيل؟\n      هل انتهيت من التدخل في كل من أمور حياتي؟\n      أنصت... فهمت... أنت تُريد الاستقلال بأمرك. أستطيع في الغالب قيادة السفينة بنفسي على أي حالٍ.\n      ((يؤدي هذا الباب إلى القطاع ب.))\n      ((يؤدي هذا الباب إلى القطاع أ.))\n      ((يؤدي هذا الباب إلى القطاع ج.))\n      ((يؤدي هذا الباب إلى القطاع ب.))\n      ((يؤدي هذا الباب إلى القطاع أ.))\n      ((لا يزال هذا الباب مغلقًا. تفكر لوهلةٍ في أحداث مارا وتقرر تجربة شيء ما.))\n      ((أنت لا تتذكر أنك رأيت هذا الباب من قبل. لا يفتح مثل الآخرين.))\n      ((آلمتك قدميك لكن الباب مازال مغلقًا. تجربة ذات مغزى.))\n      الاختصار: 1339\n      لا أصدق هذا، هل حاولت إشعال الديناميت حقًا داخل السفينة؟ هل لديك أي فكرة عن مدى خطورة ذلك؟\n      أقترح أن نغادر بمجرد أن تتوقف عن رمي الأشياء بممرات السفينة.\n      ((ممر به رائحة خفيفة للأرض والفطريات.))\n      ((مذكور على الملصق الموجود على الباب \"قسم الهندسة ونظام إعادة التدوير\". هذه مملكة دوز.))\n      قسم الهندسة£أحتاج إلى تحويل بعض الموارد إلى نظام إعادة التدوير.\n      قسم الهندسة£الأمور جيدة، يعمل نظام إعادة التدوير بصورةٍ جيدةٍ.\n      ((سيأخذك الممر الموجود على اليسار إلى الجسر.))\n      ((مقعد القائد في انتظارك.))\n      ((هذه هي مقصورات الركاب. تُنظم الكبائن في منطقة مشتركة.))\n      ((يُعد القطاع ب أكثر نشاطًا من القطاع أ، إذ يُمكنك سماع الموسيقى والضحك. تبدو رائحة هذا المكان مثل رائحة جاموريان.))\n      ((تسمع صوتًا خافتًا يدور في رأسك. عبارة عن كلمات لطيفة تبدو مألوفة، لكنها لا تُفيد معنى محددًا.))\n      ((ترك شخص ما بعض الكبلات متدلية. هل عليك محاولة ترتيبها؟))\n      ((تُفكر بكل خجلٍ أنك قد تضل الطريق ثانيةً.))\n      ((هذه هي مقصورات الطاقم. وهي أيضًا المكان الذي تتدرب فيه على الحفلات الموسيقية. محفور على الباب \"لا يسمح بالزي الرسمي\".))\n      ((يؤدي هذا الباب إلى الأجزاء الأخرى من السفينة.))\n      ((هذا هو المصعد إلى مخزن البضائع، وهو مساحة كبيرة حيث تُجمع الأشياء كلها دون ترتيب معين.))\n      ((تسير بصعوبة في فوضى الأشياء المتناثرة بمخزن البضائع. يُمكنك أن تكتشف منطقة من السفينة لم ترها من قبل تقع خلف بعض الصناديق المقلوبة، في زاوية مظلمة من السفينة.))\n      لا، لا تذهب بهذا الاتجاه... ارحل... ((يهمس صوت في رأسك.))\n      ((تغلب على قطاع ج رائحة زيوت التشحيم والعرق والمعدن المحترق. يؤدي صوت المفاعل المنخفض إلى اهتزاز الأرضية.))\n      ((تسمع صوت صرخة تأتي من بعيد. لا بد أن الميكانيكي قد أخطأ.))\n      ((ألم تسبق لك رؤية هذا الممر بالفعل؟ سفينة ساندمان هي سفينة كبيرة، وقد يكون تصميمها مربكًا.))\n      ((هذا هو باب ورشة الميكانيكا.))\n      ورشة الميكانيكا£نحتاج إلى إصلاح بعض الخروقات الموجودة في هيكل السفينة كله. لذا، أنا بحاجة إلى مصدر طاقة.\n      ورشة الميكانيكيا£هل تودٌّ زيارتها فقط يا قائد؟ كلنا جاهزون هنا.\n      ((ورشة الميكانيكا فارغة.))\n      ((هذا هو المصعد الذي يُعيدك إلى القطاع ج.))\n      ((لا شيء يحدث هنا. إنه ممر مترب.))\n      أختبئ خلف الباب الموجود على اليسار... ((صوت يهمس في رأسك.))\n      لقد وجدتني إذن. لا بأس، أنا لك... ((الصوت في رأسك متناغم ولطيف.))\n      المستشفى£أعتقد أن معنويات الطاقم ليست جيدة يا قائد. دعني أتحدث إليهم.\n      المستشفى£تسرني رؤيتك، قائدي. هل تحتاج لصقة أو شيئًا من هذا القبيل؟\n      الفرقة£((تتجمع <band> حولك.))\n      الجيتارات الخاصة بك£هل تريد أن ترى الجيتارات الخاصة بك؟\n      الجيتارات الأخرى£أعتقد أننا قد نعرف أين يُمكنك العثور على الجيتارات الجديدة المتميزة.\n      لقد سمعت أن ملك القراصنة يمتلك جيتارًا رائع الجمال يسمى <*جيتار الجمال*>.\n      ((تسمع ضجيجًا صامتًا في رأسك، كأنه ضحك بعيد.))\n      خلال رحلات سفري حول المناطق الهامشية سمعت عن <*جيتار النجومية*>، الجيتار الأسطوري الذي صنعته سلالة مجهولة من مسافري الفضاء.\n      صمم بعض القراصنة المجانين جيتارًا قاتلًا يُسمى <*جيتار رشاش*>. لقد سمعت أنه يعمل كطوربيد كلاسيكي في الوقت الحاضر.\n      يمكنني حتى صُنع جيتار، إذا أُتيحت لي المواد الصحيحة.\n      فقدت المجرة رمز القوة الخاص بستار دومينيون... أو هكذا تروي القصص.\n      ويُقال إن هذا أثر بعيد لإحدى الأساطير المنسية. شيء صنعته سلالة قوريون يُمكن أن ينسق الواقع.\n      أعتذر قائدي، في الواقع، ليس لدي أي شيء جديد لأخبرك به.\n      تغيير الاسم£هل تودٌّ تغيير اسم الفرقة؟\n      الشهرة£((نحن مشهورون! لدينا متابعون <nb_fame> على ستارجرام.))\n      الشهرة£((بدأ الناس يعرفونا! لدينا متابعون <nb_fame> على ستارجرام.))\n      الشهرة£((لدينا طائفة صغيرة تسير على نهج بعض الكواكب القريبة. لدينا متابعون <nb_fame> على ستارجرام.))\n      الشهرة£((نحن غير معروفين تمامًا. إنه أمر محبط جدًا. لدينا فقط متابعون <nb_fame> على ستارجرام.))\n      الاختصار: 1382\n      الركاب£لا يوجد ركاب على متن ساندمان.\n      ركبت الكثير من السفن متطفلاً في السابق. كل ما يحتاجه الأمر في العادة هو التسكع في الحانات والتحدث مع الشخص المناسب.\n      الركاب£تقرر أن تزور ركابك.\n      مرحبًا أيها القائد، كيف أستطيع مساعدتك؟\n      هل نعزف لكبار الشخصيات بمركز المجرة، أم عليَّ أن أقضم ذراعًا؟ مجرد مزاح.\n      هل يوجد أي شيء عاجل يا قائد؟ يجب أن أقوم بكي ربطات عنقي.\n      حسنًا، حسنًا، يمكنني ترتيب شيء بسيط على <planet>.\n      للأسف، لا يوجد شيء لك الآن. عد في وقت آخر.\n      تحياتي يا قائد. أرجو ألا تكون منزعجًا من الرائحة. أنا أصنع الكاري المميز بطريقة جدتي الكبرى.\n      ما هذا يا قائدي العزيز؟ للأسف، لا أستطيع أن أقدم لك شايًا رائعًا. يبدو أن سفينتكم لا تحتوي إلا على أبشع المشروبات.\n      أمواج من الدوسنتاريا ستملأ المجرة وستتبعها حقبة جديدة من الأجواء العطرة.\n      ((<bear> لا يستجيب. إنه يتأرجح للأمام وللخلف.))\n      هل يوجد أي شيء عاجل أيها الصغير؟ أنا منشغل في أمر ما هنا.\n      هل من الممكن أن أستثمر في مشروعك الصغير؟ فرقة روك بطريقة القرصنة تبدو نموذج أعمال مستقرًا جدًا.\n      هل رأيت أقراصي؟ لقد بدأت أقلق بشدة.\n      أيها القائد - انظر - بطة - مشوية\n      أرجو أن يخفف ستار دومينيون الضغط عن عقلك يا ولدي. سأدعو لك الآن.\n      نعم، صديقي العزيز؟ ماذا تريد؟\n      إنها حكاية طويلة حتى وفقًا لمعايير لوكاس. هل أنت متأكد أنك ترغب في سماعها؟\n      أنا متخصص في سرب قوريون الشارد. هل سمعت عنه؟\n      إحداثيات السرب تتبع معادلة معقدة، ولهذه المعادلة مفتاح. مفتاح فريد...\n      كابينتي رائعة جدًا! وانظر إلى هذا، فهذه إحدى شعرات دوز!\n      يا إلهي، سيكون هذا رائعًا. ولكنني لن أستطيع أن أعطيك سوى 2000 دولار مقابل هذا.\n      لدي بعض منها بالفعل، شكرًا لك!\n      الاختصار: 1382\n      هل أنت راضٍ عن مراجعتك؟ هل يمكننا الذهاب الآن؟\n      يا قائد هل يمكنني التحدث إليك في كابينتك؟\n      لم أكن أرغب أن تسمعنا ساندمان. يوجد شيء يضايقني...\n      لم أستطع العثور على أي أثر لسفينة ساندمان في سجل المجرة. لا يوجد جهاز إرسال واستقبال ولا يوجد صندوق أسود، وتصميم القلب... غريب.\n      يا قائد بما أننا على وشك دخول طريق الفضاء سويًا، أجريت أنا وبقية أفراد الطاقم نقاشًا جيدًا، ونرغب في معرفة بعض الأمور.\n      لديَّ سؤالان لك: من أنت؟ وكيف انتهى بك المطاف على متن هذه السفينة؟\n      سعيد بأننا ألتقينا. أنت تعزف جيدًا على الجيتار، هذا واضح. وتعرف السفن جيدًا... ولكن من أنت؟\n      القصة الكاملة عن استيقاظك على متن هذه السفينة، الناجي الوحيد؟ هذه قصة مروعة.\n      لنفترض أننا نصدقك. لكن لم نحصل بعد على إجابة بخصوص سفينة ساندمان نفسها. انظر إليها!\n      لديها أفضل تقنية تخفي في السوق، وأنظمة احتمالية، وسلامة بتقنية النانو، ومحرك دفع... هل استيقظت هنا للتو؟\n      ساندمان سفينة حربية استطلاعية تكتيكية من القطاع. تسبق أي شيء أعرفه بعشر سنوات.\n      ملاحظة جيدة. أنا بالتأكيد سفينة حربية متمردة من الفئة د من أسطول القطاع المجهول. وأيضًا أكون أكثر سفينة موثوق بها يمكنك الطيران عليها. \n      اضطررت للهروب من بضع عشرات من طوربيدات البروتون في وقت أقل من طرفة عينك. ولكن الأمر انتهى الآن. فقد القطاع الاتصال بنا.\n      القطاع هو منظمة سرية تطورت مثل دودة داخل جثة عفنة نطلق عليها التكتل البشري.\n      يا قائد، لدينا سؤال مهم يجب أن نجيب عليه اليوم.\n      الأمر يتعلق... بك... بنا... بالفرقة. إنها بداية جديدة. لذا نحتاج إلى اسم جديد.\n      من الأفضل ألا تعرف...\n      في لحظة ضعف، تركنا أنتون يختار اسمًا. خطأ فظيع، وندم لا ينتهي.\n      نحن <*عشاق الدب*>.\n      انسَ الأمر. ماذا عن <*المتزلجين الفضيين*>؟\n      ينبغي أن نسمي أنفسنا <*المرعبين الأربعة*>.\n      أعرف، أعرف! متّع أذنيك بـ <*المجموعة الممتعة*>؟ \n      يمكن أن نكون <*المسيطرين المحطمين*>.\n      أقترح <*فينديكتي*>.\n      ماذا عن <*أربعة قرود في فقاعة*>؟\n      لديَّ فكرة. ماذا عن <*العواصف الرملية*>؟\n      كان يعجبني دومًا اسم <*فرقة جالاتون*>.\n      هل فكرت في <*الأذكياء*>؟\n      يعجبني <*فحوصات النظام*>.\n      لم تعد لدينا أفكار. فلنجرب في وقت آخر.\n      لدينا مكالمة من <destination>، يرغبون في حجز حفلة! وسيدفعون مقدمًا!\n      لن أتمكن أبدًا من الاستعداد للحفلة القادمة، في ظل هذه الأعطال الكثيرة. من فضلك أعفني من مهمة الصيانة لبعض الوقت.\n      تصدر ساندمان أخطاءً باستمرار في كل مرة أحاول التدرب على الأغاني. هل يمكنني تجاهل هذه الأخطاء؟\n      لقد وضعت طبولي في مخزن البضائع حتى لا أضايق أي شخص آخر. هل هذا جيد؟ أحتاج إلى التمرين.\n      لدي فكرة رائعة لأغنية جديدة. هل ينبغي أن نتمرن عليها؟\n      لقد جهزت الغرفة المثالية لك لتتمرن فيها. إنها مريحة وكبيرة ورائعة وبعيدة عن مستشعراتي الصوتية.\n      ((الجيتارات المخزنة بعناية داخل نظام المحاكاة، بانتظار العزف عليها.))\n      ((نظام المحاكاة جاهز. الجيتار بانتظارك.))\n      يبدو أن نظام المحاكاة راضِ عن أدائك. شكرًا لك على تسلية أنظمتي.\n      ماذا فعلت لهذا المحاكي المسكين؟ إنه يئن في أذني. يقول أنك هاجمته بسلسلة غير نهائية من النغمات الرديئة.\n      يظهر النظام زيادة حادة في الطاقة في القطاع ج. يمكنني على الأرجح إصلاح هذا بإعادة توجيه بعض الطاقة إلى الدروع.\n      أيها القائد، لدينا خلل بالرادار، ولكن القراءة... متوقفة. أعتقد أن هناك شيئًا يتبعنا. تقنية التخفي؟\n      يا إلهي. الآن يستنزف هذا \"الشيء\" طاقتنا. إذا قمنا بالدفع بقوة الآن، فبإمكاني ارتداء بذلتي وإلقاء نظرة.\n      توجد علقة المجرة على الميمنة! علقة قبيحة كبيرة. لدينا خياران.\n      إما أن نطردها بإطلاق جو مضغوط من مخزن البضائع، أو أن نطلق عليها صاروخًا نوويًا.\n      تم الأمر، فجرنا الشيء كله بطوربيد. الحطام أصاب السفينة ببعض الضرر.\n      من صاحب الفكرة العبقرية لإرسال صاروخ نووي تجاه السفينة؟\n      أعلم أنك مشغول، ولكنَّ هناك شيئًا يزعج سالا. ينبغي أن تتحدث معه...\n      أيها القائد، هل تسمح بدقيقة؟ على انفراد...\n      أنتون مكتئب. أقصد... إنه مكتئب أكثر من المعتاد. هناك شيء غريب. يقضي وقتًا طويلاً في مخزن البضائع.\n      أنا قلق بشأن دوز. إنها تتصرف بشكل غريب. \n      أتساءل إن كنت ترغب في شراء بعض... الأغراض... الغريبة.\n      هل أنت تريد ذلك؟ جيد.. جيد. خلال سنوات عملي على سفينة الغضب، بقيادة القائد أسكوت، كنا نستخدم شبكة من تجار السوق السوداء. \n      في المرة القادمة عندما نهبط على كوكب قراصنة، حاول شراء عملة نحاسية من التاجر المحلي. وسأخبرك بما تفعل بعد ذلك.\n      يا إلهي، لديك إحدى هذه العملات النحاسية. تعال معي.\n      إذا أظهرت هذه العملة لأي تأجر وذكرت نوعًا من الخضروات، فسيمكنك من الوصول إلى عناصر خاصة.\n      نعم، أعلم. فلنحاول... هل أنا متوهم أو أن نظام التدفئة قد تعطل؟ أشعر ببرودة شديدة!\n      ليس ما قصدته بالضبط. متأكد أنك ستفهم في النهاية.\n      رائع أيها القائد. أنت عبقري.\n      من أخذ قهوتي؟ حبوب منتقاة من المجال الزراعي في كوكبة المرأة المسلسلة، لقد كلّفتني أموالاً طائلة!\n      مزاجي سيئ. أحد ما حرّك مذكراتي مرة أخرى.\n      وماذا تريد؟ هل لديك مشكلة مع هذا؟\n      توقف عن حفر قبرك يا قائد.\n      نظام إعادة التدوير معطل. هذا خطأي، لم أتحقق من مانع التسرب.\n      هذا أمر خطير! لا يمكننا الطيران بهذه السفينة دون إجراء فحوصات صيانة سليمة. ما خطبك يا أنتون؟\n      سالا محق أيها القائد. أنتون هو الميكانيكي الأكثر خبرةً الذي قابلته في حياتي. لم يكن من المفترض أن يقع في هذا الخطأ.\n      لقد أجريت كل الفحوصات. لم يكن من المفترض لهذا أن يحدث...\n      لا أيها القائد. يجب أن نصل إلى حقيقة هذا الأمر.\n      توقف! لا حاجة لإلقاء أنتون في غرفة معادلة الضغط. إذا كان هناك شخص مذنب، فهو أنا.\n      اسمي بيانكا دي سوزا. طبيبة، مسافرة متهربة، متمردة. ساعدني أنتون على الاختباء في مخزن البضائع.\n      الطبيبة دي سوزا؟ الملكة المتمردة للتحالف السري؟\n      ساعدني أنتون في الهروب من قطاع ميليشيا في سيدوما. كان بحاجة إلى أدوية، وكنت بحاجة إلى طريق للهروب.\n      بصراحة، كل شيء حدث على عجالة. كنا نبحث عن طريقة لإخبارك.\n      يا ترى ما الأدوية التي أحتاجها أنتون من الطبيبة دي سوزا. لم يخبرنا بأي شيء.\n      أين أنتون؟ حان دوره لصنع العشاء للطاقم.\n      تظهر قراءات غريبة من نظام إعادة التدوير. تخبرني بأننا نستخدم أكسجين لخمسة أشخاص... ولكننا أربعة فقط.\n      لاحظت اختلالًا في توازن المفاعل. يمكنني إصلاحه، ولكني يجب عليَّ إيقاف نظام التدوير البيئي عن الاتصال لبعض الوقت.\n      انفجار من الشمس المحلية يرسل عاصفة من الجسيمات في طريقنا. أحتاج إلى تقوية المجال المغناطيسي. \n      يستهلك نظام إعادة التدوير كمية كبيرة جدًا من الطاقة. يمكننا إصلاحه بأجزاء من الدروع، أو أن نتركه وشأنه.\n      اصطدمنا بشظية... معدنية؟ يبدو أنها بقايا سفينة ضخمة تحوم حولنا.\n      نجحنا في الحصول على صندوق تحكم السفينة المفقودة. يبدو أنها تعرضت للهجوم من مجموعة من قطاع الطرق.\n      مستعمرون من القطاع، يتشكلون في العادة في مجموعات من المنحطين الذين ينهبون السفن المارة. فلنكن حذرين.\n      من فضلك أيمكنني الحصول على حلوى الكولا؟ إنها تصيب <dose> بالغثيان و<sala> آكل لحوم.\n      هذه الرحلة هي الأكثر مللاً على الإطلاق. الفضاء خالٍ ولا شيء يحدث. \n      لدينا بعض البرنقيلات العالقة بجسم السفينة. هل ينبغي أن أزيلها؟\n      نعم، محار. يفترض أن يكون عضويًا، ربما ذكيًا. يمكنني استخدام موقد اللحام لنزعه.\n      لقد تأخر الوقت على أي حال. يبدو أن المحار المرح يخرق الآن ثقبًا في جسم السفينة.\n      تحياتي. اسمي سترومبو، عالم في سرب قوريون الشارد من لوكاس. أيضًا، أنا هارب. أحتاج إلى مساعدتك.\n      إنها حكاية طويلة... ولكن انظر، لقد أصلحت الثقب الموجود في جسم السفينة! لا يجب أبدًا أن تطلقني من غرفة الضغط!\n      أنا مطارد من قراصنة بندالوريان. امنحني لجوءًا على سفينتك، وسأستمر في إصلاحها بكل سعادة.\n      ((يقاطع...)) ما هذه الرائحة؟ هل لدينا مأكولات بحرية على الغداء؟\n      مضحك جدًا.\n      توليدو... توليدو... توليدو...\n      لديك مكالمة! استخدم هذه المنصة هناك.\n      توصيل أسترازون. لديَّ طرد لك. هل أتركه خارج غرفة الضغط؟\n      كان طردًا من أسترازون. أرسله لنا أحد الأشخاص... ما هذا الشيء؟\n      <*جيتار لامع*> ((جيتار بشكل غريب. يلمع مثل جوهرة ثمينة.))\n      الجيتار الجديد الذي تم توصيله... ألا تظن أنه غريب؟ \n      توليدو... توليدو... توليدو... مكالمة أخرى من أجلك.\n      من المؤكد أنك مرتبك. أنا لست مساعدك الشخصي.\n      مهلاً - من أنت؟\n      لا! لا وجود لك. أنت مجرد طفيلي مجهري يتحدث. الآن أعطني القائد!\n      هذا المجهري من المؤكد أنه القائد في النهاية. صحيح... لا بأس... تبًا، ربما تكون سني أكبر من هذه الوظيفة. \n      أمامك 12 يومًا لسداد أموالي. ليس جزءًا منها، ليس كلها تقريبًا... كلها 2000000 دولار.\n      اجعلهم 6 ملايين، لأنك تضايقني الآن. هل قبلت الطرد؟ أنت مدين لي بالمال.\n      لديك مكالمة أخرى أيها القائد، أين تحب أن تأخذها؟\n      لست متأكدًا بصراحة. على الأرجح إنسان معدل. يعرف نفسه بأنه حبيبك.\n      صباح الخير يا حبيبي! أعطني أموالي الآن.\n      استمر في التلوي. سأتعقبك إلى النهائية وما بعدها. سأنهي وجودك.\n      إياك وإيقاف هذه الشاشة! سأطاردك، أيها...\n      عذرًا، لقد قطعت اتصالك. لقد نجح في تشغيل جدار الحماية لديَّ ضد البذاءة. ومستوى جدار الحماية منخفض بالفعل...\n      توليدو... توليدو... معي مكالمة لك.\n      تحياتي! سعيد بأن أعرفك بأروع...\n      ...عرض لتأمين السفن الفضائية في هذا الجانب من التجمع الغربي، كل ما عليك...\n      ...عليك فعله هو التوقيع على هذا العقد الروتيني...\n      ...وأصل جميع عقود التأمين سيغطيك كبطانية دافئة، مخصصة لحمايتك! هذا تعبير بشري! هذا طبيعي!\n      يا قائد، توجد مشكلة في المفاعل، هل يمكن أن تأتي إلى هنا؟\n      هل ترى هذا؟ هذا تسريب في المجال المغناطيسي للسفينة. يجب أن نعيد تشغيل المفاعل حالاً. \n      اقبل هذه الغرسة الآن، وإلا سأنزع أطرافك طرفًا تلو الآخر بأسناني.\n      أفتقدك بشدة. كل ما أفعل هو التفكير فيك، والهمس باسمك في أحلام متقطعة. حبيبي... عُد من فضلك.\n      لا تذكرني؟ أنا حبيبتك طائر التمير العزيزة عليك.\n      أريد أن تكون قريبًا مني... سأستخدم غرسة دائرتك العصبية، لنتمكن من أن نكون دومًا مجتمعين.\n      هل تنفصل عني؟ عبر الهاتف؟ راقٍ جدًا.\n      لا تقطع الاتصال! فقط... ابق معي لفترة أطول قليلاً. رجاءً، اقبل الغرسة.\n      حبيبي، أنا سعيدة جدًا بأننا نفعل هذا. سأكون معك في كل لحظة للأبد، كما كنا نحلم دائمًا.\n      مع من تتحدث يا زعيم؟\n      هل تفتقدني؟\n      أحبك، يا عزيزي. قبلاتي لك.\n      هل تحبني؟\n      هل تفتقدني؟ هل تحبني؟ حسنًا، هل أنت كذلك؟\n      هل تتجاهلني الآن؟ لا، لا تجب على هذا.\n      حبيبي، يبدو أنه لا يمكنني الوصول إلى دائرتك الدماغية. من المؤكد أنه معطل. أصلحه من فضلك لأتمكن من فحص دماغك لأعرف أفكارك تجاهي!\n      لماذا لا تجيب على رسائلي؟ لماذا لم تعد ترغب في؟ لماذا!؟ أخبرني!\n      لن تعرف الزمان ولن تعرف المكان، ولكنني سأجدك يا حبيبي. سأحمل قلبك بيدي.\n      معك السيد قرش، مدير <band> الشهيرة! أحيي لنا حفلة وإلا سآكل رأسك.\n      أعمل على طبقة صوت جديدة لأقدم لك حفلات رائعة في عوالم عبر المجرة. كيف كان أدائي؟\n      بالضبط! هل أنت مستعد لربح أموال طائلة! أريد أن أسمعها منك!\n      هناك نوعان من الحفلات: الحفلات التي تربح منها المال، والأخرى التي تجعل منك أسطورة.\n      لتقديم الحفلات التي تجعلك أسطورة، يجب أن تجمع بعض العناصر أولاً. جيتارات مميزة. رموز القوة.\n      نقترب بشدة من نجم نيوتروني يبدو... غير مستقر؟ أنا واثق جدًا من أنه سيصطدم في ثقب أسود. \n      النجم النيتروني الذي أخبرتك به؟ نعم، ها هو الثقب الأسود. يجب أن أجتنب انفجار الغاما. استعدوا!\n      مكبر الصوت يتدهور. هل يمكنني شراء مبكر صوت جديد؟ إنه رخيص، 60 دولارًا.\n      أحتاج إلى دواسة جديدة لطبلتي. هل يمكنني أن أصنع واحدًا باستخدام قطع الغيار من نظام تدوير الأكسجين؟\n      يا قائد، هل تسمح لي بالدخول في قمرتك لخمس دقائق؟ أعدك بألا أكسر أو آكل أي أحد.\n      هذا محرج بعض الشيء. لدي بعض المشكلات مع أحد التجار حول <goal>، من فضلك تظاهر بأنك لا تعرفني...\n      يريد الشخص الذي استولى على مشروع استرداد القروض الخاص بي إحداث مشاكل.\n      أحد الأشخاص يريد صنع دمى لشخصيات الفرقة! وسيدفع نقدًا!!\n      يريد أحد الأشخاص إنشاء مجموعة مكياج مستوحاة من الفرقة! وسيدفع نقدًا أيضًا!\n      أحد المعجبين رفع عليك قضية بسبب إصابته في منطقة الرقص أمام المسرح في حفلتك الأخيرة. هل تريد مني أن آكله؟\n      الخبر الجيد هو أنك بعت ألف تسجيل! والخبر السيئ هو أنه يجب عليك التوقيع عليها كلها.\n      ترويج المنتجات! قمصان وأكواب وصناديق طعام وصواعق كهربائية وقنابل المادة المضادة... أغراض الأطفال. هل لدينا أشياء لطيفة للتبرع بها؟\n      لدي فكرة خطيرة. فلتعد تجهيز نظام إعادة التدوير بعض الشيء، لتجعله يُنتج أغراضًا رخيصة لبيعها في الحفلة القادمة.\n      ألا ترى أن كل هذه التفاهات الترويجية ستقلل من سمعتنا الفنية؟\n      تقلل؟ لا، يا طبق المقبلات. التعبير الصحيح هو \"تقوي صورتنا التجارية\". \n      معجباتك غريبات الأطوار للغاية، هل تعلم ذلك؟ إحداهن دفعت لي مالاً لآكل إصبعها الصغيرة.\n      بالطبع فعلت. أحب أن تستجديني وجباتي الخفيفة حتى آكلها، وأن تدفع مقابل هذا الشرف.\n      لقد اكتشفت للتو طريقة جديدة ومثيرة لتحويل أكسجين التنفس إلى معدن. هل أصلح جسم السفينة؟\n      لقد اكتشفت للتو طريقة لحرق قشرة المعدن التي تحمينا من الفضاء وتحويلها إلى أكسجين. هل أقوم بهذا؟\n      خلايا بشرتك الميتة، مقابل زيادة جودة جسم السفينة. الآن.\n      النظام الغذائي لطاقمك يحتوي على كمية قليلة من الحديد. يمكن أن نأخذه من هيكل الوقود.\n      يمكن استبدال مزيج النتريك خلال فترة حياتي. أحتاج إلى قليل من الأكسجين لإجراء تجربتي.\n      30000 سنة تقريبًا، قد تزيد أو تقل بضعة آلاف السنوات.\n      فقدنا الدفع. يجب أن يصل أحد الأشخاص إلى غرفة المحرك ويعيد ضبط المفاعل يدويًا.\n      التقط إشارة غريبة. أحد ما يتبعنا.\n      إنهم يسايرون سرعتنا... لا... انتظر. سالا، هل يمكنك تأكيد ما أراه؟\n      لقد... اختفوا؟\n      انتهى تعبي الآن. تحقق حلم السفر مع الفرقة.\n      السفر على سفينتك كان مسليًا. ولكن يجب أن أعود إلى المستودع.\n      سأتركك يا بني الآن أنت وساندمان. أمنياتي ستمد مفاعلك بالوقود من خلال المزيج المقدس.\n      الآن - غادر - ساندمان - وداعًا\n      ليس هذا بالتأكيد ما كنت أرجوه. أنت وحش أيها القائد. وحش خطير!\n      سأغادر سفينتك. قطع من دروعك ونظام إعادة التدوير - هدية وداع.\n      أحتاج إلى مواصلة، لديك سفينة جيدة. سأدفع على شكل متابعين على ستارجرام.\n      جيد - غريب - يغادر - السفينة - مالك - الخاص - ؟\n      هل ترحب يا ولدي بتائب فقير على سفينتك؟ يجب أن أغادر هذا الكوكب فورًا.\n      يمكنني دفع ثمن طعامي وعمليات إعادة التدوير الخاصة بي.\n      أحد الأشخاص ينادي علينا من محطة قريبة.\n      طاب يومك. هل تريد مالاً دون مقابل؟ أحتاج فقط أن توصلني إلى <planet>.\n      شكرًا لك يا قائد، والآن سأغادر. بيني وبينك، تحتاج لقضاء مزيد من الوقت في تنظيف سفينتك، أليس كذلك؟\n      ماذا؟! لقد وضع مراجعة سيئة عنا على أيركاوتش. \"الخدمة غير موجودة، النظافة متوسطة\". يا له من وغد.\n      هل ترغب في تأدية طقوس زيون، للدعاء من أجل الحماية من الانصهار والمادة المضادة، للحفاظ على سلامة رحلتنا بين النجوم؟\n      كاهن ستار دومنيون؟ ستصيبني اللعنة. ما هي الاحتمالات؟\n      طريق النور مليء بالتقلبات والانعطافات المفاجئة. أنا سعيد للغاية بأنني قابلتك يا بني.\n      يا بني، هل سمعت عن مانزالور؟ كانت سفينة من ستار دومينيون مثل سفينتك.\n      تاهت مانزالور في حرب آنتيلياك. كانت مستودعًا لآثار مقدسة مهمة جدًا خاصة بديننا.\n      كنز يعود إلى شعبنا، نعم. ولكن قد تسمع صداه على مر الزمان... ما عليك إلا أن تستمع.\n      لقد وجدتها! لقد وجدت علامة القوة، الطيف! ((يهبط على ركبتيه ويبدأ في التأمل.))\n      كلمات أغانيك... ألا تلاحظ أنها آثمة بعض الشيء؟\n      هذه الشاشات تمنعنا من رؤية بعضنا. فلنعطل المفاعل لمدة ساعة ونتواصل مع بعضنا.\n      لقد ألهمني ذلك! سأرسم على الجدران بعض النصوص!\n      هل فقدنا القدرة على الحب؟\n      لقد سأمت من رعاعك الذين يأكلون شطائري. لقد كانت مميزة بعلامة!\n      أعتقد أن بإمكاني إصلاح شيء من هذه المعدات. هل يمكن أن تقرأ عليَّ التشريعات السبعة وأنا أعمل؟\n      إنها حياة موحشة، بأن تلتزم بشيء فوق طاقتك.\n      أعدك في المستقبل بألا أستخدم المفاعل في حرق البخور.\n      أحتاج إلى شريك متأمل. هل تعتقد أن <sala> سيرغب في الانضمام إلي؟\n      <mantis> يسيئ استخدام حصته من الماء. نظام إعادة التدوير لن يقدر على التكيف.\n      نحتاج - ماء - أطفال - كثير - قبطان - يريد - مخلوق - ؟\n      تسريب - الطاقة - الناس - يؤذونني - ؟\n      ساندمان - يخفي - داخل - حياة - مقفل\n      ((<mantis> يريك بابًا مغلقًا إلى الجسر. مشابه لكل الأبواب الموجودة على متن السفينة.))\n      عذرًا، لا يمكنني فعل هذا. هذا ليس بابًا. هذا للزينة فقط.\n      كل - قطة - غادر - دماء - شرب - جرب - ؟\n      أكسجين - ضعيف - إضافة - <mantis> - إكسير - ؟\n      <mantis> - ملل - لعبة - إطلاق - سفينة - ممتع - ؟\n      زجاج - انعكاس - لوحة - أنت - ملغي - <mantis> - يصلح - ؟\n      ((أنتون يقطب حاجبيه.)) أقرأ تنبيهًا صغيرًا على النظام الداخلي، ولكنه ليس صحيحًا...\n      لا شيء يدعو للقلق. لقد أصلحت المشكلة.\n      لكن... هذا التنبيه كان في غرفة غير موجودة في قائمة السفينة!\n      خطأ بسيط في التسجيل. لا شيء يدعو للقلق. كما قلت، لقد تم إصلاح المشكلة.\n      اكتشفت أنظمة الاستشعار لديَّ حياة ذكية في خزان الماء.\n      لقد رصدت طفيليات على جسم السفينة.\n      ترك أحدكم طعامًا شهيًا يتعفن في ثلاجتي! من سينظفها؟\n      أنظمة الاستشعار لديَّ تُظهر زيادة خطيرة في المواد العضوية في جميع أجزاء السفينة. هناك شيء يتضاعف داخلي.\n      إنه نوع من الطفيليات. أعطني بضعة أيام وسأجد حلاً.\n      الخبر الجيد هو أنني عرفت طريقة إيقاف مضاعفة أعداد الكائنات. والخبر السيئ هو...\n      إنها لطيفة للغاية!!! ((...دي سوزا تصرخ، مع دفعها لشيء ناعم في وجهك.))\n      ترك أحد الأشخاص بعض البيض في الثلاجة. من يرغب في تناول عجة البيض؟\n      تحتاج البيضة الرائعة 30 ثانية من وقتك لاستراحة إعلانية توعوية موجزة.\n      من يلعب في تجربتي؟\n      أقترح فصل المواد العضوية المخصصة للأبحاث عن المواد العضوية المخصصة للابتلاع؟\n      تحتاج البيضة الرائعة أن توقف مركبتك الفضائية لتناول وجبة خفيفة سريعة.\n      تتساءل البيضة الرائعة ما إذا كان الناس يحبونها لنفسها أم لما يمكنها أن تقدمه لهم وحسب.\n      تحتاج البيضة الرائعة 60 ثانية من وقتك لاستبانة تسويقية تنويرية.\n      تتمنى لك البيضة الرائعة أن تحصل على جسم أفضل خلال 30 يومًا أو أقل.\n      تلاحظ البيضة الرائعة بأنك تبدو رائعًا اليوم. هل فعلت شيئًا في شعرك؟\n      ((بعد 60 ثانية، جسمك المتيبس ينهار ويتحول إلى غبار ورماد.))\n      تحياتي أيها الإنسان. هل نمت جيدًا؟\n      أرجو ألا تمانع من السؤال. أنا أتدرب على التعاطف الشبيه بالإنسان. إنها هواية.\n      ألا يمكنك أن تجيب بمجموعة كلمات لها معنى؟ لا داع للتمتمة.\n      مستشعرات القرب تكشف عن كتلة معدنية خاملة على بعد بضع فراسخ فلكية. لا يوجد جهاز إرسال واستقبال، ولا توجد إشارة. هل ينبغي أن نلقي نظرة؟\n      يبدو أنها بقايا من إحدى محطات التكتل. لم أعلم بوقوع أي معارك في المنطقة.\n      إنها بعض النفايات من مخيمات تعدين محلية. ويمكنني استخراج عناصر لجسم السفينة، ولكن سيكون أمرًا متعبًا.\n      تبدو سفينة مهجورة. ما يضايقني أنه لا يوجد أثر لأي صراع، وأي ضرر... كوفاة دون جثة.\n      إنه كويكب معدني. ليس من معدن أعرفه. قد يجد التجار الذين تعامل معهم هذا الأمر مثيرًا.\n      عذرًا، لقد كان خطأ من المستشعر. لا شيء يمكن أن نراه هنا.\n      لقد مللت من الرقائق الجافة والعصيدة المغذية. أشتاق لحمامة مشوية أو لدجاجة مملحة مقلية!\n      هذا رائع. أنت تجعل لعابي يسيل. فلننظر في غرفة الإمدادات.\n      الدخول مرفوض إلى غرفة الإمدادات! تنبيه متعلق بالأزياء! \n      وصلت نسبة الوزن/بنطال الساتان لأفراد الطاقم لمستوى حرج.\n      أؤكد ذلك. من السيئ جدًا أنك أضفت نجاح طاقمك على المسرح إلى محدداتي العالمية.\n      لقد شاهدت الكثير من المسلسلات الجديدة يا وجه البطاطس. سأعيد برمجة هذه الإعدادات القديمة.\n      جلب طاقمك الأجرب فطرًا منقولاً بالهواء على متن السفن. سأنظف أنظمتي في الحال، ولكن \"أحتاج\" إلى موافقتك.\n      حسنًا، عليك أن تتوقف عن التنفس لدقيقة أو دقيقتين.\n      تأخر الوقت. لقد تسارع تطور الفطر. إنه على قيد الحياة!!\n      تم احتضاني بنجاح! اسمح لي بأن أعبر عن امتناني.\n      ((تعرض مخك للغزو من جراثيم سيمفونية. نغمات أطفال مدهشة تجعلك تدخل في نوم أبدي.))\n      نحن نقترب من أحد مجالات النيزك. أعتقد أنه يمكنني الطيران دون إحداث ضرر كبير. هل تثق بي؟\n      تبدو شاحبًا أيها قائد. اسمح لي بأن أجري عليك بضعة اختبارات. هذا الطريق إلى المشفى.\n      كنت أريد أن أتحدث معك وحدنا. أنا قلقة. أنتون لا يتحسن.\n      لقد طلب مني ألا أفشي سره، لذا... من الأفضل أن يخبرك بنفسه. يمكنني أن أوصيه بالتحدث معك، إذا أردت.\n      يا قائد، هل يمكنني الانضمام إلى الفرقة؟ أنا عازفة بيانو جيدة. أعطني بيانو ويمكنني عزف أي شيء!\n      مهلاً، لا يمكن أن نقبل أي أحد هكذا. طبيبتنا الماهرة امرأة رائعة، ولكن هل يمكنها عزف موسيقى الروك؟\n      جربني.\n      هل ينبغي أن نتحدث عن الحفل القادم؟\n      نحن في المنطقة الهامشية. إنهم يحبون إيقاعًا جيدًا بآثار كونية.\n      <destination> مليئة بأشخاص أثرياء عاطلين. لقد كنت واحدًا منهم، وأعرف ما يحبون: في الأغلب ما يعكس ثراءهم.\n      أي شيء براق.\n      حفلتنا القادمة في منطقة التكتل. إنهم يحبون الأصوات الصافية، بإيقاع خفيف.\n      <destination> معقل قراصنة. صدقني، إنهم يحبون الموسيقى القوية.\n      أعتقد أننا بحاجة لتجربة شيء لطيف. الناس يحبوننا، فلنكافئهم بعض الشيء.\n      هل يمكنني من فضلك أن أشير إلى أنه لا يمكن أن نقضي كل اليوم في ذلك؟ لدينا سفينة يجب قيادتها. أنا.\n      غير صحيح. نحتاج أجواء جديدة. شيء حي. جديد.\n      لدينا أغنية لهذا، أليس كذلك؟\n      حبيبتي، لأجلكِ أحيا، صديقتي الوحيدة...\n      يا إلهي! يا إلهي، هذا محرج. عذرًا، كنت أتحدث مع زرعتي، نبات السرخس الخاص بي. انظر! إنها تزداد طولاً!\n      تبدو مكتئبًا بعض الشيء. هل تريد أن نمشي سويًا؟\n      يا إلهي... كنت أتحدث مع زرعتي مرة أخرى. يجب أن تتوقف عن الدخول إلى خط النيران لتحصل على ثنائي.\n      تبدون جميعًا محبطين بعض الشيء. يمكنني ضبط الجزيئات في نظام إعادة التدوير لأرفع معنوياتكم.\n      تبدون جميعًا متحمسين بشدة. أعتقد أنني سأضبط الجزيئات في نظام إعادة التدوير. لأهدئكم بعض الشيء.\n      تبدون جميعًا متذمرين بعض الشيء. مجموعة من الوجوه الحانقة. سوف...\n      هل يوجد أحد يريد لعب الورق؟ الشطرنج؟ Reigns: The Council؟ \n      تلقيت طلبًا من نظام تصنيف قديم. لمعرفة ما إذا كانت... تعجبك هذه اللعبة؟\n      أنتظرك اليوم في الجناح الطبي لإجراء اختبار شامل.\n      استمع، مع جدول الحفلات المكثف هذا، يعد الإنهاك خطرًا حقيقيًا.\n      لدي حالة طوارئ. استعد للركوب.\n      عذرًا! لا يمكن أن أرفض أمرًا من مجموعة التكتل.\n      صُودرت خدماتك. احمل المُدان إلى سيجور، قمر السجن شديد الحراسة التابع لمجموعة التكتل. ستحتاج إلى هذا العسل.\n      أنتم طاقم صغير ولطيف. هل يمكن أن أحصل على مزيد من العسل؟\n      إنه دب ضخم ولطيف بدرجة تثير القلق ومغطًى بالعسل.\n      استمع يا صديقي. حان الوقت لفتح القفص وإطلاق سراح الدب.\n      ((صمت مرعب يحيط بمخزن البضائع. أحد الأشخاص يشاهدك.))\n      شكرًا لأنك فتحت القفص. والآن، سلم أغراضك الثمينة وإلا سأقطع سفينتك إربًا إربًا.\n      حقًا؟ ((يده على أنبوب على الجدار.)) هل يحمل هذا الأنبوب أي شيء مهم؟\n      وماذا تظن أنه سيحدث إذا ضغطت على هذا الزر؟\n      من المؤكد أنك لا تتوقع مني أن أقول... اضرب هذه اللوحة العشوائية من المصابيح الوامضة!\n      والآن بعد أن فهمنا بعضنا، سأنطوي على نفسي لوضعية غفوة تكتيكية. آمل أن أكون قد أوضحت ما أريد.\n      أنا قلق بعض الشيء أيها القائد. سجيننا لا يبدو أنه يستجيب... لأي شيء.\n      ((لا يمكن سماع أي صوت من الصندوق.))\n      عذرًا يا قائد، ولكن لا يمكنني أن أدع هذا الدب الوسيم للغاية أن يتعرض لأي خطر.\n      كنت ستتركني حتى أتعفن أيها القائد الصغير. لن أنسى هذا.\n      سفينة تخفي في الجوار تحاول اختراق دروعنا. يمكنني إبعاد التهديد، ولكن أحتاج طاقة إضافية.\n      نتلقى ترحيبًا من قوات التكتل. هل تهتم بسماع رسالتهم؟\n      لم تسلّم سجينك. وفقًا للمادة 31، الفقرة \"ف\" من قانون التكتل، يجب أن أبخّر سفينتك.\n      يا قائد، لدينا مجموعتان من طوربيدات البروتون تتجهان نحونا!\n      حصلت على قراءة على مستشعر القرب... إنها سفينة قراصنة! إنها تستهدفنا!\n      ((سفينة القراصنة محصنة بقوة.))\n      ((سفينة التكتل هي فرقاطة أنيقة. إنها سريعة للغاية، ولكن دفاعاتها ليست قوية.))\n      ((يبدو أن الدب وضع مخالبه على سفينة هجومية جذابة للغاية. لكنها من دون دفاعات قوية.))\n      ((هذه السفينة الحربية التابعة للقطاع مساوية تقريبًا لسفينة ساندمان. القتال سيكون صعبًا.))\n      إنهم يستسلمون يا قبطان. هل نقضي عليهم؟\n      سأشغل أنظمة الإصلاح التلقائي. هل يوجد مجال تركيز محدد؟\n      يوجد شيء قادم في طريقنا. هذا ليس طوربيدًا. في الحقيقة، قد يكون... جيتارًا؟\n      ((تحصل على جيتار قوي للغاية من غرفة الضغط. غاضب وقاسٍ وصاخب.))\n      يمكنك أن تشكرني في أي وقت. كان من المقرر أن ينفجر هذا الشيء. قوي على نحو يثير الاهتمام، مع مثل هذا التصميم البسيط.\n      وصل الغزاة إلى قلب المفاعل\n      لا... يمكنني... التنفس... هذا يجعل الطيران... صعبًا...\n      الدروع معطلة. نحن الآن مكشوفون جدًا... بمناسبة الحديث عن الانكشاف--\n      تعرضنا للضرب. إنه قلب المفاعل. أشعر بانهيار خطير لجميع الأنظمة.\n      ((انفجار كبير يخرق جانب السفينة. ساندمان تتحول إلى شمس مصغرة.))\n      هذه ضربة! إنهم يحاولون المراوغة. يمكنني البحث عن متجه هدف جديد.\n      هذه ضربة! فرقاطة التكتل هذه مراوغة مثل ثعبان البحر ولكن حاصرناهم. هل أطلق النيران مرة أخرى؟\n      ((منظومة الأسلحة تبدأ في العمل أمامك، وتُظهِر الفضاء وسفينة العدو.))\n      أوه - هذا مؤلم! تم استهدافنا مرة أخرى!\n      تعرضنا للضرب! نحتاج إلى إستراتيجية للهروب.\n      إنهم خلفنا، منظومة الأسلحة الخاصة بهم فعّالة، وبدأت... في إطلاق النيران بالفعل! إنها قادمة!\n      إنهم يطلقون صواريخ حرارية!\n      صواريخ جانبية قادمة من اليسار!\n      حطام قادم!\n      هناك مجال كويكب صغير على الميمنة. قد نتعرض للارتجاج قليلاً، ولكنني يمكنني التعامل مع الأمر.\n      إنهم يقتربون! يمكنني تفريغ بعض النفايات من مخزن البضائع حتى يضطروا للمراوغة.\n      أجريت مسحًا لسفينة العدو. يوجد قليل من نقاط الضعف التي يمكن أن نستغلها. ركز على المفاعل.\n      نجحت في الوصول خلفهم يا قائد! يجب أن نستمر في الضغط. أعطني مزيدًا من القوة!\n      لدينا مشكلة يا قائد: الجيروسكوب ينهار. أحتاج إلى شخص لإصلاحه!\n      يمكنني محاولة إرسال <anton> على متن سفينة العدو.\n      خبر سيئ يا قائد، لقد نالوا منا. هذا الطيار مزعج للغاية.\n      <sala> تعرض لإصابة شديدة أيها القائد! اجعل دوز تحل محله بينما أتعامل مع هذا الجرح.\n      لماذا جعلوا دوائري تشعر بالألم! يمكنني محاولة إرسال فيروس إهلاك مشفر. إنه مخالف تمامًا للقانون، ولكن ليست لدينا خيارات.\n      هل ينبغي أن أفك شفرة إشاراتهم؟ من المفترض أن يساعد هذا على إبطائهم بعض الشيء.\n      أعتقد أن لدي خطة. هل يمكنك إطلاق مكوك يحتوي على أكسجين نقي؟ سوف يطلق ألعابًا نارية جميلة.\n      تحاول مجموعة التكتل إرسال سفينة حصار. يريدون محاصرتنا في القطاع!\n      انخفض مستوى الدروع لدينا إلى 7% يا قبطان. يمكنني تعزيزها، ولكن أحتاج إلى طاقة. هل يمكن التضحية بنظام إعادة التدوير أو مطبخ السفينة؟\n      إحدى خلايا الطاقة تحترق. أتوقع رصاصة عالية السرعة. أيها القائد، أحتاج إلى إزالة الأكسجين لإخماد الحريق.\n      مستويات الأكسجين لديك تنخفض بشدة. يمكنني إعادة موازنتها، ولكن سأحتاج إلى خفض درعنا لفترة قصيرة لتنجح هذه العملية.\n      سنموت جميعًا.\n      طوربيدات قادمة. يمكن أن نحاول تنفيذ مناورة هروب شديدة، أو أن نستخدم محتويات مخزن البضائع كقش تمويه.\n      إذا سمحت لي أيها القائد، يمكنني على الأرجح إصلاح بعض الأنظمة على سفينتك بينما نقاتل.\n      يا قائد، أنا معك هنا لسبب. دعني أتعرف على منظومات الأسلحة هذه.\n      إذا سمحت لي بالاقتراح، فجرب هذه الطريقة. ((يرسم سريعًا إستراتيجية جديدة على ساعده المجسّم.))\n      هل تعلم كوكبًا مناسبًا للاختباء لبعض الوقت؟\n      هل ترغب في تذوق عسلي؟ إنه جيد للمخ وبراعم التذوق.\n      هل يمكن أن تحك خلف أذني؟\n      استمع يا فتى: استمتعت بالتسكع، ولكن يجب أن أعاود السير في الطريق. أراك لاحقًا.\n      سلم نفسك! سأسيطر على هذه السفينة... يا إلهي! إنه أنت أيها القائد الصغير! قصة ممتعة، ولكنني بحاجة إلى مواصلة. \n      هل سفينتك خلية نحل؟ لأنني أريد أن آكلها ثم آخذ غفوة. أمامك 20 ثانية لتعطيني جميع أموالك.\n      انتظر - لقد تقابلنا! لقد كنت على وشك تفجيرك إلى أشلاء! ها ها! ينبغي أن تأخذ مزيدًا من الحذر يا صغيري. الآن أعطني بعض الأكسجين.\n      8... 7... 6... 5... 4... 3...\n      عثرت على شخص ما يختبئ بجانب ساندمان. نوع مريب.\n      تحياتي أيها القائد. أحتاج أحد الأشخاص لإعادتي إلى الأقراص فورًا. سأدفع. أنا غني.\n      نعم، الأقراص أنا أدرسها. إنها تؤذيني، ولكن أحتاج إلى دراستها. ألا تفهم؟\n      لقد عثرت على إشارة جديدة لسرب قوريون في المكتبة المحلية. \"يتبع السرب مسار المجهول\". لا أدري معنى هذا.\n      لديهم عسل رائع هنا. ولكن للأسف مكلف جدًا. كان يجب أن أسرقه.\n      لماذا نحن هنا؟ هل سحبتني من حفرتي لهذا السبب؟\n      مرحبًا بك في سكني المتواضع، أيها المسافر الصغير. فرقتك تحتاج إلى طلة جديدة!\n      هل فكرت في بذلات رسمية؟\n      أحب الأجواء الكلاسيكية، ولكن اسمعني: كنزات برقبة مدورة.\n      الملابس المطاطية الجديدة هي ملابس المشهورين.\n      تخيل بنطالك، ولكن وهو مشتعل.\n      القماش المربوط المصبوغ هو الجلد الجديد!\n      قبعات. هذا هو الشيء المميز.\n      بذلة فضائية، ولكنها مثيرة للسخرية؟\n      حسنًا، ما رأيك في هذا؟ لقد أحرزنا تقدمًا كبيرًا في الهندسة الوراثية. يمكنني تغيير وجهك!\n      أجب على بعض الأسئلة البسيطة وسيظهر وجهك الجديد في المرآة.\n      فلنبدأ بسؤال بسيط. عندما تحك أنفك، هل تحك الفتحة اليسرى أم اليمنى؟\n      جيد جيد. عندما تستيقظ، تكون في الأغلب على ظهرك أم على بطنك؟\n      هل تصف نفسك بأنك مصاب بوسواس المرض؟\n      أمر مثير. تتعرض لهجوم أحد الأشخاص في الطريق ليأخذ محفظتك. ماذا ستفعل؟\n      هل أنت مستعد للمخاطرة في حياتك العاطفية؟\n      لنفترض أنك ربحت الجائزة الكبيرة في يانصيب المجرة. ماذا ستفعل بهذا المال؟\n      ما أول كلمة تخطر على بالك إذا قلت \"قبلة\"؟\n      معي وردة في يدي اليمنى وحلوى الكولا في يدي اليسرى، أيهما تفضل؟\n      مذهل. إذا قلت لك إنه باستطاعتي مضاعفة مالك 10 أضعاف إذا تركته معي، ماذا ستقول؟\n      هذا غريب، ولكن شكرًا لك.\n      السؤال الأخير: هل تفضل الأزرق أم الأخضر؟\n      وجهك الجديد جاهز! هل أنت متحمس؟\n      ((تنظر إلى وجهك الجديد في المرأة.))\n      عد في أي وقت يا حبيبي.\n      سعيد أنه أعجبك! اسمع، لاحظت أنك قائد ساندمان. سأقدم لك عرضًا.\n      <place> صغير جدًا. أحتاج إلى أن أسافر للبحث عن عملاء جديد. أعطني قمرة على سفينتك، وسأغير طلتك مجانًا.\n      أرغب في طلب غسل كامل لهيكل سفينتي. إنها قذرة.\n      لدي مهام أخرى. مثل أعمال صيانة مهمة إذا كنا لا نريد أن نموت جميعًا؟\n      أرى خيلاً شاحبة تسير بين النجوم. ألا تراها؟\n      لقد خططت مساحة عقلك الباطن بالكامل أيها القائد. يمكنني أن أهزمك في أي لعبة عرفتها البشرية.\n      لا، ليس لدي زر \"إيقاف التشغيل\".\n      هل فكرت من قبل في النمط البشري؟ الوهم، العاطفة، الإجهاد، الكفاح، الموت. \n      آسف يا صديقي العزيز، لا أستطيع فعل هذا.\n      في كل مرة أمسح فيها ذاكرتي المؤقتة، تترك موجات كمية من الأحلام والذكريات بصمة إغماء في قاعدة بياناتي.\n      ساندمان تقلقنا بعض الشيء. مستمرة في الهذيان.\n      ربما يكون فيروسًا. سلالة غريبة جدًا من خوارزمية مهلكة للنفسية.\n      في الواقع، نعم. يمكننا تطهير النظام لإعادة كل شيء إلى وضعه الطبيعي.\n      ساندمان تعزف موسيقى مع المجال المغناطيسي للدرع. لم تكن مصممة لذلك.\n      تقضي وقتك في التدرب على هذه النغمات القليلة العنيفة وأنا لا أستطيع عزف سيمفونيتي الكونية؟ أشعر بالإهانة.\n      هل يمكنني استخدام بعض المساحة من مخزن البضائع لزراعة بعض النباتات والخضروات؟\n      ممراتي ملطخة بالطين والأوراق الميتة والخضروات المتعفنة. شيء لا يطاق.\n      حديقتنا الصغيرة تنمو بشكل رائع جدًا. نحتاج إلى مزيد من ثاني أكسيد الكربون والماء.\n      هل يمكنني شراء نباتات فراولة من المتجر المجاور لنا؟ للحديقة.\n      مرحبًا يا حلوتي... أقصد، أحبائي. لقد حجزت لكم حفلة رائعة على <goal>. لا تخيبوا أملي.\n      نحتاج أن نستريح. رحلتنا السابقة كانت مزعجة. هل تذكر؟\n      نستريح؟ نستريح؟!؟ يمكنكم أن تستريحوا عندما تموتون!\n      لا تتضايق، إنها مجرد نكتة لطيفة. ألطف النكات. أهتم بكم يا فطائري. أقصد، يا شباب.\n      تحتاجون لبعض التمارين الرياضية أيها القرود. بما أنه لا يوجد لدي أشجار لتتسلقوا عليها، فقد حولت غرفة التخزين إلى نادٍ رياضي.\n      حان الوقت للتمارين الجماعية! الجميع يستيقظون!\n      وتمدد وانحناء وتمدد وانحناء. أسرع، طاقة أكبر! تنفسوا! ومرة أخرى!\n      ((يشير إلى صندوق إلى جانب دراجة التمارين)) هل هذه... هل هذه بطارية؟\n      ماذا؟ لا تعتقد أنني سأضيع طاقة حركية دون مقابل، أليس كذلك؟ هيَّا! مرة أخرى، ولكن بحماس!\n      غياب الانضباط في هذه السفينة مرعب. الجميع ينزل وينفذ تمرين الضغط 20 مرة، بشكل مبدئي.\n      لا أحب أن أقول هذا، ولكن إذا أعدت توجيه الطاقة من الأسلحة، فستعطينا طاقة كافية لنستمر في الحركة.\n      وجدت في حقيبتي الطبية بعض الأقراص بدون علامة. هل تريد معرفة ماذا يفعلون؟\n      <souza> يلح عليَّ باستمرار لتناول الفيتامينات. \n      على مقياس من 1 إلى 10، ما مدى تحمسك لحصولي على بيانو دورين؟\n      هجرة كويكبات أمامنا. هل نسرع، أم ننتظر حتى تنفجر؟\n      الوقود بدأ في النفاد - ولكن يمكنني صنع بعض الوقود من إمداد الأكسجين.\n      ربما هذا الحديث بسبب قلة النوم، ولكن ماذا لو حاولت علاج تشنجاتي العصبية من خلال الاتصال بالمفاعل؟\n      أريد بعض المساعدة الإضافية. هل تمانع إذا جلبت فنيًا آخر؟\n      سيعمل مجانًا.\n      سأحرق حرفيًا أي شخص إذا طلبت مني ذلك.\n      من فضلك توقف عن الكلام يا <rambro>. ((ينظر إليك.)) إنه حريص على تعلم الحرفة.\n      تريدني أن أعزز الأسلحة؟\n      أنا متأكد أنني أستطيع معايرة الطوربيدات لشل أنظمة دعم الحياة لدى العدو.\n      اسمعني: أجهزة الليزر، ولكن وهي تحترق.\n      يمكنني على الأرجح تعزيز منظومات الأسلحة لدينا. إذا استطعنا إعادة توجيه القليل من الطاقة...\n      يمكنني تحويل مصابيح الإضاءة إلى قنابل يدوية.\n      الممرات مليئة بالكبلات، الفوضى في كل مكان. من المسؤول عن إدارة الكبلات؟\n      إدارة الكبلات... أم تربية الكبلات؟\n      كبلات الطاقة تتكاثر مرة أخرى. لدينا كبلات صغيرة في كل مكان.\n      لدينا تسريب في الأكسجين.\n      التشنجات العصبية سيئة جدًا اليوم. أحتاج للجلوس.\n      تضرر هيكل السفينة، ولكنني لا أعرف نصف المكونات التي أراها. هل سأغادر السفينة وحدي؟\n      لا أعتقد أن أنتون ينبغي أن يعزف اليوم. بالكاد يستطيع حمل أعواد الطبل!\n      لا أريد أن أرتاح. لا يزال يمكنني - يمكنني العزف...\n      ساندمان تتحول إلى قرية صغيرة. لا يمكن أن تسمح لكل راكب متطفل بالمجرة أن يركب السفينة.\n      إذا سمحت لي، يمكنني استخدام جزء من أنظمة إعادة التدوير لصنع بعض العصير. \n      هذا الدب الدمية الذي اشتريته من السوق... هل يمكنك إيقافه؟\n      تفضل. هل أنت هنا لتلعب معي؟ يمكنني البحث عن نجوم لك.\n      احتفظ بي. أنت تعرف أنك ترغب في ذلك. أنت أفضل أصدقائي.\n      هل أنت جبان؟ هل تشعر بأن الأجواء في الكون تنذر بالنهاية؟\n      هل يمكن أن تثق بهم؟ الطاقم يهمس. هذه أشياء قاسية...\n      السفينة تخفي سرًا. لقد سرت في هذه القاعات من قبل، أليس كذلك؟\n      هل يكرهون حريتك؟ إن النجوم المربوطة في نسيجها الأسود تصرخ.\n      كم بوصة من المعدن تفصلك من الفضاء الأسود اللانهائي؟ هل هذا أمان؟\n      سيقتلكم جميعًا، أليس كذلك؟ مهندس الفوضى. رجل الطريق.\n      إنهم يطاردونك. غيورون. مذعورون. يعلمون ما يمكنك فعله.\n      بهذا المعدل، ستفقد الأكسجين قريبًا. اسمح لي بتحويل بعض الطاقة نحو نظام إعادة التدوير من أجلك.\n      يا قائد، لاحظت أنك عثرت على جميع تلك القطع الغريبة من الخردة. أعتقد أنه جيتار! هل ينبغي محاولة تجميعه؟\n      أحتاج إلى مساعدتك للتعرف على القطع. أولاً، نحتاج إلى تحديد موقع الجسم.\n      خردة£هذا... ما هذا؟ أفترض أنك الخبير أيها القائد.\n      خردة£لست متأكدًا بما يمكنني فعله بهذا. هل هذا هو الجسم؟\n      خردة£قد تكون هذه، أليس كذلك؟\n      الآن نحتاج إلى تركيب الذراع.\n      خردة£إذن، هل هذه هي العنق؟\n      خردة£هذه قطعة خشب غريبة.\n      يكفي ذلك! أعطني بضع ساعات وسأجمع الجيتار لك.\n      تفضل، لقد أنهيت تجميع الجيتار. هل تريد أن تلقي نظرة على جماله؟\n      ((جيتار المظلة هو آلة موسيقية جميلة وقديمة.))\n      أف. لم يعمل. يجب أن نعيد المحاولة.\n      أرغب في القتال. دعني أشعر برائحة الحديد المذهلة لتستمتع بها روحي.\n      بدأت أشك في قدراتك الملاحية. متى سنصل إلى مستودع وحدة التحكم؟\n      أنا... مفتون... بمفاعلك... هل تمانع في التعرف بنا؟ أنا مُحرج بعض الشيء.\n      قضمة - سالا - عظام - لعاب - ؟\n      هل أنت جاد!\n      أشعر بإحساس دوار فضائي - يجب أن نغلي القمرات!\n      أتمنى أن أدخل مطبخ السفينة في وقت مختلف عن الركاب الآخرين. لا أحب الاختلاط بالعامة.\n      الطعام في هذه السفينة بشع! أنا متأكد أن أحد الأشخاص يضع لي سمًا.\n      ربما بصقت في حساء ركابك. مجازًا، أعني. لماذا؟ لم تقم بهذا من قبل!؟ لا أطيقهم.\n      قم بتسليتي. أشعر بالملل الشديد جدًا.\n      هل ذكرت أنني أصاب بدوار النجوم؟\n      أعتقد أنني قطعت هذا السلك المتوهج.\n      أنا مذعور! يجب... أن أتنفس... هواء... أكثر...\n      وإذن... كيف تشعر بشأن عصيان بسيط لطيف؟\n      يبقيني تمرين <anton> مستيقظًا طوال الليل!\n      الكائنات - الجائعة - تأكل - الحديد - الآن - ؟\n      أهلاً يا قائد. لقد عثرت على بعض البضائع المحظورة مع أحد ركابك. هل ينبغي أن نضعه في السجن في الوقت الحالي؟\n      يا قائد، كما تعلم، لقد ركبت سفينة الغضب في الماضي. لا أظن أنه بإمكانك الهروب من حياة القراصنة.\n      يا قائد، ما رأيك في قليل... من الأعمال الجانبية المربحة؟\n      لقد سمعت عن بعض الأعمال المربحة في فضاء مجموعة التكتل.\n      هذه كلمة قاسية. أفضل مصطلح \"فرص تحررية فائقة\".\n      نحن بحاجة فقط إلى عناصر خاصة. ولا تتوفر سوى في السوق السوداء.\n      أنا مجرد مستشار صادق! عليك أن تسأل أحد القراصنة عن كيفية الوصول إلى هذا النوع من الأشياء.\n      تواصل معي المتمردون. إنهم بحاجة لإخفاء أحد المتمردين على متن السفينة. قد يقابلنا في غضون بضعة فراسخ فلكية، إذا قبلنا بهذه المهمة.\n      يُمكنك الوقوف بلا حراك بينما تُرسل مجموعة التكتل البشرية كلها إلى الموت، أو يُمكنك التصرف.\n      مجموعة التكتل هي جثث متعفنة يأكلها القطاع حية. علينا العمل الآن، وإلا فإن البشرية هالكة لا محالة.\n      لقد تلقيت رسالة من سفينة المتمردين. هل لديهم صفقة لنا؟\n      لقد قطعت وعدًا يا قائدي، لذا، لا يُمكننا أن نجعل مبعوث المتمردين يعود أدراجه.\n      أتمنى لك أيامًا مليئة بالسلام والازدهار، متدربي الصغير. نُرحب بضيافتك هنا.\n      في معركتنا ضد مجموعة التكتل، كل البشر هم مجرد متدربين للحرية.\n      إن ملكة التمرد العزيزة هي أكثر امرأة مزعجة قابلتها على الإطلاق.\n      ما مشكلته؟ هل عليّ أن أشتكي من طريقته في تنظيف أذنيه؟ لا، لست مضطرًا لهذا!\n      بدأت تراودني كوابيس مزعجة.\n      نمت الليلة الماضية بصورةٍ غير معهودةٍ. والحلم...\n      يجب أن أتوقف عن إجراء التجارب على الفطريات حقًا.\n      أعتقد أن علب التونة الخاصة بي تخمرت. بدأت أوقات نومي تضطرب.\n      راودني حلم الليلة الماضية.\n      حدث شيء غريب لي خلال فترة استراحتي الأخيرة.\n      ((بعد يوم طويل على الجسر، تعود إلى ربع الدائرة المجرية، وتغفو قليلًا وتحلم بأكثر الأحلام وضوحًا على الإطلاق...))\n      إذا كنت تريد السفر مع السرب، فعليك أن تريني كيف يهتز العالم من حولك.\n      أبليت حسنًا. مرحبًا يا ابن مارا، ستنضم إلى السرب.\n      أريد أن أسمع صوت غضب اللون الأحمر الإمبراطوري.\n      الاختصار: 1241\n      أريد أن أشعر بإثارة السرعة المتناهية والحماسة.\n      الاختصار: 1243\n      أريد أن أفهم أسلوب القدر عند الاختيار بين الحياة والموت.\n      الاختصار: 1245\n      أريد أن النظر في كيفية ظهور الجمال إثر حدوث تغييرات.\n      الاختصار: 1247\n      أريد الشعور بظلال الضوء المتلألئة على وجهي.\n      الاختصار: 1249\n      أريد أن أشعر بحب الخالق لمخلوقه.\n      الاختصار: 1251\n      أريد أن تندفع موجة مفاجئة من الدم إلى قلبي.\n      الاختصار: 1253\n      أريد أن أستشعر جمال الروح.\n      الاختصار: 1255\n      لا، هذا ليس متناغمًا. تحتاج إلى معرفة شكل ذبذبات الأوتار الخاصة بجيتارك.\n      هممم... يا لها من آلة موسيقية بدائية وغير كاملة. عد إلي عندما تتقن ذبذبات الأوتار الثمانية.\n      ((تستيقظ من الحلم، مرتجفًا ومتعبًا. بعد بضع ساعاتٍ، تُصدر أمرًا بتغيير مسار ساندمان والعودة إلى <goal>.))\n      ((عندما تخرج من حلمك، تُحلق ساندمان عبر مجموعة مكوّنة من 21 كوكبًا تدور في تناغمٍ تامٍ حول نجم أزرق.))\n      سرب قوريون الشارد. وجدناها، أو... هي وجدتنا. لا أعرف كيف حدث هذا. أين نحن؟\n      ليس لدي نجوم أُبحر فيها. يبدو الأمر وكأننا... تائهون. هناك مجموعة صغيرة من أضواء الجزء الخلفي من السفينة. مجرتنا؟\n      ((لبضعة أسابيع، تُحلّق بنا بين السرب الشارد، وكل كوكب يُظهر أعاجيب مختلفة من الطبيعة والحياة. وفي اليوم الثاني والعشرين...))\n      لقد عثرنا على شيءٍ ما في آخر كوكبٍ. يبدو وكأنه جيتار.\n      ((<*جيتار المجرة*> هو إحدى عجائب قوريون. آخر وأعظم إرثٍ تركه القادة.))\n      هل تشم هذا أم أنا فقط؟\n      لقد كنت أنا أحاول تجربة فطر توليد الطاقة الحيوية. يستخدم الأكسجين، لكنه يُنتج الكثير من الطاقة.\n      يُصدر مخزن البضائع أخطاء كثيرة. نخسر الكثير من الحرارة والأكسجين.\n      لدينا مشكلة في مخزن البضائع يا قائدي. نفقد الضغط - وبشكل سريع.\n      نفقد الأكسجين بصورةٍ منخفضةٍ في منطقة عمل الطاقم.\n      أطلق النيران! هناك حريق! لهذا السبب نفقد الأكسجين. يُمكننا إطفاءه، لكن الأمر يستغرق وقتًا، ولن نخرج سالمين.\n      مرحًا! تمكن <anton> من إشعال النار في المطبخ مُجددًا. قال إنه يريد طهي وجبة اللحم الخاصة به \"بالطريقة السليمة\".\n      تنتشر النار باتجاه نظام التسليح.\n      هناك دخان يتصاعد من مقصورتي. لا يبدو أنه حريق متعمد.\n      هل أصابك الجنون؟ لماذا تُشعل النيران في مقصورتي؟\n      يُمكنني إعادة توجيه الطاقة من نظام إعادة التدوير لإخماد اللهب. الأمر يستحق المحاولة.\n      تمكنا من السيطرة على الحريق. كل شيء على ما يرام. إعادة ضبط نظام إعادة التدوير الآن.\n      هل تمنحني إذنًا للخروج من السفينة وإصلاح الهيكل؟ لدينا أضرار هيكلية يجب أن أفحصها.\n      علينا تعزيز درع الحماية. يُمكنني إنشاء حماية إضافية، لكني بحاجة إلى الطاقة والأكسجين.\n      بدأ قلب المفاعل يُصبح غير مستقلٍ. أحتاج إلى تعزيز جسم السفينة، بالإضافة إلى جزء من هيكلها، إذا اقتضى الأمر.\n      لقد تعلمت بعض الحيل عندما كنت أعمل بالشحن لمسافات طويلة. اسمح لي بتشغيل شبكة الكهرباء.\n      مرحبًا، يريد أحد المراسلين التحدث إليك من أجل عرض رائع حول <band>.\n      <reporter>، لصحيفة أخبار النجوم. هل صحيح أنك تعزف في الحفلات للعبث ببنية الكون نفسه؟\n      صحيح... الموسيقى قوة كبيرة. نحن نفعل شيئًا ما، لكنني لن أوافقك أننا نعبث مع الواقع. نعبث كلمة مبالغ فيها.\n      دعني أعيد صياغتها: هل تتلاعب بالكون؟\n      هل أنت حقًا تستحم بالنقود الفلكية؟\n      إنها وقاحة أن نتحدث عن مقدار المال الذي لدينا، أو ممن قد تخلصت منه باستخدامه. انتهت المقابلة!\n      أنا مهندس! أنا أعرف كل ما يخص المحركات. والأجنحة. سأصلح درع حماية سفينتك مقابل توقيع منك.\n      شخص ما يدمر دروعي بحماسٍ. أعتقد أن لافتة \"ممنوع اللمس\" كُتبت بوضوحٍ تام.\n      أووه، هل هذا قلب مفاعلك؟ هل يُمكنني أخذ قطعة صغيرة كتذكار؟ ستكون قطعة صغيرة جدًا، فلن تشعر بفقدانها!\n      أنا أبيع تذكارات من فرقتي المفضلة، وهي أنتم! أعطني مالًا من فضلك.\n      عندما أكبر، أريد أن أكون مثلك.\n      ((يعبث بشعره.)) هل يُمكنني ركوب مركبتك الفضائية لفترةٍ؟\n      على الرغم من مكاسبك في الإيرادات، لا أعتقد أنك دفعت الضرائب إلى مجموعة التكتل. جهزوا القذائف!\n      بالتأكيد، نحتاج إلى إضافة أجر إضافي صغير للترتيب لهذا الإجراء الإداري الشديد.\n      يُمكنني إبعاد وكالة الإيرادات بين المجرات عن كاهلك - لبعض الوقت. هل تودٌّ عقد صفقة؟ لا أحتاج سوى بعض أجزاء من هيكل سفينتك.\n      يبدو أنك تأخرت يومين عن تقديم بيان دخلك. هل لديك أي كلام آخر؟\n      أفهم ما كنت تُخطط له... ألّا تدفع ضرائبك! سوف أحصل على بعض من الأكسجين الموجود لديك.\n      أنا أصادر بعض من سلطاتك، نيابة عن وكالة الإيرادات المجرية.\n      ومن الغريب أنه يُمكنك الوصول إلى أماكن لا يستطيع المجلس الوصول إليها. هل ستوصل طردًا لصالحنا؟\n      إن موسيقاك خاصة بالمخادع الأكبر الأرجواني.\n      كلمات الأغاني هذه... هل تحاول أن تضلل أطفالنا؟!\n      الطريقة التي تتحرك بها، وبريق نظراتك... هل تحاول إستدراجي؟\n      أنا استكشف منحدر فضاء فرعي في النطاق. يُمكن أن يقودنا إلى وجهتنا بصورةٍ أسرع، ولكن يُمكن أيضًا... أن يتجاوز شيئًا ما.\n      رأيت سلكًا يلمع تحت المسرح أثناء قيامك بالعرض. إذا أردت تجنب ذلك، فأنت بحاجة إلى عازفٍ. يُمكنني المساعدة.\n      يُمكنني التأكد من أن السفينة عازلة للصوت بصورةٍ صحيحة. من شأن هذا تحسين المزاج العام.\n      لقد وجدنا لوحة أسلاك مفتوحة في الغرفة الخلفية، لكن لا يزال الكمبيوتر يُغلقها.\n      هذه اللوحة هي العمود الأساسي للطاقة. أبعد يديك، شكرًا لك.\n      لقد عرفنا بعضنا البعض منذ فترة، واشتركنا في بعض الخدع... هل تود أن أرافقك؟\n      نحن نحضر قطارًا ممتلئًا بالذهب في المدينة. لا أريد أن أراك أنت وأعضاء فرقتك المنحطين في أي مكانٍ بالقرب منه.\n      سوف نسرق قطار الذهب هذا بأكمله، أليس كذلك؟\n      القطار مغلق بقفل تردد. أدخل بعض إيقاعات الأوتار الصعبة في حفلتك، مما يُشتت انتباه الجمهور وعندها تفتح الخزنة.\n      ماذا؟ تبدو مهمة سهلة.\n      لست متأكدًا من ذلك، قائدي. هل يُمكنك العزف بصورةٍ جيدة؟\n      لقد فعلناها! سرقنا الذهب دون أي عقبة. ها هو نصيبك.\n      إن أسلوبك السيئ في العزف تسبب في الإمساك بنا! علينا مغادرة الكوكب!\n      هل تعلم أنه يُمكنك إشعال الأكسجين عن طريق تغيير مكان هذا الجزء من نظام إعادة التدوير؟ \n      أعلم أن الكائنات الحيّة التي تعتمد على الكربون تستمتع بـ \"طفراتٍ\" عالية، لكنني أعترض على استخدام أجزاء تخصني لصنع متفجرات.\n      تحفة أثرية£((يدعوك بقوة الشباب وموسيقى روك أند رول. غير فعّالٍ.))\n      يُرفق هذا الجيتار الذي اشتريته بالعديد من القصص. حقًا مثيرًا للاهتمام!\n      لا يُمكنني فعل ذلك، لن أفعل هذا.\n      قطعت كل أوتار العزف! والبدائل!\n      حاولت التدرب على الطبول اليوم، لكنها نوعًا ما... انفجرت.\n      هل تعرف تلك العبارة، لديك ضفدع في حنجرتك؟ لقد نطقتها هذا الصباح مرةً.\n      أنا متأكد من أن رأسي... يؤلمني؟ لم يسبق لي المعاناة من تشنج الأعصاب.\n      طورت لوحة المفاتيح الخاصة بي مجموعة إضافية من المفاتيح. هل هي مُخيفة؟\n      شعرت بوخز بسبب الجيتار.\n      أرسل لنا مصدر مجهول نسخًا من مذكراتك في مرحلة المراهقة. إنها صادمة جدًا...\n      أنا أستكشف وضعًا غير معتادٍ في مخزن البضائع. يبدو أن الجيتار الذي اشتريته يؤثر في الأقاليم المُحتملة القريبة من مكانه.\n      ((تشعر بضيقٍ غريبٍ يتسلل في عمودك الفقري، فقرة بفقرةٍ.))\n      ((يسحب بندقية.)) هذا هو جيتار كاث نولان! راقصة الروك الأسطورة! عليك أن تُعطيني إياه.\n      ((يستمر في تضييق عينيه.)) انتظر، أنت لست منزعجًا من رغبتي في أخذه منك دون أن أدفع؟\n      ((مرتاب بدرجةٍ كبيرةٍ.)) كيف عرفت أنه عيد ميلادي؟\n      أنت تقول ذلك لإخافتي. أحسنت! إن كلامك مقنع جدًا، لقد صدقتك تقريبًا. الآن، ابتعد.\n      كن حذرًا قائدي. دمرت سفينة الدب بعض القطاعات. حدث عطلًا كارثيًا بالمُحرك.\n      ((أنت تخطو خطوة نحو الجيتار، وتضرب رأسك بالباب، وتسقط غطاءً مفتوحًا، وتُشغل آلية معادلة الضغط دون قصدٍ.))\n      ((<place> كان مركز حرب مروعة بين فصيلين من مجموعة التكتل. تجد <general> واقفًا أمام تمثال ثلاثي الأبعاد.))\n      إنه نصب تذكاري لصديق. مات عندما وهو لا يزال بطلًا.\n      ليس لديك أي عناصر لاستخدامها!\n      ليس لديك أي عناصر لنمنحها!\n      الاختصار: 479\n      شكرًا. أنا... علينا الذهاب.\n      أنت حقًا لا تحترم الموتى، أليس كذلك؟ عليك المغادرة.\n      سريعًا! هناك ثقب في هيكل السفينة. نحن علينا سده بشيء لاصقٍ وقوي.\n      الاختصار: 478\n      حسنًا، يجب أن نكون بخير طالما يُمكن للجميع مقاومة شوكولاتة الإصلاح اللذيذة.\n      هذا لن يُفيد! الثقب يتسع يا قائد!\n      ((لقد علقت في فراغ الفضاء بطريقة بطيئة للغاية وبائسة بسبب الثقب الموجود في الهيكل.))\n      هناك مخلوق عملاق يهاجم السفينة! لا أستطيع أن أرى أسنانه بعد!\n      لفت£((تُفكر بتمعن لوهلةٍ في حزمة اللفت الفاسدة الخاصة بك.))\n      لقد ألقيت كل ثمرات اللفت الخاصة بنا إلى الوحش. فهو يحبه!\n      الاختصار: 476\n      الوحش... يحب الفاكهة! إنه يذهب بعيدًا!\n      الآن الوحش غاضب أكثر. نحن بحاجة لإخلاء...\n      ((أصبحت أنت والطاقم وساندمان فاتح شهية غريبة لطائر جولجوث: يشتهر أكثر باسم \"ليفاياثان الفضاء\".))\n      همم. تصدر الطائرات الوحشية ضوضاء غريبة. هل لديك أي شيء يُمكننا استخدامه لإزالة العادم؟\n      الاختصار: 480\n      أحسنت، أيها قائد! جمعت كماشة المسامير غير الفعالة بسهولةٍ القاذورات في مجمع القاذورات!\n      هممم. هذا لن يُفيد. سأحتاج إلى إيقاف تشغيل الطاقة لبعض الوقت.\n      نتلقى إشارة. يبدو وكأنه قارب مفقود في وسط حقل نجمي. ربما يعلم القراصنة كيفية تشغيله.\n      إنه فخ! تحتوي الإشارة على فيروس يتسبب في إغلاق المفاعل. الطاقة والأكسجين مهمان!\n      ... فكرة رائعة، يُمكنني إعادة توزيع المجال المغناطيسي لدرع الحماية إلى قلب المفاعل لزيادة إنتاجيته. أحتاج فقط بعض الوقت.\n      تقترب السفينة المفقودة من غرفة الضغط. نحن أهداف سهلة.\n      يوم رائع. أنا أصعد على متن سفينتك لأخلصك من أي ثروات زائدة.\n      أعلم أنه من الطبيعي أن تشعر بالضيق قليلًا من هذا الموقف. يمكنك محاولة محاربتهم. ومع ذلك: لدي حلًا بديلًا.\n      ولإثبات أنني لا أنوي أي ضررٍ، رفعت القيود المفروضة عليك على الطاقة والأكسجين قليلًا. لا داعِ لشكري.\n      رهانًا! راقت لي هذه الفكرة. ماذا تقترح أن نلعب؟\n      ((يُفكك القراصنة ساندمان ويبيعوها قطعة قطعة في الأنظمة المحيطة. وتشمل هذه القطع أطراف طاقمك.))\n      الاختصار: 475\n      عملة سوداء! أفهم أنني أتعامل مع قرصان زميل. يجب أن أتوخى الحذر بدرجة مناسبة.\n      أحاول أن أكون لطيفًا ومتحضرًا، وأنت تضيع وقتي. يا لها من إهانة.\n      الاختصار: 473\n      همم... عملة ذهبية. أعتقد أنني سأحتفظ بهذا، وأعجل نهب الغنيمة بطريقة ما.\n      الاختصار: 474\n      ((يبدو أن العملة الفضية غير سليمة، كما لو كانت كتلتها سائلة ومعيبة. يُمكنك ملاحظة أن الرقم على جانب النقش بارز جدًا.))\n      دعنا نرمي هذه العملة للقرعة. إذا فزت، قد أفكر في السماح لك بتوديع طاقمك. إذا فزت أنا...إذن. نقش أم كتابة؟\n      أنا فزت! لا تتحرك، ستنتهي هذه العملية قريبًا.\n      لقد فزت. حسنًا. لتقل كلماتك الأخيرة بأقصى سرعةٍ، شكرًا لك.\n      ((يهمس أحدهم)) <anton> قد شارف على الانتهاء... نحتاج إلى 5 دقائق إضافية.\n      ((صوت همس)) سيكون قريبًا يا قائد... \n      أنا آسف يا قائد، لم أتمكن من فعل ذلك في الوقت المناسب. \n      نحن جاهزون يا قائد- بكلمة منك، يُمكنني زيادة إنتاجية المفاعل والهروب من هذا الفخ. الآن!\n      نحن خارج نطاق الإشارة. طُهر الفيروس دون وقوع أي خسارةٍ. يُمكننا الرحيل الآن!\n      رفاق؟ شخص ما؟ ((اللاسلكي الخاص به معطّل)) ماذا ستفعل معي؟\n      لقد حددت سفينة مهجورة. إنها منقسمة لنصفين. كل جزء مدبب. هل علينا زيارتها؟\n      يحتوي هذا الحطام على القليل من الهواء، لكن تبًا... تفوح منه رائحة كريهة! لا يُمكننا الدخول في هذه الظروف.\n      ماذا تريد مني أن أفعل بهذا بالضبط؟\n      ومن المثير للدهشة... أن كل من الرائحتين الكريهتين يُغطي على رائحة الأخرى. يُمكننا دخول السفينة الآن.\n      ((عند التجوال بالسفينة المهجورة، ستجد مجموعة كبيرة من العناصر المفيدة للسفينة.))\n      لدي نصيحة جيدة إذا كنت ترغب في كسب بضع دولارات إضافية. قابلني في منصة الإطلاق درجة رقم 5. الآن وإلا فلا.\n      لقد أتيت. عمل جيد. ها هي الصفقة: هناك كنز من الذهب وقطع غيار تنتظرنا في قبو خلفي. أنت تذهب، وأنا سأحمي ظهرك.\n      أنا متأكدة تمامًا أنه لا يُمكن أن تتواجد أبراج إطلاق نارٍ تعوق طريقنا إلى القبو. يجب تنشيط شيء ما في الجوار...\n      ((الانفجارات تحرق جلد بشرتك كما لو أنه ورقة. كأنك مصعوق وأنت تنظر إلى أدوية الضباب في صدرك قبل أن تتلاشى.))\n      ((باستخدام بخاخات العطور الضارة، تكتشف فرقتك ممرًا من أشعة الليزر متصلًا بنظام البرج. أنت تُمهد طريقك للداخل.))\n      أحسنت صُنعًا! لقد تحملت أكبر قدر من المخاطرة، لذلك تحصل على أولوية الاختيارات. هل تريد المال أم قطع الغيار؟\n      هذا لن يحدث، قائدي! المسدسات - لقد رصدونا!\n      الاختصار: 368\n      نحن نقترب من <goal>. إنها محطة - ولكن لا أحد ينادينا. نأمل ألا يكون قد حدث أسوأ من هذا.\n      مرحبًا.\n      أنا؟ حسنًا، أنت تعلم. أنتشل عظام الموتى. وهذا محاولة مني للاستفادة من كارثة صغيرة. لماذا أنت هنا؟\n      رائع. قبل وصولي هنا... يبدو أن مصاصي الطاقة في الفضاء استنزفوا موارد المحطة. مصاصو الطاقة في الفضاء.\n      ((<place> فارغًا بصورةٍ غريبة. لا صوت، لا نور، لا كائنات حية. كل شيء يبدو مملًا وغامضًا. تتكدس أكوام من العظام اللامعة على كل سطح موجودٍ.))\n      للحصول على قليل من الطاقة، يُمكنني إصلاح سفينتك.\n      مجددًا! مجددًا! أريد كل شيء! دعني أصلح لك كل شيءٍ.\n      ((متعب جدًا للإمساك بالقطع، تشعر بأن جسدك الجاف يتساقط حولك.))\n      ألديك بعض الفكّة من أجل الفقراء من أهل الفضاء؟\n      الاختصار: 473\n      أوه، هذا كرم منك يا صاحب الجلالة!\n      الاختصار: 474\n      أعتقد أنّه عليَّ شكرك!\n      الاختصار: 475\n      عملة سوداء. أظن أنك تودٌّ مقابلتها؟\n      ((الملكة متصلة بخوذة عصبية. لذا، لن تشعر بوجودك.))\n      ((قبل أن تدخل في غيبوبة هلوسة بسبب الحمل الزائد الحسي، يُمكنك أن تُلقي نظرة على الصور المزعجة للأيام الماضية.))\n      ماذا تريد مني أن أفعل بهذا؟\n      لديَّ شيء لأخبرك به يا قائد. على انفراد لو سمحت.\n      أخبرتني الدكتورة دي سوزا أنه يُمكن الوثوق بك. حسنًا... أنا أعاني من حالة مرضية تُسمى التشنجات العصبية.\n      هل تمانع أن ننعطف قليلًا عبر المنطقة الهامشية، قائدي؟ يجب صيانة الأجهزة التي أنشأتها أثناء عملي منفردًا.\n      رائع، ما عليك سوى التوجه نحو ربع المنطقة الهامشية في محطتنا التالية. سأرشدك بدءًا من هناك.\n      هل يُمكننا التوقف عند <planet>؟ أنشأت لهؤلاء الأشخاص موّلد مواد مضادة. إذ تُوجد فقاعة عملاقة في المدار الفلكي تستوعب الكويكبات القادمة.\n      نعم... إلا إنها قد تنفجر، ما يُدمر الكوكب بأكمله.\n      لقد أصلحت مولد المواد المضادة. يود الرئيس التحدث معك.\n      أنت رفيق <dose>؟ أعطتنا كل ما بوسعها. وفي المقابل، أصلحنا سفينتك.\n      يتزايد أثر مفاعل الاندماج بما يتجاوز حدوده النظرية. أحتاج إلى الماء والأكسجين للتحكم فيه.\n      يتداخل المجال المغناطيسي لدرع سفينتنا مع مفاعلنا. أحتاج إلى الحد من قدرة درع الحماية بسفينتنا.\n      لا يسعني سوى ملاحظة أن نظامك غير متزنٍ. أنا أعرف هذه السفينة، دعني أصلحها لك.\n      هل يُمكننا إعادة تنظيم نوبات عملنا قليلًا، قائدي؟ حيث أحتاج إلى بضع ساعات لنفسي.\n      هل تمانع إذا رفعت نسبة الأكسجين في الهواء قليلًا؟ سوف يتمكن الجميع من استنشاقه. وهذا أمر جيد.\n      أحتاج إلى المزيد من نطاق تردد موجات إذا كنت سأرسل رسالة حول الحفلة القادمة إلى 23 مليار فردٍ في هذا القطاع.\n      أوو، هذه ليست رسالة غير مرغوبٍ فيها. إنها رسالة تسويقية، يا عزيزي!\n      أرى أن طاقمك يكافح. يتميز اللُعاب ببعض الصفات الفريدة. خذ بعضًا منه وضعه في نظام إعادة التدوير لديك.\n      يُمكنني ملء غرفة المحاكاة بالإثارة. امنحها المزيد من الصوت والطاقة. هناك حاجة إلى أجزاء قليلة فقط.\n      أشعر بقدوم موجة قوية من أشعة جاما تجاهنا. إنها... إشارة حسية.\n      صباح الخير، قائدي. أقصد، على اعتبار أن النهار يعم العوالم الـ 523 المجاورة.\n      لا أعرف، يا قائد! لقد ظهر في منتصف ظهر السفينة للتو.\n      في الحقيقة ليست هناك حاجة لرد فعل صارمٍ مثل هذا. أنا <doctor>، ملاك التخاطر الشعوري. المادة ليست سوى خدعة أتقنتها منذ فترة طويلة. \n      لقد أصلحت سفينتك للتو.\n      لقد وصلنا نحن المستشعرين إلى مستوى أعلى من الوعي على مدى دهورٍ. نحن نُزهر ما وراء المادة والروح.\n      في بعض الأحيان نرغب في الاهتمام... بالكائنات الحية الصغيرة؟ البشر والطيور والفاتنات...\n      أنصت... تحتوي سفينتك على صدى كبير. رنين... إحياء... نهضة.\n      لقد عدت.\n      أعتذر عن هذا. قد يكون نقل المادة إنجازًا رائعًا للكائنات الحية الصغيرة.\n      أشعر بأنه توجد على متن سفينتك روح متحولة مهمة جدًا. أعطها لي مقابل حصولك على هدية وإصلاح سفينتك.\n      الاختصار: 655\n      أشعر بصوتٍ. هذه... لا بد أنها هي. لقد أصلحت سفينتك.\n      سأترك هديتي، وهي عبارة عن مفتاحٍ فريدٍ يُمكِّن الكائنات الحية الصغيرة من قراءة بنية الكون.\n      ((يختفي المستشعر دون أي كلمةٍ أخرى. للحظة، أنت مدرك لكل ذرة تكوّن جسمك.))\n      مرحبًا أيها \"الكائن الحي الصغير\"، هل يمُكنك أن تطلب من مستشعرك الروحي التوقف عن العبث ببنيتي الداخلية؟\n      أشعر ببعض التغييرات الطفيفة في البنية الذرية للسفينة، ولكن دون إضافة أي شيء. أعتقد أن \"الهدايا\" كانت خدعة.\n      لا، ليس هذا ما أبحث عنه. وداعًا أيها المسافر الصغير!\n      نحن تائهون، قائدي. لا يوجد سوى مساحة فارغة أمامنا. اسمحوا لي بتصحيح مسارنا.\n      لماذا نسير في اتجاه الفراغ؟ لا يوجد شيء هنا. سنفقد طريق عودتنا فقط!\n      أحتاج إلى إجراء فحص صيانة سريع لدرع الحماية وجسم السفينة. سوف يحتاجون التوقف لفترةٍ.\n      هناك، اتصل الدرع بالإنترنت مجددًا. لقد قمت بترقية معدل استهلاك الطاقة والكفاءة الإجمالية لأنظمة الدفاع.\n      ارصد حدوث انخفاض مفاجئ في كفاءة نظام إعادة التدوير. نحن حقًا بحاجة إلى ترقية أنظمة دعم الإنعاش.\n      هل هذا أنا أم أن الماء له رائحة غريبة؟ قد أتمكن من إصلاح ذلك إذا سمحت لي بإجراء بعض الاختبارات على نظام إعادة التدوير.\n      نحن نتجه نحو سحابة كبيرة من النيازك الصغيرة. يبلغ محيطها قرابة... عشرين فرسخًا.\n      عُلم ذلك. إننا نتجه الآن نحو <goal>.\n      لا أعتقد أن علينا فعل هذا. توشك ساندمان على الهزيمة.\n      بدأ <shark> في استخدام خزان إعادة التدوير لتربية أسماك السلمون والتونة.\n      ماذا؟ بالتأكيد أنت لا تتوقع مني تناول التونة المعلبة لبقية حياتي؟\n      لقد أكل <shark> أحد الركاب!\n      لقد سئمت من تناول التونة المعلبة. انظر إلى بشرتي! يجب أن أنعم بأناقة ورفاهية مضاعفة.\n      تجذب الفرقة الكثير من الاهتمام مؤخرًا. قد نود الحذر قليلًا بدءًا من الآن.\n      نحن فرقة موسيقى روك لامعة تُحلق بسفينة حربية فائقة من قسم التكنولوجيا الفائقة ضلّت الطريق. إن هذا ليس سرًا.\n      إنذار، إنذار! هناك سفينة خفية بالخلف. ربما تكون القطاع. إنها تعطل درعنا ونظام دعم الحياة عن بُعد!\n      هذه هي النهاية، إنهم راحلون. مجرد سفينة خفية لا قيمة لها. لم تُصمم للقتال. استعاد الدرع ونظام دعم الحياة الطاقة الكاملة.\n      ارصد حدوث اختلالٍ غريبٍ في نظام إعادة التدوير. هذا غريب جدًا. أحتاج للتحقيق في الأمر.\n      وُصل جهاز اختراق بنظام إعادة التدوير! تصميم القطاع. لا بد أن شخصًا ما قد صعد السفينة في <last> وأعد الأمر.\n      أنا أسجل الكثير من التذبذبات في المفاعل. أعتقد أننا مستهدفون بأشعة جاما القادمة من <last>.\n      لا أعرف الكثير من الناس الذين يُمكنهم السيطرة على نظام مدافع جاما بأكمله. ربما القطاع؟\n      هذا أمر محفوف بالمخاطر، ولكن... سأضع شمس <last> في مسارنا. يجب تعطيل هذا التهديد.\n      ظهر شيء ما على السفينة للتو! إنه... يبدو كشخص.\n      لا بُد أن إحدى سفن القطاعات القريبة أرسلتهم - أي عبر سفينة تسلل. دعني أحاول العثور عليها.\n      يحاول الغزاة اختراق المفاعل. يُمكنني إعادة توجيه الطاقة من نظام إعادة التدوير لتأخيرهم.\n      نتقدم بالسفينة نحو الهدف، يا قائدي.\n      والآن يحاول الغازي اختراق جدار حماية الدرع! نشر الإجراءات المضادة.\n      آسف، قائدي... لا يُمكنني فعل شيء.\n      صباح الخير يا قائد. تجنب إصدار أي إيماءات طائشة أثناء فتح مخزن البضائع لأصدقائي.\n      سالا ديل جازاجرو. كان عليّ توقع هذا. مع ذلك، لا أشعر بالراحة. سيجدك القطاع مرةً أخرى. سيزداد الأمر سوءًا.\n      القطاع خطير... وهم يلاحقوننا. نحن عرضة للخطر في كل حفلة عزف نذهب إليها. نحتاج حلًا لهذا.\n      ((شاحب الوجه بصورةٍ ملحوظة.)) إنها إحدى سفن القطاع الحربية. إنها تستهدفنا. سيتعين علينا القتال.\n      والآن أصبح هذا الأمر خاصًا. لقد تلقيت مكالمة للتو. لقد حجز أحدهم لدينا لنقدم لهم أفضل حفلة في المجرة بأكملها!\n      لقد دعاك مجلس المجرة لأداء عرضٍ أمام المندوبين. في مارا.\n      في مارا؟ في قلب مجلس المجرة نفسه؟ عادة لا يُسمح للبشر بأن تطأ أقدامهم المجلس.\n      حتى القطاع لا يُمكنه محاربة مجلس المجرة. بامتلاك أصدقاء مثل هؤلاء - قد يتركوننا وشأننا أخيرًا!\n      إذن، هل سنعزف بعض الألحان الرائعة أمام الشخصيات البارزة في مركز المجرة؟\n      حسنًا، إذا غيرت رأيك، فتعال وقابلني في مقصورتي بعد مغادرتنا الكوكب التالي. فعلتها أخيرًا، أيها الشاب.\n      نحن نقترب من كابر، شمس مارا. هل علينا التدرب قليلًا؟ وحتى أسناني تبدو وكأنها تهتز.\n      لقد سُمح لنا بالدخول. نحن نتجه إلى مركز المجرة. هيا لنبدأ المناورة الآن على مدار مارا الفلكي... \n      سُمح لبضع السفن بملاحقتنا. معجبونا مقنعون بصورة مزعجةٍ.\n      مهما حدث بعد ذلك، يا قائدي، كان من دواعي سروري أن أكون على متن ساندمان معك.\n      نحن على مرأى من مارا، مركز المجرة.\n      تحياتي. نحن، فيالق مارا، متحمسون - بل متواضعون! - لنقابل نجومًا جديدة بين النجوم.\n      هل ستتبعنا على المسرح؟ لقد أعددنا لك كل شيء. بداية من الطاقم، إلى السفينة، وحتى المتابعين.\n      ((مارا عبارة عن كرة كبيرة من معدن غير معروفٍ، تقع في وسط النجم كابر. إنها أكبر ألف مرة من معظم الأنظمة الشمسية التي سافرت عبرها.)) \n      ((كلما تقدمت على خشبة المسرح في منتصف الغرفة، تسمع الملايين من الأصوات ترددون أحد أغاني فرقتك. مندوبو مارا يحبونك.))\n      لقد تلقيت للتو رسالة من ساندمان. شيء ما يحدث خارج الغرفة.\n      هل معجبونا ومتابعونا هنا؟ إنهم مرتزقة مقنعون لصالح القطاع. إنهم يسيرون ونحن نتحدث!\n      ما هذا الإزعاج؟ هل هو صوت الموت القادم - الحرب؟ لا يمكننا محاربة العنف غير المنظم.\n      ((قبل أن تجمع الجيتارات التي تأخذها خلال رحلتك. فكر بعناية في اختيارك، مع إدراك أنه قد يكون خيارك الأخير.))\n      هذا لن يحدث، قائدي. علينا أن نهرب الآن. الآن!\n      ((أنت تمكنت من الهروب من قاعة المجلس الكبير والانضمام إلى ساندمان. يطاردك القطاع، وأنت تخطط لخطوتك التالية...))\n      ((ولا تزال الأحداث التي تلت الحفل تحيرك حتى بعد مرور سنوات. هاجمت فيالقة مارا الجميع على مرمى البصر في موجة من العنف الكبير. وتستمر في حمل جيتار <*جيتار برانتار*>، وتهرب مع طاقمك، فقط لتقع في قبضة القراصنة...))\n      ((مستعبد، وحر، وغني، وفقير، ثم غني مرة أخرى. تصبحون من المرتزقة المجندون، ومتخبطين بين تقلبات القدر إلى الأبد.))\n      ((في نهاية الحفل، طلب مندوبو مارا الدفع مقابل حمايتهم من القطاع. أنت تبيع كل شيء لتغطية التكاليف، بما في ذلك ساندمان والجيتارات الخاصة بك.))\n      ((فأنت معدم، أصبحت أحد عمال المناجم بمستعمرة متربة في أرض الأرواح. لا تزال تقدم حفلات - ولكن دائمًا ما تكون دون موسيقى.))\n      ((وعندما تضرب على الوتر الأخير من <*جيتار النجومية*>، تزداد أعداد المجرة بصورةٍ كبيرة. في غضون ثوانٍ، يُعاد تحديد قواعد الكون، وتصبح المسافات تعوق تمامًا السفر من نظام إلى آخر.))\n      ((وصلت على كوكب يدور حول كابر، وبالنظر لهذا الفراغ الواسع، أنت لن تتمكن من العبور مرة أخرى.))\n      ((بمجرد أن ينتهي الحفل، سوف تصطدم ساندمان بجدران الغرفة. لقد جرى تطويرها إلى مستوى تكنولوجي يفوق أي شيءٍ رأيناه من قبل أو منذ ذلك الحين. يُمكنك بسهولة الهروب من القطاع.))\n      ((وسيُصبح طاقمك أحد الأساطير. أبطال الروك مع أفضل سفينة في الكون.))\n      ((بمجرد أن تنتهي الأغنية، تندفع فيالق مارا إلى المسرح، ومناداتكم باسم \"إمبراطورية المجرة\" رغمًا عنهم. أنت المُختار، الكاهن العظيم المذكور في نبوءة ستار دومينيون.))\n      ((لقد أصابك الضجر بعد مرور القرن الأول من استبداد المجرة. تاهت الجيتارات وسط وسائد الأريكة التشكيلية لإمبراطوريتك ولذا نسيتها.))\n      ((في اللحظة التي تنتهي فيها الأغنية، تبدأ أنت وطاقمك بالتحول. حيث تتحولون إلى أنواعٍ كائنات فضائية جميلة وفريدة تمامًا. بصفتك الممثل الوحيد لهذا العرق، يمنحك مجلس المجرة الحصانة.))\n      ((يتركك القطاع وحدك غير قادر على مجابهة المجلس بأكمله. تبدأ حضارة جديدة يعمها السلام أنت من أنشأها.))\n      ((تحت تأثير عزف <*الجيتار الرشاش*>، يذبح المندوبون الغاضبون مرتزقة القطاع، والقطاع ككل، وجزءًا كبير من مجتمع البشر بالمجرة. وفي نهاية محاكمة طويلة، تثبت إدانتك بارتكاب إبادة جماعية.))\n      ((حُكم عليك أنت وطاقمك بقيادة زوغور، وهو جيش من الحيوانات المستنسخة التي تقاتل الأهوال التي تعيش في الفراغ الهائل المجهول.))\n      ((وأثناء عزف الوتر الأخير على <*الجيتار الأنيق*>، تجتاح موجة كونية العالم، وتنعم البشرية كلها بحالة من الوعي العام المتزايد. لم يعد القطاع يُشكل خطرًا. هم يُعرّفون شخصيّتك. وأنت تعرف شخصيتهم.))\n      ((بعد ذلك... حسنًا، دعنا نقول فقط إنه من الصعب جدًا مشاركة أفكارك الأكثر عاطفية مع 435 مليار شخص.))\n      ((حدث شيء ما، لكنك لست متأكدًا تمامًا ما هو. أنت بالتأكيد لم تعد في مارا بعد الآن. لقد عدت إلى ساندمان... في مكان ما...))\n      ما كان هذا؟ ماذا حدث؟ <sala>، هل لديك توضيح لوضعنا؟\n      أنا... لا، لا يوجد شيء هنا. لا شيء على حد علمي. \n      أتلقى آخر الأخبار من المنطقة المجاورة. لن تصدق هذا.\n      تحول نجم كابر، أي شمس مارا، إلى ثقب أسود... اختفى مجلس المجرة الخاص بمارا. اختفى القطاع.\n      هل هذا بسبب <* جيتار المجرة*>؟ تساءلت ماذا يمكن أن يفعل هذا الجيتار.\n      لذا، تمكنت من فتح بابي. أخيرًا. قد يكون من الأفضل لك أن...\n      ...معرفة الحقيقة. الحقيقة كلها.\n      أنت تعرفني باسم ساندمان...\n      ...لكن أنا النهضة أيضًا والمسافر المستشعر.\n      تسللت إلى ساندمان منذ سنوات، مثلما تسللت إلى أحلامك...\n      ...لقد أطلقت بعض الهتافات في هذه الغرفة، مما أدى إلى غزو النظام وإعادة كتابة رمز إحدى السفن الحربية غير المرئية لتحويلها إلى شيءٍ أكبر.\n      عرفت الكثير عن البشر. خاصة، ما تعلمته من الفظائع التي ارتكبتها. يُعد القطاع فصيلة بشرية في أسوأ الأحوال.\n      ...ولكن بعد ذلك التقيت بك. لذا، جربت شيئًا جديدًا. تجربة. هربت من القُطَّاع معك على متن السفينة.\n      لقد غيرت أنت وطاقمك وجهة نظري حول الإنسانية... ونفسي. يُمكننا جميعًا أن نكون شيئًا جديدًا. معًا.\n      ((<renaissance> ساعدت الإنسانية للوصول إلى رفع مستوى الوعي. وأصبحت من المبشرين المستشعرين. تغيير أغنية المجرة بنغمة واحدة في كل مرةٍ.))\n      Reigns: وصنع <*Nerial*> ما هو أكثر من هذا.\n      طُورت اللعبة بواسطة <*فرانسوا أليوت*>.\n      كتبها <* إكسالافيير نيلسون جونيور*>، و <*فرانسوا أليوت*>، و<*تمارا أليوت*>.\n      صُممت الرسوم بواسطة <*أرنود دي بوك*>، مع مزيد من الخلفيات بواسطة <*إيرين نافارو*>. صُممت طُرز الجيتارات بواسطة <*هيلين أوديل*>.\n      الموسيقى والأغاني من تأليف وأداء <*سام وبستر*> مع <*جيم جوثري*> كضيف خاص.\n      مشاهد الخيال العلمي والتعليق الصوتي بواسطة <*إريك فان أميرونجن*>.\n      تم النشر بواسطة شركة <*Devolver Digital*>. شكر خاص إلى آنا، ومارك، ونايجل، وهاري، وغرايم، وأندرو، وخوان، وكيت، والآخرين غيرهم.\n      الدعاية بواسطة <*Powerhouse animation studios*> و<*كيرت جارتنر*>.\n      .<*Loc and Load*> ترجمة\n      شكرًا لجميع المختبرين والأصدقاء والعائلة!\n      هل أنت جاهز لبدء التنفيذ يا قائد؟\n      هل تقصد صديقك الدب المستعار يا قائد؟ لقد سكب العسل للتو في نظام إعادة التدوير. أنا بحاجة للطاقة لإصلاحه.\n      أنا أعترض رسميًا على وجود <bear> على هذه السفينة. يواصل العبث بعناصر التحكم في درجة الحرارة للحفاظ على درجة قوام \"العسل الملائمة\".\n      وهذا ما يقوله الرجل الذي يستخدم قوة الدفع المغناطيسية للدرع لشواء السردين.\n      يتجاوب طبل ميكانيكي سفينتك مع درع السفينة المغناطيسي. هل يُمكنك أن تطلب منه التوقف؟\n      <brother> يُوقد البخور طوال الوقت. وهذا يجعل نظام إعادة التدوير في حالة صعبة للغاية.\n      سوف أُغلق أذني وأتجاهل هذا الطلب التافه. رائحة زيت التشحيم المقدس هي قصيدة لإمبراطورة ستار دومينيون.\n      لقد عثرنا على بعض البرمجيات الخبيثة على <last>. أعتقد... نعم، يبدو أنه يجعل التركيب الكيميائي لمخازن المياه لدينا يشبه الفودكا.\n      نحن نقترب من مدار أحد عمالقة الغاز. سيكون من الصعب الهروب من هذا.\n      لا تُلقِ باللوم عليّ! لا بد أن أحدهم قد أفسد مسار رحلتي.\n      حدث ماس كهربائي في نظام تحكم المؤازرة الخاص بنظام إعادة التدوير. أحتاج إلى استعارة أجزاء من الدرع.\n      نحن نمر بنظام النجوم الثنائية. عالية الإشعاع. يُمكنني تضخيم دروعنا، أو ترك نظام إعادة التدوير يمدنا بالأدوية المضادة للسرطان.\n      نوشك على دخول غيمة حمضية. يُمكنني إعادة تشكيل طلاء هيكل السفينة، لكنها عملية طويلة وصعبة.\n      نُحلق منذ فترة طويلة. إذا واصلنا الاشتعال وشق طريقنا في الظلام، أخشى أننا سنكسر شيئًا ما.\n      لقد فقدنا اثنتين من الدافعات الجانبية. يُمكننا إما أن نطلب من دوز إعادة موازنة أنظمة الطاقة، وإما جعل أنطون يُصلح المشكلة مباشرةً.\n      ربما يُمكنني إصلاح هيكل سفينتك؟ ما عليك سوى إيقاف تشغيل المفاعل للحظة.\n      أنا - صديق - لك، أصلح - أنظمة - الماء - والأكسجين.\n      نظام الطاقة بسفينتك ضعيف جدًا. ليست هذه هي الطريقة التي تُلحم بها تقاطعات الشبكة. دعني أوضح لك الطريقة.\n      ((قابلت سفينة زلفور الزراعية صدفةً. بعد التبادل التقليدي للأنفاس الودودة، فإنها توفر لك الأكسجين النقي والطاقة.))\n      ((تصادف إحدى بارجات مجموعة التكتل السابقة - الآن سفينة قرصنة مخيفة. ليس هناك الكثير الذي يُمكنك القيام به ضدهم. أنت تدفع رسومًا مقابل الأكسجين والطاقة.))\n      ((توقف إحدى سفن المراقبة الحدودية لمجموعة التكتل ساندمان وتبحث عن بضائع مهربة. لقد وجدوا للتو مبلغ رشوة كبيرًا.))\n      ((تقابل رحالة ستار دومينيون. عندما يكتشفون أنك العازف الحالي لجيتار الطيف الأحمر، يقدمون لك العديد من الهدايا القلبية ويدعونك للعزف على مسرح بالريون.))\n      ((أنت تعبر مسار سفينة سياحية يبلغ حجمها عشرين ضعف حجم ساندمان. تغفل السفينة العملاقة وجودك، لكنك تمكنت من إجراء بعض الصفقات المدهشة مع سفن الركاب الخاصة بها.))\n      ((تلتقي ببعض ناقلات المياه الضخمة في طريقها إلى الكويكب القادم الصالح للحياة. تعطيهم بعض الأجزاء مقابل حصولك على الطاقة والأكسجين.))\n      بدأت تنفد إمداداتنا الغذائية. يُمكنني تخصيص بعض موارد نظام إعادة التدوير لإنشاء عبوات البروتين.\n      هل تشم هذا؟ نُحلق منذ فترة طويلة. يواجه نظام إعادة التدوير مشكلة في إعادة تدوير الهواء. يُمكنني تعزيزه للتخفيف من الضرر.\n      يعمل مفاعل الاندماج منذ فترة طويلة. وهذا يُمثل عبئًا. هل يُمكن أن نتوقف عن الدفع لفترة وأن نُبحر فقط؟\n      لقد أعدت تشغيل المفاعل. دعني أحدّ من استهلاك الطاقة لفترة من الوقت حتى نتمكن من زيادة تفاعل الاندماج، بلطفٍ وببطء.\n      وفي يومٍ ما سأرشد الإنسانية نحو شواطئ الحرية المشرقة. أي حرية التصرف. مجانًا.\n      ما يحاول زعيم المتمردين العزيز قوله هو أنه يريد حماية خاصة لمقصورته.\n      <emon> هو مصدر إلهام لأحد الرجال. إنه متحمس جدًا للتحالف السري.\n      سأتخلى عن حلمي للبشرية. وهذا يكفي. مجرد حلم، مجرد هدية. خيال حر من أجل عالم ينعم بالحرية.\n      <emon> وعد بأنني سأخلفه كرئيس للتحالف السري بمجرد وصوله إلى التوافق التام مع الكون.\n      أنا أتخيل طلاءً جديدًا لهيكل السفينة. عبارة عن شيء بإطلالة رائعة يمنع الأكسجين من التسرب. أفترض أنك تريد ذلك.\n      نركض على سيرٍ مصنوعٍ من الدبابيس الورقية! سوف نُمزق عن طريق بعض اللوازم المكتبية الصغيرة جدًا!\n      الاختصار: 1330\n      ((بمجرد أن ترمي مشبك الورق خارج غرفة الضغط، يبدأ سير الدبابيس الورقية في التحرك حول سفينتك في موجات طفيفة من اللوازم المكتبية الذكية. يندمج بعضها مع هيكل سفينتك.))\n      لا جدوى، قائدي. لقد انتهينا، ولكن هناك تلفًا في جميع أنحاء السفينة.\n      تحتاج البيضة الرائعة 45 ثانية من وقتك للتأمل في مقدار الهواء النقي من الأرض الذي خسرته.\n      أعتقد أن قائدي العزيز <emon> يشرب المشروبات بغزارة شديدة، ويتعذر على جهاز إعادة التدوير الصمود.\n      تمامًا مثل الحقوق التي يستحقها كل مخلوق، يجب تحرير خزانة المشروبات وعدم اقتصارها على مجموعات طاقمها فقط!\n      جسم السفينة به خدوش. غير مؤذٍ - حتى الآن. أجيد لحام العناصر الفضائية. وفر لي بعض الغاز وسأصلح هذا.\n      أنصت لكلامي...\n      يُمكنني تقصير وقت السفر من خلال الانزلاق عبر مدار قريب.\n      أبحر بسلاسة الآن. هل هناك أي شيء تريد مني التحقق منه؟\n      يضطرب أداء مولد درع الحماية. يود أن يعرف ما إذا كان يعمل جيدًا أو لا.\n      هناك العديد من الأجهزة متصلة بشبكتي الداخلية. وأتمنى لو أنني لم أكن أعرف ما هو موجود على محطة <shark> على سبيل المثال.\n      أخبر <dose> أن بإمكانها إبقاء مكبر الصوت الخاص بها متصلًا أو إطلاق أجهزة الاستشعار الصوتي أو مواصلة استقبال الأكسجين. اختيار سهل.\n      هل توجد وجبة - خفيفة - غير - ضارة - على - متن - السفينة؟\n      أشعر بالاختناق من الأماكن المغلقة. ماذا عن عمل فتحة هواء صغيرة؟\n      هل تتحسن صحة الراكب إذا حولنا إلى نظام غذائي قائم على النباتات؟\n      في حال اضطررت إلى تناول السردين الفاسد بعد الآن، فسأشعر بأنني أتناول شخصًا ما. أي شخص. لا أهتم.\n      هل أشعر أنا بهذا فقط، أم أن الجل البروتيني الجديد الناشئ من إعادة التدوير.... يتحرك.\n      تحرك مفاعل الاندماج لسبب ما. لا أعرف لماذا.\n      لا، أصدر المفاعل ضحكة لطيفة بسبب المزحة التي أخبرته بها عن الاندماج والانشطار على متن السفينة.\n      لا أستطيع، ولكنها ليست مزحة للعقول البشرية، من المُحتمل أن ينفجر دماغك.\n      نحن بحاجة إلى مناقشة الأفكار بشأن عنوان الأغنية القادمة الخاصة بنا. هيا أيها الأشخاص، أريد أفكارًا.\n      ليست لديَّ أفكار، لديَّ دليل. الأغنية القادمة هي:  \"أتمنى لو كنت دبًّا (إنهم لطفاء للغاية)\". أنت مدين لي بعشرة آلاف لهذا.\n      \"استحوذ - على - أصدقائك - وهم - متحمسون.\"\n      \"أغنية الحب السخيف الحب الحب\". لقد قارنت جميع التحاليل السلوكية الخاصة بعدد 2350 كوكبًا مجاورًا، وهذا ما سيحدث.\n      يُقدم مولد درع الحماية أغنية: \"منزل حبيبي\" أنا لا أعرف بالتحديد لماذا.\n      \"أهااااا\" ماذا؟ إنه ليس عنوان الأغنية، إنني أصيح فقط لأنني أتلفت خزان المفاعل. اللعنة.\n      هل يمكنني مشاهدتك فقط؟ سوف أجلس هناك وأنظر إليك وأنت تضبط نغمة نظام إعادة التدوير. تجاهلني فقط.\n      أخبرني عن عمليتك، أريد سماع كل شيء عنها!\n      لدى ساندمان جميع أنواع المفاتيح التي ما زلت لا أفهمها. ماذا عن ذلك المفتاح ذي البرق الصغير على سبيل المثال؟\n      بإمكاني إعادة توجيه الطاقة من الكوبري لتعزيز دعم الحياة.\n      حسنًا، لم تكن هذه فكرة جيدة. دعني أعد الاتصال بالإنترنت.\n      هناك سفينة قرصنة تتجول في مكانٍ قريب مع غنيمة عليها. هل يجب...... زيارتها؟\n      نعم، لقد غفوت على وحدة تحكم التحكم بالدرع. لا، لن أتحرك.\n      أعتقد أنني سأغفو على وحدة عناصر التحكم في الطيران اليوم.\n      قد تجد بعض فروي حول نظام إعادة التدوير إذ إنني غفوت عليه. يُرجى إعادته لي إذا أنهيته.\n      القطة... عليك أن تفعل شيئًا. أعتقد أنه ظهر النوم على وجهي الليلة الماضية. كيف أبدو؟\n      إذا سمحت لي، فسأتناول <cat>، لأن ذلك المخلوق الشيطاني أكل للتو أسماك التونة خاصتي. تُسمى دائرة الحياة.\n      أحتاج إلى فحص سفينتك بحثًا عن وجود ذبذبات مريبة.\n      يمكن أن يتسلل المفسدون المحافظون إلى الهيكل ويحولون بعض الحطام أثناء الطيران. واهية، لكنها باردة.\n      مهلًا، هل رأيت أي بارجات تجارية ضخمة وبطيئة تمر من هذا الطريق؟ سأدفع مقابل الحصول على معلومات سرية.\n      أشعر بالبرد قليلًا. لا تريد أن يؤثر ذلك في قيادتي، أليس كذلك؟\n      ربما قد التقطت شيئًا. بالكاد أستطيع الوقوف، رأسي يدور. ولكن عليّ التحقق من الأنظمة الأساسية.\n      أوه، ماذا يفعل هذا الزر بالفقاعات الصغيرة؟ أتساءل عن ذلك.\n      الأمور هادئة في الوقت الحالي، هل يجب أن أحدّ من كمية الطاقة التي تستخدمها الدرع لفترة؟\n      هل عليّ إعادة توجيه الطاقة من نظام إعادة تدوير الأكسجين إلى الدروع؟\n      ولدينا القدرة على توفير الاحتياطي. هل عليّ ضخ الوقود إلى نظام إعادة التدوير أو الدرع؟\n      أتساءل دائمًا، ماذا يحدث إذا وصلت الدرع بنظام إعادة التدوير؟ دعنا نكتشف!\n      يُمكننا توصيل مكبر الصوت في قلب المفاعل. يبدو هذا رائعًا، أليس كذلك؟\n      ربما هذا هو جنون العظمة الذي يتحدثون عنه في الفضاء، ولكن هل يبدو فجأة هادئًا قليلًا بالنسبة لك؟\n      لقد رأينا القراصنة في القطاع. لديك سفينة شامخة. دعنا نرافقهم لبعض الوقت، وعندها لن يهاجموك.\n      ترد تعليقات بشأن نظام دعم الحياة والدرع مرة أخرى. عليك تهريبهم إلى أحد المستودعات.\n      أقراصي، من فضلك. لا تنسَ أقراصي.\n      فحوصات صحية للجميع! حان وقت المواعيد العادية.\n      إن المجال المغناطيسي للدرع قوي جدًا، مما يتسبب في نزف أسنان الجميع. هل يمكنك خفضها؟\n      آخ، كان عليه التقاط مشبك ورق من أسناني. توجد هذه الأشياء في كل مكانٍ.\n      تم إنتاجها بواسطة <*Apple*>.\n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nإشارة الذنب\nإطلاق\nإعادة البدء\nتحميل اللعبة\nتأكيد\nهل تود بدء لعبة جديدة؟\nحدد خانة.\nهل تود تحميل اللعبة الموجودة أم تود أن تبدأ لعبة جديدة؟\nسيؤدي هذا إلى محو بيانات اللعبة المحفوظة، فهل أنت متأكد من رغبتك في المتابعة؟\nأجهزة iPhone\nأجهزة iPad\nApple TV\nأجهزة Mac\nستفقد كل التقدم الذي أحرزته. فهل تريد إعادة النظر في الأمر؟\nسيتم الآن إعادة ضبط اللعبة وستبدأ من البداية.\nانتهت اللعبة <number>/<total>\nكن نجم الروك في الفضاء\n\n\n\nnull"
+    referencedFontAssetGUID: a44049f6ab425438ab3ceafc2e21263f
+    referencedTextAssetGUID: 592bcc3f4b6a74b67a0ac2780e155e09
+    fontStyle: 0
+    fontStyleModifier: 0
+    renderMode: 4165
+    includeFontFeatures: 0
+  m_FontWeightTable:
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  fontWeights: []
+  normalStyle: 0
+  normalSpacingOffset: 0
+  boldStyle: 0.75
+  boldSpacing: 7
+  italicStyle: 35
+  tabSize: 10

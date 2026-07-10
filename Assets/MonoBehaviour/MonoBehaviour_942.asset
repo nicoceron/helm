@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg id="BG" xmlns="http://www.w3.org/2000/svg" width="138" height="138" viewBox="0 0 138 138"><title>UI_under_back</title><rect x="0.13775" y="0.13775" width="137.7245" height="137.7245" rx="20" style="fill:#071214"/><rect x="11.9726" y="15.7157" width="114.0548" height="106.5686" style="fill:#173017"/><rect x="33.1102" y="34.2111" width="71.3393" height="71.3393" style="fill:#071214"/><rect x="22.9817" y="42.1376" width="92.845" height="8.3859" style="fill:#071214"/><rect x="22.3946" y="56.6697" width="92.845" height="8.3859" style="fill:#071214"/><rect x="22.6882" y="71.2018" width="92.845" height="8.3859" style="fill:#071214"/><rect x="22.101" y="85.7339" width="92.845" height="8.3859" style="fill:#071214"/></svg>'
+  _title:
+  _description:

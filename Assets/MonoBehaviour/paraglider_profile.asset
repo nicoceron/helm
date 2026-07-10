@@ -1,0 +1,391 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fed8626bce1cd97dda0d7e8d7c7482e, type: 3}
+  m_Name: paraglider_profile
+  m_EditorClassIdentifier:
+  beatChange:
+  - timestamp: 12.01
+    value: 79.7
+  - timestamp: 24.807993
+    value: 159.4
+  - timestamp: 60.9435
+    value: 79.7
+  - timestamp: 86.53948
+    value: 159.4
+  noteChange:
+  - timestamp: 0
+    value: 4.5
+  - timestamp: 6.2695885
+    value: 2
+  - timestamp: 9.528347
+    value: 6
+  - timestamp: 12.596551
+    value: 4
+  - timestamp: 13.081264
+    value: 5
+  - timestamp: 13.783266
+    value: 3
+  - timestamp: 14.526095
+    value: 5
+  - timestamp: 15.284656
+    value: 2
+  - timestamp: 16.078388
+    value: 6
+  - timestamp: 16.818726
+    value: 3
+  - timestamp: 17.591045
+    value: 7
+  - timestamp: 18.297087
+    value: 2
+  - timestamp: 19.070513
+    value: 5
+  - timestamp: 19.842855
+    value: 1
+  - timestamp: 20.531033
+    value: 5
+  - timestamp: 21.274364
+    value: 4
+  - timestamp: 22.065996
+    value: 5
+  - timestamp: 22.906963
+    value: 2
+  - timestamp: 23.547026
+    value: 5
+  - timestamp: 24.321257
+    value: 0
+  - timestamp: 25.166965
+    value: 6
+  - timestamp: 25.904863
+    value: 6
+  - timestamp: 26.624773
+    value: 5
+  - timestamp: 26.969046
+    value: 7
+  - timestamp: 27.227951
+    value: 8
+  - timestamp: 27.468401
+    value: 5
+  - timestamp: 28.071836
+    value: 6
+  - timestamp: 28.810684
+    value: 5
+  - timestamp: 29.413893
+    value: 7
+  - timestamp: 29.724628
+    value: 5
+  - timestamp: 30.017242
+    value: 6
+  - timestamp: 30.412592
+    value: 1
+  - timestamp: 31.067688
+    value: 3
+  - timestamp: 31.738407
+    value: 2
+  - timestamp: 31.981895
+    value: 3
+  - timestamp: 32.411804
+    value: 3
+  - timestamp: 32.654705
+    value: 2
+  - timestamp: 32.930336
+    value: 4
+  - timestamp: 33.37572
+    value: 0
+  - timestamp: 34.052525
+    value: 3
+  - timestamp: 34.863876
+    value: 1
+  - timestamp: 35.58941
+    value: 2
+  - timestamp: 35.797474
+    value: 4
+  - timestamp: 36.071777
+    value: 5
+  - timestamp: 36.41648
+    value: 3
+  - timestamp: 37.13807
+    value: 3
+  - timestamp: 37.867752
+    value: 3
+  - timestamp: 38.145306
+    value: 2
+  - timestamp: 38.592686
+    value: 3
+  - timestamp: 38.920094
+    value: 5
+  - timestamp: 39.420418
+    value: 1
+  - timestamp: 39.764244
+    value: 5
+  - timestamp: 40.232708
+    value: 3
+  - timestamp: 40.608906
+    value: 5
+  - timestamp: 41.010284
+    value: 3
+  - timestamp: 41.233337
+    value: 5
+  - timestamp: 41.70089
+    value: 2
+  - timestamp: 42.013138
+    value: 5
+  - timestamp: 42.429897
+    value: 1
+  - timestamp: 42.601982
+    value: 7
+  - timestamp: 42.93097
+    value: 5
+  - timestamp: 43.20928
+    value: 3
+  - timestamp: 43.469227
+    value: 6
+  - timestamp: 43.710762
+    value: 7
+  - timestamp: 43.936127
+    value: 5
+  - timestamp: 44.178764
+    value: 1
+  - timestamp: 44.369232
+    value: 6
+  - timestamp: 44.644077
+    value: 3
+  - timestamp: 44.765114
+    value: 5
+  - timestamp: 45.0226
+    value: 2
+  - timestamp: 45.2481
+    value: 7
+  - timestamp: 45.972214
+    value: 4
+  - timestamp: 46.906746
+    value: 5
+  - timestamp: 47.302593
+    value: 6
+  - timestamp: 47.712437
+    value: 2
+  - timestamp: 48.090054
+    value: 5
+  - timestamp: 48.506176
+    value: 1
+  - timestamp: 49.23241
+    value: 4
+  - timestamp: 49.916553
+    value: 2
+  - timestamp: 50.692623
+    value: 5
+  - timestamp: 51.43154
+    value: 6
+  - timestamp: 52.25678
+    value: 3
+  - timestamp: 53.045277
+    value: 4
+  - timestamp: 55.183296
+    value: 4
+  - timestamp: 55.770115
+    value: 5
+  - timestamp: 56.685024
+    value: 3
+  - timestamp: 57.44197
+    value: 6
+  - timestamp: 58.177555
+    value: 2
+  - timestamp: 58.865772
+    value: 5
+  - timestamp: 59.45093
+    value: 6
+  - timestamp: 59.793964
+    value: 7
+  - timestamp: 60.070393
+    value: 5
+  - timestamp: 60.533546
+    value: 7
+  - timestamp: 60.602707
+    value: 2
+  - timestamp: 61.241123
+    value: 5
+  - timestamp: 61.30991
+    value: 2
+  - timestamp: 61.787918
+    value: 6
+  - timestamp: 61.991467
+    value: 2
+  - timestamp: 62.52577
+    value: 5
+  - timestamp: 62.73327
+    value: 1
+  - timestamp: 63.163876
+    value: 5
+  - timestamp: 63.52518
+    value: 1
+  - timestamp: 64.09544
+    value: 5
+  - timestamp: 64.28537
+    value: 1
+  - timestamp: 64.81997
+    value: 5
+  - timestamp: 65.01081
+    value: 4
+  - timestamp: 65.45963
+    value: 5
+  - timestamp: 65.80178
+    value: 2
+  - timestamp: 66.077385
+    value: 6
+  - timestamp: 66.45757
+    value: 7
+  - timestamp: 66.751465
+    value: 1
+  - timestamp: 67.19845
+    value: 7
+  - timestamp: 67.31846
+    value: 1
+  - timestamp: 67.78477
+    value: 7
+  - timestamp: 67.9741
+    value: 1
+  - timestamp: 68.318794
+    value: 5
+  - timestamp: 68.67974
+    value: 2
+  - timestamp: 69.08988
+    value: 6
+  - timestamp: 69.464874
+    value: 3
+  - timestamp: 70.187965
+    value: 5
+  - timestamp: 70.537285
+    value: 4
+  - timestamp: 70.95366
+    value: 7
+  - timestamp: 71.302414
+    value: 3
+  - timestamp: 71.68301
+    value: 5
+  - timestamp: 72.47232
+    value: 2
+  - timestamp: 72.79894
+    value: 6
+  - timestamp: 73.23057
+    value: 2
+  - timestamp: 73.57505
+    value: 5
+  - timestamp: 74.04071
+    value: 1
+  - timestamp: 74.33535
+    value: 5
+  - timestamp: 74.73241
+    value: 4
+  - timestamp: 75.0431
+    value: 7
+  - timestamp: 75.38659
+    value: 5
+  - timestamp: 75.59082
+    value: 1
+  - timestamp: 75.95245
+    value: 5
+  - timestamp: 76.31295
+    value: 1
+  - timestamp: 76.71249
+    value: 6
+  - timestamp: 77.040215
+    value: 2
+  - timestamp: 77.21347
+    value: 7
+  - timestamp: 77.368385
+    value: 5
+  - timestamp: 77.62665
+    value: 3
+  - timestamp: 77.95527
+    value: 5
+  - timestamp: 78.488106
+    value: 4
+  - timestamp: 78.93686
+    value: 6
+  - timestamp: 79.3364
+    value: 3
+  - timestamp: 79.69714
+    value: 5
+  - timestamp: 80.06178
+    value: 4
+  - timestamp: 80.69596
+    value: 7
+  - timestamp: 81.1202
+    value: 6
+  - timestamp: 81.54898
+    value: 8
+  - timestamp: 82.34568
+    value: 7
+  - timestamp: 83.002426
+    value: 6
+  - timestamp: 83.76057
+    value: 5
+  - timestamp: 84.48401
+    value: 4
+  - timestamp: 84.79502
+    value: 1
+  - timestamp: 85.20696
+    value: 4
+  - timestamp: 85.412384
+    value: 2
+  - timestamp: 85.8089
+    value: 4
+  - timestamp: 86.119
+    value: 3
+  - timestamp: 86.44667
+    value: 6
+  - timestamp: 86.946266
+    value: 2
+  - timestamp: 87.25245
+    value: 4
+  - timestamp: 87.628555
+    value: 3
+  - timestamp: 88.33539
+    value: 5
+  - timestamp: 88.95778
+    value: 4
+  - timestamp: 89.09676
+    value: 2
+  - timestamp: 89.37141
+    value: 6
+  - timestamp: 89.78339
+    value: 4
+  - timestamp: 89.943275
+    value: 3
+  - timestamp: 90.303276
+    value: 4.5
+  customChange:
+  - timestamp: 6.6
+    effect: 2
+  - timestamp: 15.5
+    effect: 2
+  - timestamp: 27.54
+    effect: 7
+  - timestamp: 34
+    effect: 11
+  - timestamp: 36.376568
+    effect: 7
+  - timestamp: 42.553883
+    effect: 2
+  - timestamp: 50
+    effect: 2
+  - timestamp: 62.8
+    effect: 7
+  - timestamp: 66.531296
+    effect: 2
+  - timestamp: 72.55171
+    effect: 7
+  - timestamp: 80
+    effect: 11
+  - timestamp: 92
+    effect: 0
+  - timestamp: 96.2
+    effect: 9

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.9 98.58"><defs><style>.cls-1{fill:#181818;}</style></defs><title>landed_flap_bottom</title><g id="Calque_5" data-name="Calque 5"><polygon points="140.91 92.73 0 92.73 0 30.95 19.2 30.95 49.47 0 91.44 0 121.42 30.95 140.91 30.95 140.91 92.73"/><polygon class="cls-1" points="140.91 98.58 0 98.58 0 36.79 19.2 36.79 49.47 5.84 91.44 5.84 121.42 36.79 140.91 36.79 140.91 98.58"/></g></svg>'
+  _title:
+  _description:

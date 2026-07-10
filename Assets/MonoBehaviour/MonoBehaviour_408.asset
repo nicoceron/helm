@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 3556.396 1080\" style=\"enable-background:new 0 0 3556.396 1080;\" xml:space=\"preserve\">\n<g id=\"_x32_\">\n\t<polygon id=\"XMLID_21_\" style=\"fill:#D67D7E;\" points=\"0,546.944 230.532,512.265 458.421,536.045 614.399,501.62 717.978,511.386 \n\t\t935.5,485.884 998.506,478.383 1036.01,490.384 1450.051,515.887 1574.564,502.386 1709.577,515.887 1778.584,497.885 \n\t\t1823.589,497.885 1888.095,509.886 2219.628,548.89 2300.636,530.888 2389.145,508.386 2471.847,501.545 2759.185,526.305 \n\t\t2988.985,515.238 3323.883,540 3556.396,496.474 3556.396,1677.68 0,1684.534 \t\"/>\n\t<polygon style=\"fill:#3D4B7E;\" points=\"971.34,157.762 969.485,157.762 967.879,158.69 966.951,160.296 966.951,162.151 \n\t\t967.879,163.757 969.485,164.685 971.34,164.685 972.946,163.757 973.874,162.151 973.874,160.296 972.946,158.69 \t\"/>\n</g>\n<g id=\"Calque_1\">\n</g>\n</svg>\n"
+  _title:
+  _description:

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.81 85.57"><defs><style>.cls-1{fill:#fff;}</style></defs><title>landed_bar</title><g id="Calque_5" data-name="Calque 5"><polygon class="cls-1" points="42.89 36.59 32.1 36.79 0 9.18 74.81 9.18 42.89 36.59"/><polygon class="cls-1" points="32.67 74.17 42.14 74.17 59.26 85.57 15.56 85.57 32.67 74.17"/><rect class="cls-1" x="16.61" y="49.3" width="41.6" height="10.96" transform="translate(92.18 17.37) rotate(90)"/><circle class="cls-1" cx="51.29" cy="7.16" r="7.16"/></g></svg>'
+  _title:
+  _description:

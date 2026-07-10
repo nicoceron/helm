@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -395462249, guid: 67dfb1fdfb2b407222eda8e23ac8b724, type: 3}
+  m_Name: TMP Settings
+  m_EditorClassIdentifier:
+  m_enableWordWrapping: 1
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  m_enableTintAllSprites: 0
+  m_enableParseEscapeCharacters: 1
+  m_EnableRaycastTarget: 1
+  m_GetFontFeaturesAtRuntime: 1
+  m_missingGlyphCharacter: 0
+  m_warningsDisabled: 0
+  m_defaultFontAsset: {fileID: 11400000, guid: 4bcadff7410a80f4c82d28e2a23ae50e, type: 2}
+  m_defaultFontAssetPath: Fonts/
+  m_defaultFontSize: 36
+  m_defaultAutoSizeMinRatio: 0.5
+  m_defaultAutoSizeMaxRatio: 2
+  m_defaultTextMeshProTextContainerSize: {x: 20, y: 5}
+  m_defaultTextMeshProUITextContainerSize: {x: 200, y: 50}
+  m_autoSizeTextContainer: 0
+  m_IsTextObjectScaleStatic: 0
+  m_fallbackFontAssets:
+  - {fileID: 11400000, guid: b0f127428389afb44ba47abb19e8e976, type: 2}
+  - {fileID: 11400000, guid: f00cc14a85d92a04e8052234047b4aec, type: 2}
+  - {fileID: 11400000, guid: d2bea71500fa214418ec46231477c726, type: 2}
+  - {fileID: 11400000, guid: 1ebf18e3310e46244afcc14272d4fe5c, type: 2}
+  - {fileID: 11400000, guid: 6292acc95b691304c992f5317a75afed, type: 2}
+  m_matchMaterialPreset: 1
+  m_defaultSpriteAsset: {fileID: 11400000, guid: e3e2aebf594ba3e4db242f2bb00b1904, type: 2}
+  m_defaultSpriteAssetPath: Sprite Assets/
+  m_enableEmojiSupport: 1
+  m_MissingCharacterSpriteUnicode: 0
+  m_defaultColorGradientPresetsPath: Color Gradient Presets/
+  m_defaultStyleSheet: {fileID: 0}
+  m_StyleSheetsResourcePath:
+  m_leadingCharacters: {fileID: 4900000, guid: 18541e395b0d11c4cb1c52d776dafe16, type: 3}
+  m_followingCharacters: {fileID: 4900000, guid: 222154e259c0d9a45a126b7d10d4aa03, type: 3}
+  m_UseModernHangulLineBreakingRules: 0

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.3 88.71"><defs><style>.cls-1{fill:#d91b39;}</style></defs><title>heart</title><g id="Calque_9" data-name="Calque 9"><path class="cls-1" d="M96.3,28.61A28.58,28.58,0,0,0,48.15,7.75,28.59,28.59,0,0,0,8.59,49l-.05.05L48.15,88.71,87.76,49.09,87.71,49A28.54,28.54,0,0,0,96.3,28.61Z"/></g></svg>'
+  _title:
+  _description:

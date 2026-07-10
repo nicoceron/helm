@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3971e917c19df5cb7f0cd756d597adaf, type: 3}
+  m_Name: venusiel
+  m_EditorClassIdentifier:
+  name: venusiel
+  id: 6
+  profile: {fileID: 11400000, guid: 299e9d89b8ab24d42b54fcd86e6a87b3, type: 2}
+  clip: {fileID: 8300000, guid: 818988e0c2b309a4795ca2a626ca1e71, type: 3}
+  prefab: {fileID: 1709254077376921, guid: 940fbb7524dd3d948929a1f2adea6036, type: 2}
+  mainColor: {r: 1, g: 0.5921569, b: 0.6627451, a: 1}
+  mainBackColor: {r: 0, g: 0, b: 0, a: 1}
+  complementaryColor: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 1}
+  complementaryBackColor: {r: 0.6556604, g: 0.81458646, b: 1, a: 1}
+  verticalCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.12854004
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.06953718
+      value: 0.60600543
+      inSlope: -6.4852533
+      outSlope: -6.4852533
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.17407757
+      value: -1.1323996
+      inSlope: 1.6537002
+      outSlope: 1.6537002
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.25916487
+      value: 0.42853016
+      inSlope: -1.0422536
+      outSlope: -1.0422536
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.30452916
+      value: 0.53304124
+      inSlope: 14.221119
+      outSlope: 14.221119
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.07986079
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.33678332
+      value: 0.086247385
+      inSlope: 0.9625785
+      outSlope: 0.9625785
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06281877
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.42675164
+      value: -0.36449945
+      inSlope: -7.9820104
+      outSlope: -7.9820104
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06463947
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5324068
+      value: 1.0562007
+      inSlope: 5.8767686
+      outSlope: 5.8767686
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.7127541
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5904174
+      value: 0.64995253
+      inSlope: 46.415092
+      outSlope: 46.415092
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.009052502
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.70401627
+      value: -1.086838
+      inSlope: 5.083474
+      outSlope: 5.083474
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06400288
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.76074463
+      value: 0.2914253
+      inSlope: -5.670584
+      outSlope: -5.670584
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8418803
+      value: 1.4381757
+      inSlope: -1.0229526
+      outSlope: -1.0229526
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.928002
+      value: -0.47511297
+      inSlope: 9.517442
+      outSlope: 9.517442
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.035415206
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.12854004
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 0
+    m_RotationOrder: 4
+  style: 1
+  styleVariation: 7
+  regularRotation: 0
+  smooth: 0.8

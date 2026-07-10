@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.35 129.35"><defs><style>.cls-1{fill:#fffaf1;}.cls-2{fill:#bab6b1;opacity:0.36;}</style></defs><title>landed_button_interior</title><g id="Calque_5" data-name="Calque 5"><polygon class="cls-1" points="117.35 129.35 12 129.35 0 117.35 0 12 12 0 117.35 0 129.35 12 129.35 117.35 117.35 129.35"/><polygon class="cls-2" points="123.66 6.6 5.3 6.6 12 -0.13 117.35 0 123.66 6.6"/><polygon class="cls-2" points="117.35 129.35 12 129.35 5.3 122.75 123.94 122.75 117.35 129.35"/></g></svg>'
+  _title:
+  _description:

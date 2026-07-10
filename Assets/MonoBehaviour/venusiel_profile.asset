@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fed8626bce1cd97dda0d7e8d7c7482e, type: 3}
+  m_Name: venusiel_profile
+  m_EditorClassIdentifier:
+  beatChange:
+  - timestamp: 1.13
+    value: 54.5
+  - timestamp: 22
+    value: 109
+  - timestamp: 57.19
+    value: 54.5
+  noteChange:
+  - timestamp: 0
+    value: 4.5
+  - timestamp: 4.722755
+    value: 6
+  - timestamp: 6.793663
+    value: 3
+  - timestamp: 9.011836
+    value: 6
+  - timestamp: 11.181613
+    value: 2
+  - timestamp: 13.413616
+    value: 6
+  - timestamp: 15.602185
+    value: 3
+  - timestamp: 17.848701
+    value: 8
+  - timestamp: 20.02023
+    value: 5
+  - timestamp: 21.760197
+    value: 4
+  - timestamp: 22.240866
+    value: 3
+  - timestamp: 26.72496
+    value: 6
+  - timestamp: 27.741745
+    value: 4
+  - timestamp: 28.84306
+    value: 2
+  - timestamp: 29.90795
+    value: 5
+  - timestamp: 31.143682
+    value: 1
+  - timestamp: 33.242676
+    value: 7
+  - timestamp: 35.481693
+    value: 3
+  - timestamp: 37.719677
+    value: 6
+  - timestamp: 40.005566
+    value: 2
+  - timestamp: 40.952217
+    value: 4
+  - timestamp: 41.985287
+    value: 5
+  - timestamp: 43.08661
+    value: 6
+  - timestamp: 44.238895
+    value: 4
+  - timestamp: 46.564342
+    value: 7
+  - timestamp: 48.713486
+    value: 2
+  - timestamp: 49.745335
+    value: 5
+  - timestamp: 50.897755
+    value: 3
+  - timestamp: 51.913464
+    value: 6
+  - timestamp: 53.04948
+    value: 2
+  - timestamp: 54.699886
+    value: 1
+  - timestamp: 55.26818
+    value: 0
+  - timestamp: 57.5028
+    value: 4
+  - timestamp: 59.649685
+    value: 5
+  - timestamp: 61.829838
+    value: 3
+  - timestamp: 63.996723
+    value: 6
+  - timestamp: 65.97709
+    value: 4
+  - timestamp: 67
+    value: 4.5
+  customChange:
+  - timestamp: 9.110977
+    effect: 1
+  - timestamp: 15.44329
+    effect: 1
+  - timestamp: 26.37112
+    effect: 4
+  - timestamp: 33.58339
+    effect: 4
+  - timestamp: 35.29192
+    effect: 1
+  - timestamp: 44.0172
+    effect: 4
+  - timestamp: 58.68831
+    effect: 0
+  - timestamp: 68.5
+    effect: 9

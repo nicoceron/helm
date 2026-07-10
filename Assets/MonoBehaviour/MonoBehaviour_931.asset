@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 209.95"><defs><style>.cls-1{fill:#181818;}.cls-2{opacity:0.42;}</style></defs><title>YUPlanded_bottom_block</title><g id="Calque_5" data-name="Calque 5"><polygon class="cls-1" points="0 9.53 0 9.53 0 208.76 750 208.76 750 16.6 750 9.53 0 9.53"/><polygon class="cls-2" points="0 2.72 0 12.82 750 12.82 750 1.19 0 2.72"/><polygon points="731.56 18.17 722.32 18.17 715.78 24.7 715.78 33.94 722.32 40.48 731.56 40.48 738.09 33.94 738.09 24.7 731.56 18.17"/><polygon class="cls-1" points="730.34 21.1 723.53 21.1 718.72 25.92 718.72 32.73 723.53 37.54 730.34 37.54 735.15 32.73 735.15 25.92 730.34 21.1"/><polygon points="731.56 175.32 722.32 175.32 715.78 181.85 715.78 191.1 722.32 197.63 731.56 197.63 738.09 191.1 738.09 181.85 731.56 175.32"/><polygon class="cls-1" points="730.34 178.26 723.53 178.26 718.72 183.07 718.72 189.88 723.53 194.69 730.34 194.69 735.15 189.88 735.15 183.07 730.34 178.26"/><polygon points="26.25 18.17 17.01 18.17 10.47 24.7 10.47 33.94 17.01 40.48 26.25 40.48 32.78 33.94 32.78 24.7 26.25 18.17"/><polygon class="cls-1" points="25.03 21.1 18.23 21.1 13.41 25.92 13.41 32.73 18.23 37.54 25.03 37.54 29.85 32.73 29.85 25.92 25.03 21.1"/><polygon points="23.31 175.32 14.07 175.32 7.54 181.85 7.54 191.1 14.07 197.63 23.31 197.63 29.85 191.1 29.85 181.85 23.31 175.32"/><polygon class="cls-1" points="22.1 178.26 15.29 178.26 10.47 183.07 10.47 189.88 15.29 194.69 22.1 194.69 26.91 189.88 26.91 183.07 22.1 178.26"/></g></svg>'
+  _title:
+  _description:

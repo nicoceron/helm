@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef6c0ee5d8c62e998fc0faaec4c7af, type: 3}
+  m_Name: asteroid
+  m_EditorClassIdentifier:
+  type: 0
+  name: asteroid
+  conditions:
+  prefab: {fileID: 1709254077376921, guid: a8992e9e792cc3c4bbdf1b899a062db5, type: 2}
+  alternative: {fileID: 1709254077376921, guid: b0e3477b099b7634f9e13997c6867c77, type: 2}
+  treatedConditions: []
+  appearSFX: 529

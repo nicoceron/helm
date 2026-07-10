@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\r\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\r\n<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"100px\"\r\n\t height=\"100px\" viewBox=\"0 0 100 100\" enable-background=\"new 0 0 100 100\" xml:space=\"preserve\">\r\n<g id=\"Layer_2\">\r\n</g>\r\n<g id=\"Layer_3\">\r\n</g>\r\n<g id=\"Layer_6\">\r\n</g>\r\n<g id=\"Layer_7\">\r\n</g>\r\n<g id=\"Layer_8\">\r\n</g>\r\n<g id=\"Layer_9\">\r\n</g>\r\n<g id=\"Layer_1\">\r\n</g>\r\n<g id=\"Layer_4\">\r\n</g>\r\n<g id=\"Layer_5\">\r\n</g>\r\n<g id=\"Layer_10\">\r\n</g>\r\n<g id=\"Layer_11\">\r\n\t<g>\r\n\t\t<g>\r\n\t\t\t<rect x=\"32.686\" y=\"32.717\" fill=\"#E2569A\" width=\"34.334\" height=\"5.886\"/>\r\n\t\t\t<g>\r\n\t\t\t\t<rect x=\"32.834\" y=\"61.693\" fill=\"#E2569A\" width=\"34.332\" height=\"5.886\"/>\r\n\t\t\t\t<rect x=\"61.545\" y=\"32.834\" fill=\"#E2569A\" width=\"5.887\" height=\"34.332\"/>\r\n\t\t\t\t<rect x=\"32.568\" y=\"32.98\" fill=\"#E2569A\" width=\"5.887\" height=\"34.334\"/>\r\n\t\t\t</g>\r\n\t\t</g>\r\n\t\t<circle fill=\"#1B1B1B\" cx=\"50\" cy=\"50\" r=\"39.916\"/>\r\n\t\t<circle fill=\"#323233\" cx=\"50\" cy=\"50.594\" r=\"35.344\"/>\r\n\t\t<circle fill=\"#88898A\" cx=\"50\" cy=\"50.595\" r=\"31.178\"/>\r\n\t\t<circle fill=\"#504F4F\" cx=\"50\" cy=\"50.595\" r=\"28.678\"/>\r\n\t\t<path fill=\"#E20E1F\" d=\"M57.389,51.271c3.529-0.895,6.142-4.059,6.142-7.838c0-4.473-3.655-8.1-8.164-8.1h-8.298\r\n\t\t\tc-0.396,0-0.783,0.037-1.164,0.092v-0.092h-6.25v31.875h6.25v-0.092c0.381,0.055,0.768,0.092,1.164,0.092h8.298\r\n\t\t\tc4.508,0,8.164-3.626,8.164-8.1C63.531,55.33,60.918,52.166,57.389,51.271z M52.289,61.5h-6.383v-8.232h6.383\r\n\t\t\tc2.291,0,4.148,1.843,4.148,4.116C56.438,59.658,54.58,61.5,52.289,61.5z M52.289,49.275h-6.383v-8.232h6.383\r\n\t\t\tc2.291,0,4.148,1.843,4.148,4.116C56.438,47.434,54.58,49.275,52.289,49.275z\"/>\r\n\t\t<path opacity=\"0.05\" fill=\"#FFFFFF\" d=\"M50.145,10.084C28.1,10.084,10.229,27.955,10.229,50S28.1,89.916,50.145,89.916V10.084z\"/>\r\n\t</g>\r\n</g>\r\n</svg>\r\n"
+  _title:
+  _description:

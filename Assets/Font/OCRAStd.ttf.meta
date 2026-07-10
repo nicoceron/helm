@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: 7a31a809dc35f1a458ef5b441e3ec46b
+timeCreated: 1783662267
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - OCRAM
+  - Noto Sans S Chinese
+  - Corporate Logo Medium
+  - CatV 6x12 9
+  - Amiri
+  - NanumBarunGothic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 01652a111a06c86489918a0f9b7ad82d, type: 3}
+  - {fileID: 12800000, guid: 1e1df450a348e2c428b88381c2f00510, type: 3}
+  - {fileID: 12800000, guid: 70e395885246d08409d96c9f59c3c107, type: 2}
+  - {fileID: 12800000, guid: d43d5e1eb56094e4bae88fa1ae9393a6, type: 2}
+  - {fileID: 12800000, guid: e91fc1f7f3b14d3459d4643fab612405, type: 2}
+  - {fileID: 12800000, guid: 8c2515397864b504497565b7b23bfb7b, type: 3}
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:

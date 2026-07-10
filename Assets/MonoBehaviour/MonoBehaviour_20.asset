@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.16296mm" height="28.16296mm" viewBox="0 0 79.832 79.832"><defs><clipPath id="clip-path"><path d="M50.5306,30.5899a.85173.85173,0,0,0-.84375-.84782h-6.75a.85172.85172,0,0,0-.84375.84782V49.2421a.85172.85172,0,0,0,.84375.84783h6.75a.85173.85173,0,0,0,.84375-.84783Zm11.81251,0a.85173.85173,0,0,0-.84375-.84782h-6.75a.85172.85172,0,0,0-.84375.84782V49.2421a.85172.85172,0,0,0,.84375.84783h6.75a.85173.85173,0,0,0,.84375-.84783ZM35.87045,40.32667c.4087-.22521.4087-.59613,0-.82133L18.36261,29.72883c-.40869-.2252-.73828-.0265-.73828.43716v19.5c0,.46366.32959.66237.73828.43716Z" style="fill:#fff;clip-rule:evenodd"/></clipPath><clipPath id="clip-path-2"><rect x="16.99933" y="28.95949" width="46" height="22" style="fill:#fff"/></clipPath></defs><title>Plan de travail 4</title><circle cx="39.916" cy="39.916" r="39.916" style="fill:#1c1c1c"/><circle cx="39.916" cy="39.917" r="35.344" style="fill:#333334"/><circle cx="39.916" cy="39.917" r="31.178" style="fill:#88898a"/><circle cx="39.916" cy="39.917" r="28.678" style="fill:#515050"/><path d="M39.916,0a39.916,39.916,0,0,0,0,79.832Z" style="fill:#fff;opacity:0.050000000745058;isolation:isolate"/><g style="opacity:0.7000000000000001"><path d="M50.5306,30.5899a.85173.85173,0,0,0-.84375-.84782h-6.75a.85172.85172,0,0,0-.84375.84782V49.2421a.85172.85172,0,0,0,.84375.84783h6.75a.85173.85173,0,0,0,.84375-.84783Zm11.81251,0a.85173.85173,0,0,0-.84375-.84782h-6.75a.85172.85172,0,0,0-.84375.84782V49.2421a.85172.85172,0,0,0,.84375.84783h6.75a.85173.85173,0,0,0,.84375-.84783ZM35.87045,40.32667c.4087-.22521.4087-.59613,0-.82133L18.36261,29.72883c-.40869-.2252-.73828-.0265-.73828.43716v19.5c0,.46366.32959.66237.73828.43716Z" style="fill:#fff;fill-rule:evenodd"/><g style="clip-path:url(#clip-path)"><rect x="16.99933" y="28.95949" width="46" height="22" style="fill:#fff"/><g style="clip-path:url(#clip-path-2)"><rect x="12.62433" y="24.63587" width="54.71877" height="30.56026" style="fill:#fff"/></g></g></g></svg>'
+  _title:
+  _description:

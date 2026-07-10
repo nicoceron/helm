@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"124.74868\" height=\"134.70326\" viewBox=\"0 0 124.74868 134.70326\">\n  <title>inventory_selected</title>\n  <g id=\"Calque_3\" data-name=\"Calque 3\">\n    <rect x=\"4.80364\" y=\"5.56571\" width=\"115.07221\" height=\"125.83979\" rx=\"30\" ry=\"30\" style=\"fill: #0a1011\"/>\n   <path d=\"M116.87706,66.2906V91.99225c0,18.5389-13.26069,33.70709-29.46819,33.70709H37.33981c-16.20751,0-29.46819-15.16819-29.46819-33.70709V66.2906H0v34.70557c0,18.5389,13.26069,33.70709,29.46819,33.70709H95.28049c16.20751,0,29.46819-15.16819,29.46819-33.70709V66.2906Z\" style=\"fill: #918050\"/>\n    <path d=\"M7.87161,68.41266V42.711c0-18.5389,13.26069-33.70709,29.46819-33.70709H87.40887c16.20751,0,29.46819,15.16819,29.46819,33.70709V68.41266h7.87161V33.70709C124.74868,15.16819,111.488,0,95.28049,0H29.46819C13.26069,0,0,15.16819,0,33.70709V68.41266Z\" style=\"fill: #bda867\"/>\n  </g>\n</svg>\n"
+  _title:
+  _description:

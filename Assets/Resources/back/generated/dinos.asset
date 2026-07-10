@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef6c0ee5d8c62e998fc0faaec4c7af, type: 3}
+  m_Name: dinos
+  m_EditorClassIdentifier:
+  type: 1
+  name: dinos
+  conditions: conglo>4
+  prefab: {fileID: 1709254077376921, guid: dcd2b1747747dde4fb40c89ea2744468, type: 2}
+  alternative: {fileID: 1709254077376921, guid: b7b4a351066a2f74788b33428136b115, type: 2}
+  treatedConditions:
+  - variable: 0
+    custom_name: conglo
+    condition: 0
+    value: 5
+    bearer: 1000
+    bearerIsAlso: 1000
+    bearerIsNot: 1000
+    place: 1
+    orlimit: 0
+  appearSFX: 528

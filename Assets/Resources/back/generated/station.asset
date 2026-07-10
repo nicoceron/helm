@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef6c0ee5d8c62e998fc0faaec4c7af, type: 3}
+  m_Name: station
+  m_EditorClassIdentifier:
+  type: 6
+  name: station
+  conditions:
+  prefab: {fileID: 1709254077376921, guid: db1ce82a4d6a45b4c83d7b9d594f2a8f, type: 2}
+  alternative: {fileID: 1709254077376921, guid: b235334f82e97c6488a7c65ec59c6861, type: 2}
+  treatedConditions: []
+  appearSFX: 528

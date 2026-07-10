@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef6c0ee5d8c62e998fc0faaec4c7af, type: 3}
+  m_Name: underwater
+  m_EditorClassIdentifier:
+  type: 1
+  name: underwater
+  conditions: fringe>5
+  prefab: {fileID: 1709254077376921, guid: 48825481272c1534abbbf0dd0ef26955, type: 2}
+  alternative: {fileID: 1709254077376921, guid: be9f9656154a28a45943a02a919b8271, type: 2}
+  treatedConditions:
+  - variable: 0
+    custom_name: fringe
+    condition: 0
+    value: 6
+    bearer: 1000
+    bearerIsAlso: 1000
+    bearerIsNot: 1000
+    place: 1
+    orlimit: 0
+  appearSFX: 528

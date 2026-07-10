@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 92"><defs><style>.cls-1{fill:#fff;}</style></defs><title>landed_spaceport</title><g id="Calque_5" data-name="Calque 5"><path class="cls-1" d="M42.2,52.55a86.16,86.16,0,0,0,1-13.28C43.21,17.58,26,0,26,0S8.76,17.58,8.76,39.27A85.75,85.75,0,0,0,9.93,53.53c-.79.7-9.93,9-9.93,19.2C0,83.37,10,92,10,92s8.11-7,9.72-16.16A9.46,9.46,0,0,0,26,78.54a9.6,9.6,0,0,0,6.49-2.89C34.43,84.36,42,90.9,42,90.9s10-8.62,10-19.26C52,61.87,43.57,53.8,42.2,52.55ZM16,27.39a10,10,0,1,1,10,10A10,10,0,0,1,16,27.39Z"/></g></svg>'
+  _title:
+  _description:

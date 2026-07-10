@@ -1,0 +1,27 @@
+public enum Variables
+{
+	custom = 0,
+	length = 1,
+	overall = 2,
+	distance = 3,
+	chain = 4,
+	add = 5,
+	remove = 6,
+	set = 7,
+	destroy = 8,
+	journey = 9,
+	skip = 10,
+	people = 11,
+	oxygen = 12,
+	power = 13,
+	hull = 14,
+	heat = 15,
+	seen = 16,
+	stop = 17,
+	destination = 18,
+	hide = 19,
+	money = 20,
+	price = 21,
+	nb_fame = 22,
+	turns = 23
+}

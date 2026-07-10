@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3971e917c19df5cb7f0cd756d597adaf, type: 3}
+  m_Name: paraglider
+  m_EditorClassIdentifier:
+  name: paraglider
+  id: 4
+  profile: {fileID: 11400000, guid: 2528e34b071e1b948b107f11747ae805, type: 2}
+  clip: {fileID: 8300000, guid: f956bcfb7e44fc74abaaebc243347b8d, type: 3}
+  prefab: {fileID: 1709254077376921, guid: c768e1753730a384ebfb4acce37bfcc6, type: 2}
+  mainColor: {r: 0, g: 0.627451, b: 0.67058825, a: 1}
+  mainBackColor: {r: 0, g: 0, b: 0, a: 1}
+  complementaryColor: {r: 1, g: 0.7971634, b: 0, a: 1}
+  complementaryBackColor: {r: 1, g: 0.9225986, b: 0.7311321, a: 1}
+  verticalCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.12854004
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.06953718
+      value: 0.60600543
+      inSlope: -6.4852533
+      outSlope: -6.4852533
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.17407757
+      value: -1.1323996
+      inSlope: 1.6537002
+      outSlope: 1.6537002
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.25916487
+      value: 0.42853016
+      inSlope: -1.0422536
+      outSlope: -1.0422536
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.32912505
+      value: -0.3800202
+      inSlope: 9.517442
+      outSlope: 9.517442
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.035415206
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.44201043
+      value: 0.16726935
+      inSlope: -7.9820104
+      outSlope: -7.9820104
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06463947
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.4726534
+      value: 0.844897
+      inSlope: 5.8767686
+      outSlope: 5.8767686
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.7127541
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.57646394
+      value: -1.1251947
+      inSlope: 0.9625785
+      outSlope: 0.9625785
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06281877
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.6986452
+      value: 0.7268369
+      inSlope: 5.083474
+      outSlope: 5.083474
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06400288
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.72921133
+      value: 0.6605116
+      inSlope: 46.415092
+      outSlope: 46.415092
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.009052502
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.76074463
+      value: 0.2914253
+      inSlope: -5.670584
+      outSlope: -5.670584
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.819788
+      value: -0.08677077
+      inSlope: 14.221119
+      outSlope: 14.221119
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.07986079
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8399272
+      value: 0.31122255
+      inSlope: -1.0229526
+      outSlope: -1.0229526
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.12854004
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 0
+    m_RotationOrder: 4
+  style: 4
+  styleVariation: 7
+  regularRotation: 0
+  smooth: 1

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246.37 330.68"><defs><style>.cls-1{fill:#ffef58;}</style></defs><title>right_explosion</title><g id="explosion"><path class="cls-1" d="M144.57,330.68C140.7,327.86,4.43,300.31,4.43,300.31l95.32-12.85L0,104.2,128.37,213.93,110.71,0l86.58,166.49L220,6.44l26.33,217.45Z"/></g></svg>'
+  _title:
+  _description:

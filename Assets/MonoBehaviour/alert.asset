@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c13baaf6fb157175b993ae390eb1beb6, type: 3}
+  m_Name: alert
+  m_EditorClassIdentifier:
+  style: 2
+  intensity:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.049074996
+      outSlope: 0.049074996
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.40464535
+    - serializedVersion: 3
+      time: 0.11523312
+      value: 0.6626145
+      inSlope: -1.2569869
+      outSlope: -1.2569869
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.21916142
+      outWeight: 0.3148214
+    - serializedVersion: 3
+      time: 0.39892256
+      value: 0.22910216
+      inSlope: -0.33210593
+      outSlope: -0.33210593
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3663662
+      outWeight: 0.1165856
+    - serializedVersion: 3
+      time: 2
+      value: 0.00091552734
+      inSlope: -0.048399746
+      outSlope: -0.048399746
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.038953792
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  time: 3
+  volumeprofile: {fileID: 11400000, guid: 236381bed298445469d6fa7158b22b50, type: 2}
+  gotone: 0
+  loop: 1
+  sound: 97

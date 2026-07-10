@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><style>.cls-1{fill:#3e6dd7;}.cls-2{fill:#e5e5e5;}.cls-3{fill:#f4f4f4;}.cls-4{fill:#b2471d;}.cls-5{fill:#f5872a;}.cls-6{fill:#a83e1d;}.cls-7{fill:#ed7d2b;}</style></defs><g id="BG"><path class="cls-1" d="M512,493.65A18.58,18.58,0,0,1,493.48,512H17.25C7.18,512,0,503.72,0,493.65V17.42C0,7.35,7.18,0,17.25,0H493.48C503.55,0,512,7.35,512,17.42Z"/></g><g id="characters"><polygon class="cls-2" points="201.32 234.02 212.38 294.79 196.62 373.39 138.91 482.82 115.63 512 255.9 512 255.9 247.53 201.32 234.02"/><polygon class="cls-3" points="315.81 230.33 299.73 294.66 314.79 373.01 384.97 477.99 411.56 512 255.9 512 255.9 245.14 315.81 230.33"/><polygon class="cls-3" points="255.89 50.61 216.51 69.11 189.97 93.23 186.35 124.59 171.28 158.96 167.06 202.99 192.38 240.38 240.63 258.47 255.89 262.58 255.9 100.71 255.89 50.61"/><polygon class="cls-4" points="202.03 186.1 215.3 212.64 234.6 224.7 255.89 229.6 255.84 205.9 214.09 174.04 202.03 186.1"/><polygon class="cls-5" points="237.01 102.75 218.92 128.09 217.71 148.59 202.03 186.45 223.75 194.42 232.19 210.1 244.71 210.34 255.84 212.24 255.89 98.9 237.01 102.75"/><polygon class="cls-2" points="255.89 50.61 298.53 67.5 325.06 91.62 328.68 122.98 343.76 157.36 347.98 201.38 322.65 238.77 274.4 256.86 255.89 262.58 255.89 98.9 255.89 50.61"/><polygon class="cls-6" points="313 184.49 299.73 211.03 280.43 223.09 255.89 229.6 255.84 201.11 300.94 172.43 313 184.49"/><polygon class="cls-7" points="278.02 102.47 296.11 127.81 297.32 148.31 313 184.49 291.29 194.14 282.85 209.82 267.96 210.67 255.84 212.24 255.89 98.9 278.02 102.47"/></g></svg>'
+  _title:
+  _description:

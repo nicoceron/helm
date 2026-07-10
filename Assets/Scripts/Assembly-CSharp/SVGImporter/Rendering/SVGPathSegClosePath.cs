@@ -1,0 +1,17 @@
+using UnityEngine;
+
+namespace SVGImporter.Rendering
+{
+	public class SVGPathSegClosePath : SVGPathSeg
+	{
+		public SVGPathSegClosePath(Vector2 value, SVGPathSeg segment)
+		{
+			_type = SVGPathSegTypes.Close;
+			if (segment != null)
+			{
+				_previousPoint = segment.currentPoint;
+			}
+			_currentPoint = value;
+		}
+	}
+}

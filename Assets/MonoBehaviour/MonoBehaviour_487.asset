@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg id="accessories" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><style>.cls-1{fill:#40271f;}.cls-2{fill:#ede8e2;opacity:0.53;}.cls-3{fill:#8c4946;opacity:0;}</style></defs><title>sala</title><rect class="cls-1" x="188.45" y="165.67" width="11.53" height="9.89"/><rect class="cls-2" x="189.36" y="176.48" width="53.82" height="50.89"/><rect class="cls-2" x="203.88" y="173.37" width="15.44" height="54.85" transform="translate(80.24 -59.66) rotate(19.74)"/><rect class="cls-2" x="224.58" y="179.18" width="8.63" height="54.85" transform="translate(83.22 -65.16) rotate(19.74)"/><polygon class="cls-1" points="190.41 171.29 237 171.29 250.46 183.2 250.46 236.52 187.82 236.52 187.82 223.57 240.62 223.57 240.62 188.89 231.56 179.83 189.9 179.83 167.12 171.81 170.22 160.94 190.41 171.29"/><rect class="cls-3" width="512" height="512"/></svg>'
+  _title:
+  _description:

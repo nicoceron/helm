@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\r\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\r\n<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"100px\"\r\n\t height=\"100px\" viewBox=\"0 0 100 100\" enable-background=\"new 0 0 100 100\" xml:space=\"preserve\">\r\n<g id=\"Layer_2\">\r\n</g>\r\n<g id=\"Layer_3\">\r\n</g>\r\n<g id=\"Layer_6\">\r\n</g>\r\n<g id=\"Layer_7\">\r\n</g>\r\n<g id=\"Layer_8\">\r\n</g>\r\n<g id=\"Layer_9\">\r\n</g>\r\n<g id=\"Layer_1\">\r\n</g>\r\n<g id=\"Layer_4\">\r\n</g>\r\n<g id=\"Layer_5\">\r\n</g>\r\n<g id=\"Layer_10\">\r\n</g>\r\n<g id=\"Layer_11\">\r\n\t<g>\r\n\t\t<circle fill=\"#1B1B1B\" cx=\"50\" cy=\"50\" r=\"39.916\"/>\r\n\t\t<circle fill=\"#323233\" cx=\"50\" cy=\"50.001\" r=\"35.344\"/>\r\n\t\t<circle fill=\"#88898A\" cx=\"50\" cy=\"50.001\" r=\"31.178\"/>\r\n\t\t<circle fill=\"#504F4F\" cx=\"50\" cy=\"50.001\" r=\"28.678\"/>\r\n\t\t<path opacity=\"0.05\" fill=\"#FFFFFF\" d=\"M50,10.084c-22.045,0-39.916,17.871-39.916,39.916S27.955,89.916,50,89.916V10.084z\"/>\r\n\t\t<path fill=\"#E20E1F\" d=\"M50,27.375c-12.496,0-22.625,10.13-22.625,22.625S37.504,72.625,50,72.625S72.625,62.495,72.625,50\r\n\t\t\tS62.496,27.375,50,27.375z M50,67c-9.389,0-17-7.611-17-17s7.611-17,17-17c9.389,0,17,7.611,17,17S59.389,67,50,67z\"/>\r\n\t</g>\r\n</g>\r\n</svg>\r\n"
+  _title:
+  _description:

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c13baaf6fb157175b993ae390eb1beb6, type: 3}
+  m_Name: multiverse
+  m_EditorClassIdentifier:
+  style: 3
+  intensity:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.00013503246
+      value: -0.001445517
+      inSlope: 0.0030676615
+      outSlope: 0.0030676615
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.2273099
+    - serializedVersion: 3
+      time: 1.2906672
+      value: 1.0004065
+      inSlope: 0.011746614
+      outSlope: 0.011746614
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.10524644
+      outWeight: 0.39508128
+    - serializedVersion: 3
+      time: 2.6156178
+      value: 0.032309756
+      inSlope: 0.69074076
+      outSlope: 0.69074076
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1348501
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 3.1249356
+      value: 0.00040829182
+      inSlope: -0.0031838033
+      outSlope: -0.0031838033
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.2010444
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  time: 4
+  volumeprofile: {fileID: 11400000, guid: fbe9d0554bc3de8449d36485cdc923a3, type: 2}
+  gotone: 0
+  loop: 0
+  sound: 448

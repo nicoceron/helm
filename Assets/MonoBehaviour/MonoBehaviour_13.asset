@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\r\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\r\n<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t width=\"62.277px\" height=\"62.277px\" viewBox=\"0 0 62.277 62.277\" enable-background=\"new 0 0 62.277 62.277\" xml:space=\"preserve\">\r\n<g id=\"Layer_1\">\r\n</g>\r\n<g id=\"Layer_3\">\r\n</g>\r\n<g id=\"Layer_2\">\r\n\t<path fill=\"#7E6E4E\" d=\"M55.494,57.347L55.144,4.881L9.288,32.492L55.494,57.347z M50.931,49.769L18.384,32.262l32.299-19.449\r\n\t\tL50.931,49.769z\"/>\r\n\t<circle fill=\"#BFAF6E\" cx=\"12.644\" cy=\"31.115\" r=\"5.861\"/>\r\n</g>\r\n</svg>\r\n"
+  _title:
+  _description:

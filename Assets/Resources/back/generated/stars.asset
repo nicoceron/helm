@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef6c0ee5d8c62e998fc0faaec4c7af, type: 3}
+  m_Name: stars
+  m_EditorClassIdentifier:
+  type: 0
+  name: stars
+  conditions:
+  prefab: {fileID: 1709254077376921, guid: aebc1f06629d5d8459bea7398c57addc, type: 2}
+  alternative: {fileID: 1709254077376921, guid: dc60a38e985223f4f8bf23b8b549d95c, type: 2}
+  treatedConditions: []
+  appearSFX: 529

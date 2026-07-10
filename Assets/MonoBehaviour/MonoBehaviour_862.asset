@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108.22 108.22"><defs><style>.cls-1{fill:#0c0c0c;stroke:#89bf54;stroke-miterlimit:10;stroke-width:2px;}</style></defs><title>faction_BG_green</title><g id="factions"><polygon class="cls-1" points="75.9 1.5 32.32 1.5 1.5 32.32 1.5 75.9 32.32 106.72 75.9 106.72 106.72 75.9 106.72 32.32 75.9 1.5"/></g></svg>'
+  _title:
+  _description:

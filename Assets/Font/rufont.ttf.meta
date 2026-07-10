@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 8c2515397864b504497565b7b23bfb7b
+timeCreated: 1783662267
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - CatV 6x12 9
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 3
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:

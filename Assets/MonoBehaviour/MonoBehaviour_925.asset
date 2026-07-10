@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1867 1851"><defs><style>.cls-1{fill:#3d4b7e;}.cls-2{fill:#7d4076;}.cls-3{fill:#c6e7f9;}</style></defs><title>donuts_star_1</title><circle class="cls-1" cx="1063.21" cy="482.25" r="1.97"/><circle class="cls-1" cx="779.82" cy="1580.31" r="1.97"/><circle class="cls-1" cx="647.05" cy="1611.8" r="1.97"/><circle class="cls-1" cx="553.91" cy="987.58" r="1.97"/><circle class="cls-1" cx="555.88" cy="1372.01" r="1.97"/><circle class="cls-2" cx="673.74" cy="494.14" r="1.06"/><circle class="cls-2" cx="1011.8" cy="1686.04" r="1.06"/><circle class="cls-1" cx="1009.69" cy="481.19" r="1.06"/><circle class="cls-1" cx="283.48" cy="1073.71" r="1.06"/><circle class="cls-1" cx="329.99" cy="772.5" r="1.06"/><circle class="cls-1" cx="1048.27" cy="292.01" r="1.06"/><circle class="cls-1" cx="1761.56" cy="690.45" r="1.06"/><circle class="cls-1" cx="1629.95" cy="516.86" r="1.06"/><circle class="cls-1" cx="1545.66" cy="668.52" r="1.06"/><circle class="cls-1" cx="1692.97" cy="1012.28" r="1.06"/><circle class="cls-1" cx="1342.61" cy="1487.87" r="1.06"/><circle class="cls-1" cx="1380.26" cy="376.17" r="1.06"/><circle class="cls-3" cx="731.21" cy="305.88" r="1.06"/><circle class="cls-3" cx="517.19" cy="712.12" r="1.06"/><circle class="cls-3" cx="1628.89" cy="1294.6" r="1.06"/><circle class="cls-3" cx="683.65" cy="1339.28" r="1.06"/><circle class="cls-3" cx="704.56" cy="1455.24" r="1.06"/><circle class="cls-3" cx="1033.47" cy="1509.67" r="1.06"/><circle class="cls-3" cx="183.35" cy="905.27" r="1.06"/><circle class="cls-3" cx="347.82" cy="1295.65" r="1.06"/><circle class="cls-3" cx="478.61" cy="413.82" r="1.06"/><circle class="cls-3" cx="883.92" cy="185" r="1.06"/><circle class="cls-3" cx="281.37" cy="495.2" r="1.06"/><circle class="cls-3" cx="1274.18" cy="135.41" r="1.06"/><circle class="cls-3" cx="1455.56" cy="818.42" r="1.06"/><circle class="cls-3" cx="1382.37" cy="1053.89" r="1.06"/><circle class="cls-3" cx="1271.27" cy="1280.02" r="1.06"/><circle class="cls-3" cx="1343.66" cy="550.88" r="1.06"/><circle class="cls-3" cx="1063.21" cy="1340.34" r="1.06"/></svg>'
+  _title:
+  _description:

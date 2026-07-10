@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg id="accessories" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><style>.cls-1{fill:#ede8e2;opacity:0.53;}.cls-2{fill:#40271f;}.cls-3{fill:#8c4946;opacity:0;}</style></defs><title>brother</title><rect class="cls-1" x="192.72" y="233.87" width="49.23" height="46.55"/><rect class="cls-1" x="206.01" y="231.02" width="14.12" height="50.18" transform="translate(99.01 -56.91) rotate(19.74)"/><rect class="cls-1" x="224.95" y="236.34" width="7.9" height="50.18" transform="translate(101.73 -61.94) rotate(19.74)"/><polygon class="cls-2" points="193.69 229.13 236.31 229.13 248.62 240.02 248.62 288.79 191.32 288.79 191.32 276.95 239.62 276.95 239.62 245.22 231.34 236.94 193.22 236.94 172.38 229.6 175.22 219.66 193.69 229.13"/><rect class="cls-3" width="512" height="512"/></svg>'
+  _title:
+  _description:

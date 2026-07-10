@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><style>.cls-1{fill:#8b807d;}.cls-2{fill:#e2bb78;}.cls-3{fill:#c9a36d;}.cls-4{fill:#ffd9b4;}.cls-5{fill:#e5b8a7;}.cls-6{fill:#fadf50;}.cls-7{fill:#285ca6;}.cls-8{fill:#564f61;}.cls-9{fill:#758fe6;}.cls-10{fill:#f6d228;}</style></defs><g id="characters"><path class="cls-1" d="M512,493.65A18.58,18.58,0,0,1,493.48,512H17.25C7.18,512,0,503.72,0,493.65V17.42C0,7.35,7.18,0,17.25,0H493.48C503.55,0,512,7.35,512,17.42Z"/><polygon class="cls-2" points="348.06 446.82 256.16 446.82 256.16 327.27 287.25 328.77 291.52 388.55 348.06 446.82"/><polygon class="cls-3" points="163.72 446.82 256.16 446.88 256.16 327.27 224.54 328.77 220.26 388.55 163.72 446.82"/><polygon class="cls-4" points="256.91 119.37 316.9 171.75 315.54 304.4 256.91 353.4 256.91 119.37"/><polygon class="cls-2" points="256.16 96.04 168.72 164.49 192.28 331.49 256.16 362.44 256.16 96.04"/><polygon class="cls-3" points="256.16 103.14 348.12 165.47 328.42 331.99 256.16 362.44 256.16 103.14"/><polygon class="cls-5" points="146.09 429.58 83.31 454.52 80.37 512 253.24 511.5 255.89 436.25 221.09 388.59 146.09 429.58"/><polyline class="cls-6" points="303.93 158.61 317.65 181.15 339.79 234.49 349.56 160.29 303.93 158.61"/><polygon class="cls-6" points="237.5 149.64 346.16 179.19 349.56 160.29 299.29 102.92 240.01 90.36 237.5 149.64"/><polygon class="cls-6" points="239.51 150.14 171.52 184.3 147.58 147.13 165.66 89.86 240.01 90.36 239.51 150.14"/><polygon class="cls-7" points="81.8 474.26 80.26 512 256.16 512 253.4 410.15 236.56 409.5 81.8 474.26"/><polygon class="cls-8" points="221.67 360.94 256.16 379.17 289.74 364.19 292.08 386.92 266.35 409.5 256.16 512 247.57 409.5 220.26 388.93 221.67 360.94"/><polygon class="cls-9" points="220.36 387.16 82.06 454.44 81.43 483.2 250.89 449.14 247.57 408.86 220.36 387.16"/><polyline class="cls-7" points="256.16 512 264.08 408.86 275.44 410.05 430.83 455.48 431.91 512"/><polygon class="cls-9" points="291.91 385.23 430.83 455.48 431.48 483.18 260.98 449.31 264.08 408.86 291.91 385.23"/><path class="cls-10" d="M348,452.64l-22,22,22,22,22-22Zm2.95,32.2H339.23a1.79,1.79,0,0,1-1.79-1.79V471.32a1.79,1.79,0,0,1,1.79-1.79H351a1.8,1.8,0,0,1,1.8,1.79v11.73A1.8,1.8,0,0,1,351,484.84Z"/></g></svg>'
+  _title:
+  _description:

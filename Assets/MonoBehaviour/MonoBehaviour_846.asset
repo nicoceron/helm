@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba681938d47b1406ca3fe03db7a69de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _errors:
+  _svgFile: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.48 76.5"><defs><style>.cls-1{fill:#fff;}</style></defs><title>landed_concert</title><g id="Calque_5" data-name="Calque 5"><polygon class="cls-1" points="20 7.84 20 47.38 31.07 61.97 31.07 54.34 31.07 18.68 61.82 14.21 61.23 39.23 61.29 41.98 72.48 53 72.48 0 20 7.84"/><circle class="cls-1" cx="15.52" cy="60.98" r="15.52"/><circle class="cls-1" cx="56.95" cy="53" r="15.52"/></g></svg>'
+  _title:
+  _description:
