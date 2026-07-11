@@ -14,6 +14,11 @@ public class MetersAct : MonoBehaviour
 
 	private void Start()
 	{
+		// Helm is a capability examination: the four capabilities are the core
+		// language of every decision and must be readable from the first card.
+		// The recovered campaign normally waits for a specially named "show_all"
+		// card, which Helm does not use.
+		ShowAllData(yes: true);
 		GameAct gameAct = GameAct.diff;
 		gameAct.OnRefresh = (Action<Card>)Delegate.Remove(gameAct.OnRefresh, new Action<Card>(UpdateMeters));
 		GameAct gameAct2 = GameAct.diff;

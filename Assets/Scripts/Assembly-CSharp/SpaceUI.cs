@@ -334,7 +334,10 @@ public class SpaceUI : UIAct
 			num++;
 		}
 		planetUI.GetChild(0).GetComponent<RectTransform>().DOSizeDelta(new Vector2(BackgroundAct.diff.recSize, planetUI.sizeDelta.y), 0.3f);
-		MoneyUI.diff.ShowMoney();
+		// Helm uses the four capability meters as its persistent top HUD. The
+		// recovered location/money pad occupies that same space, so it remains
+		// hidden during this compact examination.
+		MoneyUI.diff.HideMoney();
 		if (isLocked)
 		{
 			isLocked = false;

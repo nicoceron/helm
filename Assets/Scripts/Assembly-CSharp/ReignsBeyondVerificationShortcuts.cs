@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Text;
 using UnityEngine;
@@ -17,6 +18,21 @@ public sealed class ReignsBeyondVerificationShortcuts : MonoBehaviour
 		host.AddComponent<ReignsBeyondVerificationShortcuts>();
 	}
 
+	private IEnumerator Start()
+	{
+		const string prefix = "--helm-card=";
+		string argument = Array.Find(Environment.GetCommandLineArgs(), value => value.StartsWith(prefix, StringComparison.Ordinal));
+		if (string.IsNullOrEmpty(argument) || !int.TryParse(argument.Substring(prefix.Length), out int cardId))
+		{
+			yield break;
+		}
+		while (GameAct.diff == null || GameAct.diff.state != GameStates.interaction)
+		{
+			yield return null;
+		}
+		OpenVerificationCard(cardId, "command-line visual check");
+	}
+
 	private void Update()
 	{
 		if (GameAct.diff == null)
@@ -27,13 +43,25 @@ public sealed class ReignsBeyondVerificationShortcuts : MonoBehaviour
 		{
 			OpenVerificationCard(1, "opening");
 		}
+		else if (Input.GetKeyDown(KeyCode.F3) || Input.GetKeyDown(KeyCode.Alpha3))
+		{
+			OpenVerificationCard(6, "first governing decision");
+		}
+		else if (Input.GetKeyDown(KeyCode.F4) || Input.GetKeyDown(KeyCode.Alpha4))
+		{
+			OpenVerificationCard(104, "port signal concert");
+		}
+		else if (Input.GetKeyDown(KeyCode.F5) || Input.GetKeyDown(KeyCode.Alpha5))
+		{
+			OpenVerificationCard(144, "allocation pulse minigame");
+		}
 		else if (Input.GetKeyDown(KeyCode.F7))
 		{
-			OpenVerificationCard(8, "labor crisis");
+			OpenVerificationCard(80, "education decision");
 		}
 		else if (Input.GetKeyDown(KeyCode.F8))
 		{
-			OpenVerificationCard(16, "solar strike");
+			OpenVerificationCard(160, "final stress test");
 		}
 		else if (Input.GetKeyDown(KeyCode.F9))
 		{

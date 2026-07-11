@@ -85,8 +85,28 @@ public class DisclaimerAct : MonoBehaviour
 			child.gameObject.SetActive(false);
 		}
 
-		CreateTitleLine(logoRoot, "HELM", 82, new Vector2(0f, 42f), Color.white);
-		CreateTitleLine(logoRoot, "LIONRISE PROTOCOL", 24, new Vector2(0f, -36f), new Color(0.886f, 0.031f, 0.118f, 1f));
+		Color signalRed = new Color(0.886f, 0.031f, 0.118f, 1f);
+		Color quietWhite = new Color(0.78f, 0.81f, 0.84f, 1f);
+		CreateTitleLine(logoRoot, "HELM", 72, new Vector2(0f, 84f), Color.white);
+		CreateTitleLine(logoRoot, "RULER CAPABILITY EXAMINATION", 14, new Vector2(0f, 35f), quietWhite);
+		CreateRule(logoRoot, new Vector2(0f, 10f), signalRed);
+		CreateTitleLine(logoRoot, "SCENARIO S1", 18, new Vector2(0f, -18f), signalRed);
+		CreateTitleLine(logoRoot, "BIG BROTHER IS WATCHING", 30, new Vector2(0f, -58f), Color.white);
+		CreateTitleLine(logoRoot, "OBSERVATION ACTIVE", 12, new Vector2(0f, -101f), signalRed);
+	}
+
+	private static void CreateRule(Transform parent, Vector2 position, Color color)
+	{
+		GameObject rule = new GameObject("Scenario Divider", typeof(RectTransform), typeof(CanvasRenderer), typeof(Image));
+		rule.transform.SetParent(parent, false);
+		RectTransform rect = rule.GetComponent<RectTransform>();
+		rect.anchorMin = new Vector2(0.5f, 0.5f);
+		rect.anchorMax = new Vector2(0.5f, 0.5f);
+		rect.sizeDelta = new Vector2(390f, 2f);
+		rect.anchoredPosition = position;
+		Image image = rule.GetComponent<Image>();
+		image.color = new Color(color.r, color.g, color.b, 0.65f);
+		image.raycastTarget = false;
 	}
 
 	private static void CreateTitleLine(Transform parent, string value, int size, Vector2 position, Color color)

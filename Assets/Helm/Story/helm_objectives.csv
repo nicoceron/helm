@@ -1,6 +1,4 @@
 name;id;parent;title;description;achievement;blocked_until_revealed;conditions
-founder;0;;The Founder;Declare Lionrise sovereign;;;seen_1
-starbroker;1;;The Starbroker;Make eight outward-looking choices;;;nb_open>7
-steward;2;;The Steward;Make ten people-first choices;;;nb_human>9
-ironhelm;3;founder;The Iron Helm;Make eight state-capacity choices;;;nb_order>7
-protocol;4;ironhelm;The Protocol;Complete the balanced Lionrise ending;;;seen_90
+publiccompact;0;;The Public Compact;Secure water build public homes and green Lionrise;;;water_secure and public_homes and garden_city
+checks;1;;No Special Treatment;Combine clean government open opportunity and legal surveillance;;;clean_service and open_exams and warrants
+distinction;2;;Fit to Rule;Pass Scenario S1 with distinction;;;seen_900

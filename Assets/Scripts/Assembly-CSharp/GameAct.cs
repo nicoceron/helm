@@ -243,6 +243,7 @@ public class GameAct : MonoBehaviour
 		diff = this;
 		questionY = question.rectTransform.anchoredPosition.y;
 		slot = (DataStore.localSaveFileSystem.HasKey("slot") ? DataStore.localSaveFileSystem.GetInt("slot") : 0);
+		HelmAllocationMinigame.Install(characterRepo);
 		specialCards = new Dictionary<Bearers, CardAct>();
 		foreach (Transform item in characterRepo)
 		{
@@ -1489,6 +1490,7 @@ public class GameAct : MonoBehaviour
 				return;
 			case Bearers.map:
 			case Bearers.concert:
+			case Bearers.fight:
 				cardType = CardTypes.custom;
 				cardSc = GetCardAct(card.bearer);
 				return;
@@ -2271,7 +2273,13 @@ public class GameAct : MonoBehaviour
 			return cacheGroup;
 		}
 		cacheId = cid;
-		string text = hiddenCards.Find((Card it) => it.id == cid).question.Get();
+		Card groupCard = hiddenCards.Find((Card it) => it.id == cid);
+		if (groupCard == null)
+		{
+			cacheGroup = "LIONRISE CIVIC SIGNAL";
+			return cacheGroup;
+		}
+		string text = groupCard.question.Get();
 		int num;
 		int num2;
 		if (SpeechAct.diff.lang == "ar")

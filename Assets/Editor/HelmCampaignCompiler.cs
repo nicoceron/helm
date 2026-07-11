@@ -41,7 +41,7 @@ public static class HelmCampaignCompiler
 		WriteEncoded(Path.Combine(TextRoot, "characters_i18n.txt"), CharactersI18nHeader);
 		WriteEncoded(Path.Combine(TextRoot, "objectives_i18n.txt"), ObjectivesI18nHeader);
 		AssetDatabase.Refresh();
-		Debug.Log("HELM_CAMPAIGN_COMPILED decisions=16 endings=5");
+		Debug.Log("HELM_CAMPAIGN_COMPILED decisions=16 minigames=2 endings=5");
 	}
 
 	private static void CompileTable(string sourceName, string targetName, int expectedColumns)
@@ -99,15 +99,36 @@ public static class HelmCampaignCompiler
 	private static void ValidateCards(string[] lines)
 	{
 		List<string[]> cards = lines.Skip(1).Select(line => line.Split(';')).ToList();
-		int decisions = cards.Count(card => !card[3].StartsWith("end", StringComparison.Ordinal));
-		int endings = cards.Count(card => card[3].StartsWith("end", StringComparison.Ordinal));
-		if (decisions != 16 || endings != 5)
+		int decisions = cards
+			.Where(card => !IsEnding(card) && !IsCinematic(card) && !IsMinigame(card))
+			.Select(card => card[1])
+			.Distinct()
+			.Count();
+		int minigames = cards
+			.Where(IsMinigame)
+			.Select(card => card[1])
+			.Distinct()
+			.Count();
+		int cinematics = cards
+			.Where(IsCinematic)
+			.Select(card => card[1])
+			.Distinct()
+			.Count();
+		int endings = cards.Count(IsEnding);
+		if (decisions != 16 || minigames != 2 || cinematics < 6 || endings != 5)
 		{
-			throw new InvalidDataException($"Helm requires exactly 16 decisions and 5 endings. Found {decisions} and {endings}.");
+			throw new InvalidDataException(
+				$"Helm requires 16 policy decisions, 2 minigames, at least 6 cinematics, and 5 endings. " +
+				$"Found {decisions}, {minigames}, {cinematics}, and {endings}.");
 		}
 		if (cards[0][1] != "first_card")
 		{
 			throw new InvalidDataException("The first Helm card must be named first_card.");
+		}
+		if (!cards[0][9].Contains("SCENARIO S1", StringComparison.Ordinal) ||
+			!cards[0][9].Contains("BIG BROTHER IS WATCHING", StringComparison.Ordinal))
+		{
+			throw new InvalidDataException("The first Helm card must identify SCENARIO S1: BIG BROTHER IS WATCHING.");
 		}
 
 		HashSet<int> ids = new HashSet<int>();
@@ -117,63 +138,127 @@ public static class HelmCampaignCompiler
 			{
 				throw new InvalidDataException($"Card id '{card[2]}' is invalid or duplicated.");
 			}
+			if (!IsEnding(card) && !IsCinematic(card) && card[9].Length > 125)
+			{
+				throw new InvalidDataException($"Card id {card[2]} has {card[9].Length} question characters. Helm policy cards must stay at or below 125 to preserve the original layout.");
+			}
+			if (IsCinematic(card) && card[3] != "intercale" && card[9].Length > 135)
+			{
+				throw new InvalidDataException($"Character interstitial id {card[2]} has {card[9].Length} question characters. Keep it at or below 135.");
+			}
+			if (card[15].Length > 20 || card[18].Length > 20)
+			{
+				throw new InvalidDataException($"Card id {card[2]} has a choice label longer than 20 characters. Keep choices compact like the original game.");
+			}
 		}
 
 		ValidateCampaignBalance(cards);
 	}
 
+	private static bool IsEnding(string[] card)
+	{
+		return card[3].StartsWith("end", StringComparison.Ordinal);
+	}
+
+	private static bool IsCinematic(string[] card)
+	{
+		return card[3] == "intercale" || card[0] == "briefing" || card[0] == "cinematic";
+	}
+
+	private static bool IsMinigame(string[] card)
+	{
+		return card[3] == "concert" || card[3] == "fight";
+	}
+
 	private static void ValidateCampaignBalance(List<string[]> cards)
 	{
-		List<string[]> decisions = cards.Where(card => !card[3].StartsWith("end", StringComparison.Ordinal)).ToList();
-		List<string[]> endings = cards.Where(card => card[3].StartsWith("end", StringComparison.Ordinal)).ToList();
+		List<string[]> decisionRows = cards.Where(card => !IsEnding(card)).ToList();
+		Dictionary<string, List<string[]>> stages = decisionRows
+			.GroupBy(card => card[1])
+			.ToDictionary(group => group.Key, group => group.ToList());
+		List<string[]> endings = cards.Where(IsEnding).ToList();
 		string[] meterNames = { "power", "oxygen", "people", "hull" };
-		Dictionary<string, int> minimums = meterNames.ToDictionary(name => name, name => 101);
-		Dictionary<string, int> maximums = meterNames.ToDictionary(name => name, name => -1);
+		Dictionary<string, int> minimums = meterNames.ToDictionary(name => name, name => 50);
+		Dictionary<string, int> maximums = meterNames.ToDictionary(name => name, name => 50);
 		HashSet<string> reachedEndings = new HashSet<string>();
+		Dictionary<string, int> endingCounts = endings.ToDictionary(card => card[2], card => 0);
+		int branchingStageCount = decisionRows
+			.Where(card => !IsCinematic(card))
+			.Select(card => card[1])
+			.Distinct()
+			.Count();
+		int timelineCount = 1 << branchingStageCount;
 
-		for (int mask = 0; mask < 1 << decisions.Count; mask++)
+		for (int mask = 0; mask < timelineCount; mask++)
 		{
 			Dictionary<string, int> meters = meterNames.ToDictionary(name => name, name => 50);
-			Dictionary<string, int> scores = new Dictionary<string, int>
+			Dictionary<string, int> state = new Dictionary<string, int>
 			{
-				{ "nb_open", 0 },
-				{ "nb_order", 0 },
-				{ "nb_human", 0 }
+				{ "nb_growth", 0 },
+				{ "nb_capacity", 0 },
+				{ "nb_trust", 0 }
 			};
+			string currentStage = "first_card";
+			int branchIndex = 0;
+			int graphSteps = 0;
 
-			for (int i = 0; i < decisions.Count; i++)
+			while (currentStage != "_verdict")
 			{
-				string outcome = decisions[i][((mask >> i) & 1) == 1 ? 17 : 20];
-				foreach (string term in outcome.Split(new[] { " and " }, StringSplitOptions.RemoveEmptyEntries))
+				graphSteps++;
+				if (graphSteps > 64)
 				{
-					Match meter = Regex.Match(term, "^(power|oxygen|people|hull)([+-])(\\d+)$");
-					if (meter.Success)
-					{
-						int delta = int.Parse(meter.Groups[3].Value);
-						meters[meter.Groups[1].Value] += meter.Groups[2].Value == "+" ? delta : -delta;
-						continue;
-					}
+					throw new InvalidDataException($"Timeline mask {mask} exceeded 64 graph nodes near '{currentStage}'.");
+				}
+				if (!stages.TryGetValue(currentStage, out List<string[]> variants))
+				{
+					throw new InvalidDataException($"Timeline mask {mask} cannot find story stage '{currentStage}'.");
+				}
 
-					Match score = Regex.Match(term, "^(nb_open|nb_order|nb_human)\\+(\\d+)$");
-					if (score.Success)
-					{
-						scores[score.Groups[1].Value] += int.Parse(score.Groups[2].Value);
-					}
+				string[] decision = variants.FirstOrDefault(card => ConditionMatches(card[6], state));
+				if (decision == null)
+				{
+					throw new InvalidDataException($"Timeline mask {mask} has no valid variant for story stage '{currentStage}'.");
+				}
+
+				string loadNext = ApplyOutcome(decision[14], meters, state);
+				bool cinematic = IsCinematic(decision);
+				string outcome;
+				if (cinematic)
+				{
+					outcome = decision[17];
+				}
+				else
+				{
+					outcome = decision[((mask >> branchIndex) & 1) == 1 ? 17 : 20];
+					branchIndex++;
+				}
+				string outcomeNext = ApplyOutcome(outcome, meters, state);
+				currentStage = string.IsNullOrEmpty(outcomeNext) ? loadNext : outcomeNext;
+				if (string.IsNullOrEmpty(currentStage))
+				{
+					throw new InvalidDataException($"Card id {decision[2]} does not chain to the next story stage.");
+				}
+
+				foreach (string meterName in meterNames)
+				{
+					minimums[meterName] = Math.Min(minimums[meterName], meters[meterName]);
+					maximums[meterName] = Math.Max(maximums[meterName], meters[meterName]);
 				}
 			}
 
-			foreach (string meterName in meterNames)
+			if (branchIndex != branchingStageCount)
 			{
-				minimums[meterName] = Math.Min(minimums[meterName], meters[meterName]);
-				maximums[meterName] = Math.Max(maximums[meterName], meters[meterName]);
+				throw new InvalidDataException(
+					$"Timeline mask {mask} traversed {branchIndex} branching stages instead of {branchingStageCount}.");
 			}
 
-			string[] ending = endings.FirstOrDefault(card => EndingMatches(card[6], scores));
+			string[] ending = endings.FirstOrDefault(card => card[1] == currentStage && ConditionMatches(card[6], state));
 			if (ending == null)
 			{
 				throw new InvalidDataException($"Timeline mask {mask} has no matching ending.");
 			}
 			reachedEndings.Add(ending[2]);
+			endingCounts[ending[2]]++;
 		}
 
 		foreach (string meterName in meterNames)
@@ -188,19 +273,86 @@ public static class HelmCampaignCompiler
 			throw new InvalidDataException($"Only {reachedEndings.Count} of {endings.Count} endings are reachable across all timelines.");
 		}
 
-		Debug.Log("HELM_BALANCE_VALID " + string.Join(" ", meterNames.Select(name => $"{name}={minimums[name]}..{maximums[name]}")));
+		Debug.Log("HELM_BALANCE_VALID " +
+			string.Join(" ", meterNames.Select(name => $"{name}={minimums[name]}..{maximums[name]}")) + " " +
+			$"timelines={timelineCount} " +
+			string.Join(" ", endingCounts.Select(pair => $"ending_{pair.Key}={pair.Value}")));
 	}
 
-	private static bool EndingMatches(string condition, Dictionary<string, int> scores)
+	private static string ApplyOutcome(string outcome, Dictionary<string, int> meters, Dictionary<string, int> state)
+	{
+		string nextStage = null;
+		foreach (string term in outcome.Split(new[] { " and " }, StringSplitOptions.RemoveEmptyEntries))
+		{
+			if (term.StartsWith(">", StringComparison.Ordinal))
+			{
+				nextStage = term.Substring(1);
+				continue;
+			}
+
+			Match meter = Regex.Match(term, "^(power|oxygen|people|hull)([+-])(\\d+)$");
+			if (meter.Success)
+			{
+				int delta = int.Parse(meter.Groups[3].Value);
+				meters[meter.Groups[1].Value] += meter.Groups[2].Value == "+" ? delta : -delta;
+				continue;
+			}
+
+			Match increment = Regex.Match(term, "^([a-z][a-z0-9_]*)([+-])(\\d+)$");
+			if (increment.Success)
+			{
+				string name = increment.Groups[1].Value;
+				int current = state.TryGetValue(name, out int value) ? value : 0;
+				int delta = int.Parse(increment.Groups[3].Value);
+				state[name] = current + (increment.Groups[2].Value == "+" ? delta : -delta);
+				continue;
+			}
+
+			Match assignment = Regex.Match(term, "^([a-z][a-z0-9_]*)=(-?\\d+)$");
+			if (assignment.Success)
+			{
+				state[assignment.Groups[1].Value] = int.Parse(assignment.Groups[2].Value);
+				continue;
+			}
+
+			if (Regex.IsMatch(term, "^[a-z][a-z0-9_]*$") &&
+				!term.StartsWith("mus_", StringComparison.Ordinal) &&
+				!term.StartsWith("sfx_", StringComparison.Ordinal) &&
+				!term.StartsWith("eff_", StringComparison.Ordinal))
+			{
+				state[term] = state.TryGetValue(term, out int value) ? value + 1 : 1;
+			}
+		}
+		return nextStage;
+	}
+
+	private static bool ConditionMatches(string condition, Dictionary<string, int> state)
 	{
 		if (string.IsNullOrEmpty(condition))
 		{
 			return true;
 		}
+
 		foreach (string term in condition.Split(new[] { " and " }, StringSplitOptions.RemoveEmptyEntries))
 		{
-			Match match = Regex.Match(term, "^(nb_open|nb_order|nb_human)>(\\d+)$");
-			if (!match.Success || scores[match.Groups[1].Value] <= int.Parse(match.Groups[2].Value))
+			Match comparison = Regex.Match(term, "^([a-z][a-z0-9_]*)([<>=])(-?\\d+)$");
+			if (comparison.Success)
+			{
+				string name = comparison.Groups[1].Value;
+				int defaultValue = name.StartsWith("nb_", StringComparison.Ordinal) ? 0 : -1;
+				int value = state.TryGetValue(name, out int current) ? current : defaultValue;
+				int target = int.Parse(comparison.Groups[3].Value);
+				switch (comparison.Groups[2].Value)
+				{
+					case ">": if (value <= target) return false; break;
+					case "<": if (value >= target) return false; break;
+					case "=": if (value != target) return false; break;
+				}
+				continue;
+			}
+
+			if (!Regex.IsMatch(term, "^[a-z][a-z0-9_]*$") ||
+				!state.TryGetValue(term, out int flag) || flag != 1)
 			{
 				return false;
 			}

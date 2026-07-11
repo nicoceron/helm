@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class TutoAct : MonoBehaviour
 {
+	private const string FirstDecisionCard = "_separation";
+
 	public GameObject scmod;
 
 	private bool ghostly;
@@ -31,10 +33,10 @@ public class TutoAct : MonoBehaviour
 
 	private void NewCard(Bearers bear)
 	{
-		if (!ghostly && GameAct.diff.card.name == "first_card")
+		if (!ghostly && GameAct.diff.card.name == FirstDecisionCard)
 		{
 			ghostly = true;
-			GameAct.diff.ShowDataCol(yes: false);
+			GameAct.diff.ShowDataCol(yes: true);
 			timeChoice = Time.realtimeSinceStartup;
 		}
 		else if (ghostly)
@@ -49,11 +51,20 @@ public class TutoAct : MonoBehaviour
 				GameAct.diff.PlayModal(ModalTypes.custom, scmod, 10f, "", decal: false);
 				Disable();
 			}
+			else if (curCardName != FirstDecisionCard)
+			{
+				Disable();
+			}
 		}
-		else if (!ghostly)
+		else if (!ghostly && !IsBriefingCard(GameAct.diff.card.name))
 		{
 			Disable();
 		}
+	}
+
+	private static bool IsBriefingCard(string cardName)
+	{
+		return cardName == "first_card" || cardName.StartsWith("_briefing_", StringComparison.Ordinal);
 	}
 
 	private void Disable()
@@ -110,7 +121,7 @@ public class TutoAct : MonoBehaviour
 
 	private void StartCheck(Bearers bear)
 	{
-		if (!(GameAct.diff.card.name != "first_card"))
+		if (!(GameAct.diff.card.name != FirstDecisionCard))
 		{
 			InputAct.diff.Simulate(-0.5f, 0.5f);
 			GameAct diff = GameAct.diff;

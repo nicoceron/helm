@@ -243,7 +243,7 @@ public class MoneyUI : MonoBehaviour
 	public void SetPlace()
 	{
 		string nameBack = BackgroundAct.diff.nameBack;
-		place.text = SpeechAct.diff.GetSceneTextFinal(nameBack);
+		place.text = SpeechAct.diff.GetSceneTextFinal(BackgroundAct.GetDisplayPlaceName(nameBack));
 		placeimg.vectorGraphics = NavigationAct.diff.GetIconPlace(BackgroundAct.diff.GetType(), nameBack);
 	}
 

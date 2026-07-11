@@ -280,6 +280,16 @@ public class BackgroundAct : MonoBehaviour
 
 	public void ShowTop(bool direct = false)
 	{
+		top.gameObject.SetActive(value: true);
+		if (MetersAct.diff != null)
+		{
+			MetersAct.diff.Activate();
+			MetersAct.diff.ShowAllData(yes: true);
+		}
+		if (MoneyUI.diff != null)
+		{
+			MoneyUI.diff.HideMoney();
+		}
 		DoMove(top, new Vector2(0f, -50f), 3.5f, direct, topcorout);
 	}
 
@@ -302,8 +312,13 @@ public class BackgroundAct : MonoBehaviour
 
 	public void ShowBottom(bool direct = false)
 	{
-		NavigationAct.diff.ShowUI(curBack.type, nameBack);
-		DoMove(bottom, new Vector2(0f, 50f), 3.5f, direct, botcorout);
+		NavigationAct.diff.ShowUI(curBack.type, GetDisplayPlaceName(nameBack));
+		bool showNavigation = GameAct.diff != null && GameAct.diff.cardType == CardTypes.custom;
+		bottom.gameObject.SetActive(showNavigation);
+		if (showNavigation)
+		{
+			DoMove(bottom, new Vector2(0f, 50f), 3.5f, direct, botcorout);
+		}
 	}
 
 	public void HideBottom(bool direct = false)
@@ -444,7 +459,10 @@ public class BackgroundAct : MonoBehaviour
 		}
 		ShowTop();
 		ShowBottom();
-		SetColor(Landing());
+		// The landscape canvas already matches the source game's height-based layout.
+		// The landing palette turns the entire question surface tan, which reads as
+		// one oversized box. Scenario cards use the original dark game chrome.
+		SetColor(second: false);
 		doTrans = false;
 	}
 
@@ -635,7 +653,7 @@ public class BackgroundAct : MonoBehaviour
 				curGenerated = UnityEngine.Object.Instantiate(gameObject, base.transform);
 				curGenerated.transform.SetAsFirstSibling();
 				scGenerated = curGenerated.GetComponent<BackAct>();
-				scGenerated.Appear(nameBack, EndTransition);
+				scGenerated.Appear(GetDisplayPlaceName(nameBack), EndTransition);
 				ipadBack.enabled = false;
 				if (profile != null && profile.appearSFX != SFXTypes.none)
 				{
@@ -652,6 +670,7 @@ public class BackgroundAct : MonoBehaviour
 
 	private GameObject SelectGenerated(List<BackProfile> profiles, string name)
 	{
+		string visualKey = GetVisualKey(nameBack);
 		if (profile != null)
 		{
 			placeCache.Add(profile.name);
@@ -664,8 +683,10 @@ public class BackgroundAct : MonoBehaviour
 		List<BackProfile> list2 = new List<BackProfile>();
 		foreach (BackProfile profile in profiles)
 		{
-			if (!string.IsNullOrEmpty(profile.name) && profile.name == nameBack)
+			if (!string.IsNullOrEmpty(profile.name) && profile.name == visualKey)
 			{
+				this.profile = profile;
+				Debug.Log($"HELM_BACKGROUND_RESOLVED place='{GetDisplayPlaceName(name)}' key='{visualKey}' profile='{profile.name}' prefab='{profile.prefab?.name}'");
 				return profile.prefab;
 			}
 			if (GameAct.diff.TestCond(profile.treatedConditions))
@@ -688,13 +709,36 @@ public class BackgroundAct : MonoBehaviour
 		{
 			return null;
 		}
-		BackProfile backProfile = list[Util.GetInt(name, 0, list.Count)];
+		BackProfile backProfile = list[Util.GetInt(visualKey, 0, list.Count)];
 		if (backProfile.alternative != null && Util.GetFloat(name + "alternative") > 0.5f)
 		{
 			return backProfile.alternative;
 		}
 		this.profile = backProfile;
+		Debug.Log($"HELM_BACKGROUND_RESOLVED place='{GetDisplayPlaceName(name)}' key='{visualKey}' profile='{backProfile.name}' prefab='{backProfile.prefab?.name}'");
 		return backProfile.prefab;
+	}
+
+	public static string GetDisplayPlaceName(string placeName)
+	{
+		if (string.IsNullOrEmpty(placeName))
+		{
+			return placeName;
+		}
+		int separator = placeName.IndexOf('|');
+		return separator < 0 ? placeName : placeName.Substring(0, separator);
+	}
+
+	private static string GetVisualKey(string placeName)
+	{
+		if (string.IsNullOrEmpty(placeName))
+		{
+			return placeName;
+		}
+		int separator = placeName.IndexOf('|');
+		return separator < 0 || separator == placeName.Length - 1
+			? placeName
+			: placeName.Substring(separator + 1);
 	}
 
 	public void HideBack()

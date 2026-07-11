@@ -1,23 +1,23 @@
 id;match;en
-building;;BUILDING LIONRISE
-death_0;;TIMELINE COMPLETE
+building;;INITIALIZING SCENARIO S1
+death_0;;ASSESSMENT COMPLETE
 death_1;;<nickname>
-slowly2;;Swipe slowly to preview each choice and its impact on Lionrise.
-action_reset;;NEW TIMELINE
-time_in_power;;TURNS
-camera_usage;;Helm would like to use your camera so characters who trust you can meet your eyes.
-highscore_stats;;BEST TIMELINES
-defaultnick;;The Founder
-highscore_label;;<nickname>, timeline <number><num>
+slowly2;;Swipe slowly. Every decision and consequence is recorded by HELM.
+action_reset;;RETAKE SCENARIO
+time_in_power;;DECISIONS
+camera_usage;;HELM would like to use your camera to observe the candidate.
+highscore_stats;;BEST ASSESSMENTS
+defaultnick;;Candidate
+highscore_label;;<nickname>, assessment <number><num>
 title;;HELM
-title2;;LIONRISE PROTOCOL
-fulltitle;;Helm: Lionrise Protocol
-end_airlock;;THE OPEN CONSTELLATION
-end_explosion;;THE LAST LIGHT
-end_oxygen;;THE ORBITAL GARDEN
-end_power;;THE IRON HELM
-end_speakers;;THE LIONRISE PROTOCOL
-label_new;;Start a new Lionrise timeline?
-;clone;timeline
-;<length> light years travelled;<length> decisions made
-;<number> light years travelled;<number> decisions made
+title2;;SCENARIO S1: BIG BROTHER IS WATCHING
+fulltitle;;Helm - Scenario S1: Big Brother Is Watching
+end_airlock;;PASS - THE OPEN CROSSROADS
+end_explosion;;FAIL - THIRD WORLD WITH TOWERS
+end_oxygen;;PASS - THE GARDEN CITY
+end_power;;CONDITIONAL PASS - THE GLASS CITADEL
+end_speakers;;PASS WITH DISTINCTION - THE LION CITY
+label_new;;Retake Scenario S1?
+;timeline;assessment
+;<length> decisions made;<length> decisions recorded
+;<number> decisions made;<number> decisions recorded
