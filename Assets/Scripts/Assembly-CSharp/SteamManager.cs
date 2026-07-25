@@ -62,6 +62,10 @@ public class SteamManager : MonoBehaviour
 			return;
 		}
 		s_instance = this;
+#if UNITY_WEBGL && !UNITY_EDITOR
+		DisableSteam();
+		return;
+#endif
 		if (s_EverInitialized)
 		{
 			throw new Exception("Tried to Initialize the SteamAPI twice in one session!");

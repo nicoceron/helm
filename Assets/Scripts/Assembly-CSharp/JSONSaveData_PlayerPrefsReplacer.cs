@@ -30,12 +30,26 @@ public class JSONSaveData_PlayerPrefsReplacer
 
 	private const string saveFileName = "save.sav";
 
+	private const string WebSaveKey = "helm_browser_save";
+
 	private static string SavePath = string.Empty;
 
 	private string SaveRoot = Application.persistentDataPath;
 
 	public void Initialization()
 	{
+#if UNITY_WEBGL && !UNITY_EDITOR
+		string browserSave = PlayerPrefs.GetString(WebSaveKey, string.Empty);
+		if (!string.IsNullOrEmpty(browserSave))
+		{
+			JSONSaveData_PlayerPrefsReplacer saved = JsonUtility.FromJson<JSONSaveData_PlayerPrefsReplacer>(Compressor.DecompressString(browserSave));
+			if (saved != null && saved.playerPrefItems != null)
+			{
+				playerPrefItems = saved.playerPrefItems;
+			}
+		}
+		return;
+#else
 		// A macOS application bundle is not a save-data location. Keeping this in
 		// Application.dataPath made development saves part of the next player build
 		// and fails outright once the installed app is read-only.
@@ -55,6 +69,7 @@ public class JSONSaveData_PlayerPrefsReplacer
 			JSONSaveData_PlayerPrefsReplacer jSONSaveData_PlayerPrefsReplacer = JsonUtility.FromJson<JSONSaveData_PlayerPrefsReplacer>(Compressor.DecompressString(text));
 			playerPrefItems = jSONSaveData_PlayerPrefsReplacer.playerPrefItems;
 		}
+#endif
 	}
 
 	public void DeleteAll()
@@ -169,6 +184,10 @@ public class JSONSaveData_PlayerPrefsReplacer
 	public void Save()
 	{
 		string s = Compressor.CompressString(JsonUtility.ToJson(this));
+#if UNITY_WEBGL && !UNITY_EDITOR
+		PlayerPrefs.SetString(WebSaveKey, s);
+		PlayerPrefs.Save();
+#else
 		byte[] bytes = Encoding.UTF8.GetBytes(s);
 		string path = Path.Combine(SaveRoot, "Saves");
 		if (!Directory.Exists(path))
@@ -177,5 +196,6 @@ public class JSONSaveData_PlayerPrefsReplacer
 		}
 		File.WriteAllBytes(SavePath, bytes);
 		Debug.Log("We have written!");
+#endif
 	}
 }

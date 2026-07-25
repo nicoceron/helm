@@ -9,7 +9,9 @@ public class DataStore : MonoBehaviour
 
 	private void Awake()
 	{
+#if !UNITY_WEBGL
 		Environment.SetEnvironmentVariable("MONO_REFLECTION_SERIALIZER", "yes");
+#endif
 	}
 
 	public static void LoadGame(Action<GameSave> onloadGame, bool local = false, int overrideslot = -1)

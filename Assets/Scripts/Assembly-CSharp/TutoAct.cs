@@ -33,7 +33,13 @@ public class TutoAct : MonoBehaviour
 
 	private void NewCard(Bearers bear)
 	{
-		if (!ghostly && GameAct.diff.card.name == FirstDecisionCard)
+		if (!ghostly && GameAct.diff.card.name == "first_card")
+		{
+			// Match the recovered campaign's teaching rhythm: introduce the world
+			// first, then reveal the HUD on the dedicated show_all briefing card.
+			GameAct.diff.ShowDataCol(yes: false);
+		}
+		else if (!ghostly && GameAct.diff.card.name == FirstDecisionCard)
 		{
 			ghostly = true;
 			GameAct.diff.ShowDataCol(yes: true);

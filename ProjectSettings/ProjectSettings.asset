@@ -82,8 +82,8 @@ PlayerSettings:
   androidPredictiveBackSupport: 1
   androidApplicationEntry: 1
   defaultIsNativeResolution: 1
-  macRetinaSupport: 1
-  runInBackground: 1
+  macRetinaSupport: 0
+  runInBackground: 0
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
   Force IOS Speakers When Recording: 0
@@ -168,6 +168,7 @@ PlayerSettings:
   androidMinAspectRatio: 1
   applicationIdentifier:
     Standalone: com.helm.lionriseprotocol
+    WebGL: com.helm.lionriseprotocol
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -551,21 +552,21 @@ PlayerSettings:
   blurSplashScreenBackground: 0
   spritePackerPolicy: 
   webGLMemorySize: 0
-  webGLExceptionSupport: 0
+  webGLExceptionSupport: 2
   webGLNameFilesAsHashes: 0
   webGLShowDiagnostics: 0
-  webGLDataCaching: 0
+  webGLDataCaching: 1
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: 
+  webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 0
+  webGLCompressionFormat: 1
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
-  webGLDecompressionFallback: 0
+  webGLDecompressionFallback: 1
   webGLInitialMemorySize: 32
   webGLMaximumMemorySize: 2048
   webGLMemoryGrowthMode: 2
