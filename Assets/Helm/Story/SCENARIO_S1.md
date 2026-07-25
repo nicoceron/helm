@@ -2,11 +2,11 @@
 
 ## Player promise
 
-You are not inheriting a fantasy kingdom. You are sitting the HELM ruler-capability examination. In sixteen policy decisions, two playable crises, and roughly three to five minutes, you must turn Lionrise from Earth's poorest ration district into a resilient first-world city.
+You are not inheriting a fantasy kingdom. You are sitting the HELM ruler-capability examination. In sixteen policy decisions, two playable crises, and roughly eight to twelve minutes, you must turn Lionrise from Earth's poorest ration district into a resilient first-world city.
 
 HELM grades outcomes and methods. A beautiful skyline is insufficient if the system depends on fear, cannot hear street-level reality, or collapses when the ruler is wrong.
 
-Before the first policy choice, ORISON-9 leads a five-beat character briefing that establishes the examiner, planetary city, orbital class divide, conditions in Lionrise, and the twenty-year simulation. Pip then carries the human cost of development from the pressure rooms to the schools and council chamber. The first governing swipe is Central's forced withdrawal, not unexplained exposition.
+Before the first policy choice, ORISON-9 leads a seven-beat character briefing that establishes the examiner, planetary city, orbital class divide, conditions in Lionrise, the twenty-year simulation, the four gauges, and the swipe preview. Pip then carries the human cost of development from the pressure rooms to the schools and council chamber. The first governing swipe is Central's forced withdrawal, not unexplained exposition.
 
 ## Setting
 
@@ -33,15 +33,16 @@ Lionrise occupies a strategically valuable equatorial sector around an abandoned
 15. Succession through institutions or loyalty
 16. A cascading resource-allocation failure
 
-The policy sequence is interrupted by a live signal-guitar performance at the equatorial elevator and a short allocation-pulse stabilization game inside the Civic Eye. Eight cinematic transitions show the city changing between eras and make earlier decisions visible in later scenes.
+The policy sequence is interrupted by a roughly thirty-two-second signal-guitar performance at the equatorial elevator and a twelve-second allocation-pulse stabilization game inside the Civic Eye. Eight cinematic transitions show the city changing between eras and make earlier decisions visible in later scenes.
 
 ## Capability rubric
 
-- Growth measures whether Lionrise becomes productive, connected, and globally relevant.
-- Capacity measures whether the state can execute difficult policy and respond to shocks.
-- Trust measures whether citizens participate, cooperate, and can correct the state when it is wrong.
+- Power measures grid strength and administrative execution.
+- Oxygen measures water security and biosphere resilience.
+- People measures welfare, confidence, and corrective feedback.
+- Hull measures infrastructure and productive capacity.
 
-The strongest result requires all three. Extreme growth without governing depth remains fragile. Extreme command without feedback creates a glass citadel. Trust without enough execution can also fail under pressure.
+The final verdict uses these four visible gauges plus the candidate's last crisis response. A balanced open system earns distinction. Strong command and infrastructure can produce a conditional Glass Citadel pass, while strong productive or living systems lead to narrower passing outcomes. There is no invisible score deciding the result.
 
 ## Scenario S1 source alignment
 

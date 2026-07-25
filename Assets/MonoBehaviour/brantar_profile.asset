@@ -58,42 +58,6 @@ MonoBehaviour:
     value: 2
   - timestamp: 30.050728
     value: 4
-  - timestamp: 33.793472
-    value: 6
-  - timestamp: 37.473186
-    value: 2
-  - timestamp: 38.368336
-    value: 4
-  - timestamp: 39.27901
-    value: 1
-  - timestamp: 40.171936
-    value: 5
-  - timestamp: 41.0858
-    value: 2
-  - timestamp: 41.9604
-    value: 6
-  - timestamp: 42.93201
-    value: 3
-  - timestamp: 43.805477
-    value: 5
-  - timestamp: 44.771378
-    value: 2
-  - timestamp: 45.629707
-    value: 7
-  - timestamp: 46.57923
-    value: 3
-  - timestamp: 47.162655
-    value: 6
-  - timestamp: 48.436924
-    value: 2
-  - timestamp: 49.36425
-    value: 5
-  - timestamp: 50.27737
-    value: 2
-  - timestamp: 51.187347
-    value: 7
-  - timestamp: 52.172546
-    value: 4.5
   customChange:
   - timestamp: 10.69062
     effect: 1
@@ -105,13 +69,5 @@ MonoBehaviour:
     effect: 2
   - timestamp: 30
     effect: 1
-  - timestamp: 37
-    effect: 2
-  - timestamp: 43
-    effect: 2
-  - timestamp: 48.8
-    effect: 2
-  - timestamp: 50
-    effect: 0
-  - timestamp: 58
+  - timestamp: 32
     effect: 9

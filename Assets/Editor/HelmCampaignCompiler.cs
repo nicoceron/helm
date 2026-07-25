@@ -252,7 +252,12 @@ public static class HelmCampaignCompiler
 					$"Timeline mask {mask} traversed {branchIndex} branching stages instead of {branchingStageCount}.");
 			}
 
-			string[] ending = endings.FirstOrDefault(card => card[1] == currentStage && ConditionMatches(card[6], state));
+			Dictionary<string, int> verdictState = new Dictionary<string, int>(state);
+			foreach (KeyValuePair<string, int> meter in meters)
+			{
+				verdictState[meter.Key] = meter.Value;
+			}
+			string[] ending = endings.FirstOrDefault(card => card[1] == currentStage && ConditionMatches(card[6], verdictState));
 			if (ending == null)
 			{
 				throw new InvalidDataException($"Timeline mask {mask} has no matching ending.");
@@ -271,6 +276,15 @@ public static class HelmCampaignCompiler
 		if (reachedEndings.Count != endings.Count)
 		{
 			throw new InvalidDataException($"Only {reachedEndings.Count} of {endings.Count} endings are reachable across all timelines.");
+		}
+		foreach (KeyValuePair<string, int> ending in endingCounts)
+		{
+			float share = (float)ending.Value / timelineCount;
+			if (share < 0.05f || share > 0.4f)
+			{
+				throw new InvalidDataException(
+					$"Ending {ending.Key} is selected in {share:P1} of timelines. Keep every verdict between 5% and 40%.");
+			}
 		}
 
 		Debug.Log("HELM_BALANCE_VALID " +

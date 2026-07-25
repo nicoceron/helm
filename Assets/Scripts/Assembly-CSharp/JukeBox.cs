@@ -185,6 +185,10 @@ public class JukeBox : MonoBehaviour
 
 	public void PlayImportantMusic(string musicGroup = "defaut")
 	{
+		if (isPlayingMusic && !isPlayingSong && curMusic != null && curMusic.command == musicGroup)
+		{
+			return;
+		}
 		PlayMusic(musicGroup);
 	}
 

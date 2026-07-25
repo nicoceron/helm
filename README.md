@@ -1,6 +1,6 @@
 # Helm - Scenario S1: Big Brother Is Watching
 
-Helm is a 16-decision sci-fi ruler-capability examination built on the recovered swipe-card engine. A complete assessment takes roughly three to five minutes. The candidate must transform Lionrise from Earth's poorest ration sector into a first-world equatorial hub within twenty in-fiction years.
+Helm is a 16-decision sci-fi ruler-capability examination built on the recovered swipe-card engine. A first assessment takes roughly eight to twelve minutes. The candidate must transform Lionrise from Earth's poorest ration sector into a first-world equatorial hub within twenty in-fiction years.
 
 The opening is led by ORISON-9 as a recurring character card: HELM wakes, reveals Earth in 3024, crosses the orbital divide, descends into Lionrise's pressure wards, and explains why the candidate is being tested. Only then does Central withdraw water and patrols and force the first governing decision. Pip provides the human through-line as a pressure-room child who later becomes Lionrise's teacher and civic witness.
 
@@ -32,7 +32,7 @@ Command-line build:
 The readable source of truth is in [`Assets/Helm/Story`](Assets/Helm/Story):
 
 - `SCENARIO_S1.md`: setting, historical parallel, sequence, and grading rubric.
-- `helm_cards.csv`: a five-beat opening briefing, 16 policy decisions, eight later cinematic sequences, two minigames, conditional callbacks, and five result cards.
+- `helm_cards.csv`: a seven-beat opening briefing, 16 policy decisions, eight later cinematic sequences, two minigames, conditional callbacks, and five result cards.
 - `helm_characters.csv`: scenario roles mapped onto native animated character rigs.
 - `helm_objectives.csv`: replay objectives.
 - `helm_ui_overrides.csv`: scenario title, assessment language, tutorial, and result labels.
@@ -61,11 +61,7 @@ The inherited visible meters are reframed for Lionrise:
 - People: population welfare and social confidence.
 - Hull: infrastructure and productive capacity.
 
-Three invisible assessment dimensions select the final grade:
-
-- `nb_growth`: prosperity and global relevance.
-- `nb_capacity`: the state's ability to execute and survive crisis.
-- `nb_trust`: legitimacy, inclusion, and corrective feedback.
+The four visible meters and the final crisis response select the grade. There is no hidden verdict score: the ending conditions use the same Power, Oxygen, People, and Hull values that the player has watched throughout the assessment.
 
 The five possible reports are:
 
