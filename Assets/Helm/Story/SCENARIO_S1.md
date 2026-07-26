@@ -33,7 +33,7 @@ Lionrise occupies a strategically valuable equatorial sector around an abandoned
 15. Succession through institutions or loyalty
 16. A cascading resource-allocation failure
 
-The policy sequence is interrupted by a roughly thirty-two-second signal-guitar performance at the equatorial elevator and a twelve-second allocation-pulse stabilization game inside the Civic Eye. The concert requires at least 20 of its 28 signal beats, and successful beats restore only one lost health level. Eight cinematic transitions show the city changing between eras and make earlier decisions visible in later scenes.
+The four-card introduction ends by explaining the top gauges and swipe preview. The policy sequence is interrupted by a roughly thirty-two-second signal-guitar performance at the equatorial elevator and a twelve-second allocation-pulse stabilization game inside the Civic Eye. The concert requires at least 20 of its 28 signal beats, and successful beats restore only one lost health level. Eight text interludes carry the story between eras without inventing meaningless binary choices or changing the background on every card.
 
 ## Capability rubric
 

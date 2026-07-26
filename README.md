@@ -2,7 +2,7 @@
 
 Helm is a 16-decision sci-fi ruler-capability examination built on the recovered swipe-card engine. A first assessment takes roughly eight to twelve minutes. The candidate must transform Lionrise from Earth's poorest ration sector into a first-world equatorial hub within twenty in-fiction years.
 
-The opening is led by ORISON-9 as a recurring character card: HELM wakes, reveals Earth in 3024, crosses the orbital divide, descends into Lionrise's pressure wards, and explains why the candidate is being tested. Only then does Central withdraw water and patrols and force the first governing decision. Pip provides the human through-line as a pressure-room child who later becomes Lionrise's teacher and civic witness.
+The four-card opening alternates ORISON-9 with the recovered engine's text-only interludes: HELM wakes, reveals Earth and Lionrise in 3024, explains the twenty-year examination, then defines the four visible gauges and swipe preview before Central forces the first governing decision. Pip provides the human through-line as a pressure-room child who later becomes Lionrise's teacher and civic witness.
 
 Scenario S1 is set in 3024. Thirty billion people inhabit a highly monitored planetary city governed by centralized AI allocation. Scarcity, elite orbital settlements, a declining biosphere, and pervasive nano-surveillance create the conditions for the scenario's philosopher-ruler test.
 
@@ -32,7 +32,7 @@ Command-line build:
 The readable source of truth is in [`Assets/Helm/Story`](Assets/Helm/Story):
 
 - `SCENARIO_S1.md`: setting, historical parallel, sequence, and grading rubric.
-- `helm_cards.csv`: a seven-beat opening briefing, 16 policy decisions, eight later cinematic sequences, two minigames, conditional callbacks, and five result cards.
+- `helm_cards.csv`: a four-card opening, 16 policy decisions, eight later text interludes, two minigames, conditional callbacks, and five result cards.
 - `helm_characters.csv`: scenario roles mapped onto native animated character rigs.
 - `helm_objectives.csv`: replay objectives.
 - `helm_ui_overrides.csv`: scenario title, assessment language, tutorial, and result labels.
@@ -46,9 +46,9 @@ The compiler validates column counts, unique card IDs, the Scenario S1 identity,
 - **Equatorial Signal Concert:** the recovered rhythm game becomes the live launch of Lionrise's rebuilt space elevator. Success or failure changes the port-opening aftermath.
 - **Allocation Pulse:** a new twelve-second crisis game built in the recovered UI style. The player tracks a moving allocation window to stop a hacked water network from cascading.
 
-The opening briefing and eight later interstitial sequences bind named story locations to specific recovered background variants: the HELM room, planetary megacity, orbital divide, pressure undercity, ruined shore, star-city housing, lunar industry, elevator ignition, Civic Eye, emergency bridge, council chamber, and garden world. ORISON, Pip, BRIC, and Kest appear inside these transitions instead of leaving every time jump to a blank narration card.
+The campaign holds a location for an entire act, as the original game does: HELM Observation, Earth, Lionrise Command, Civic Forum, Signal Spine, and Civic Eye are the recurring anchors. Text-only cards carry time jumps and consequences without inventing fake choices, while special backgrounds are reserved for playable crises and verdicts.
 
-Policy copy is capped at 125 characters, matching the original game's 90th-percentile card length. This prevents the inherited question panel from expanding over the character portrait. Objectives now require multi-policy accomplishments; merely starting or seeing a card does not award one.
+Policy copy is capped at 125 characters, with the authored median kept much closer to the original game's compact dialogue. Longer narration lives on dedicated text cards instead of expanding the inherited question panel over the character portrait. Objectives require multi-policy accomplishments; merely starting or seeing a card does not award one.
 
 The recovered scenes retain their original `600×600` height-matched landscape canvas. This is deliberate: the source game uses that wide center-column composition, while full-bleed art continues behind it. Scenario cards keep the original dark question chrome rather than the tan landing palette, so the text surface reads as a compact panel instead of one oversized brown box.
 
