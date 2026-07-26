@@ -9,6 +9,14 @@ using UnityEngine.UI;
 
 public class ConcertCard : CardAct
 {
+	private const int TutorialConcertCardId = 27;
+
+	private const int HelmConcertCardId = 104;
+
+	private const float DefaultMinimumAccuracy = 0.6f;
+
+	private const float HelmMinimumAccuracy = 0.7f;
+
 	public List<BackgroundGroup> backgrounds;
 
 	public List<Guitar> guitars;
@@ -504,7 +512,7 @@ public class ConcertCard : CardAct
 			_beatMax++;
 		}
 		UpdateProgressText();
-		heartNb = 2;
+		heartNb++;
 		DOTween.Complete(99);
 		if (!silent)
 		{
@@ -512,6 +520,16 @@ public class ConcertCard : CardAct
 			spotlight.DOComplete();
 			spotlight.DOIntensity(1.7f, 0.3f).From();
 		}
+	}
+
+	private bool MeetsAccuracyRequirement()
+	{
+		if (InputAct.diff.curInput == Inputs.automated || GameAct.diff.card.id == TutorialConcertCardId)
+		{
+			return true;
+		}
+		float minimumAccuracy = ((GameAct.diff.card.id == HelmConcertCardId) ? HelmMinimumAccuracy : DefaultMinimumAccuracy);
+		return _beatMax > 0 && (float)_heartCounter / (float)_beatMax >= minimumAccuracy;
 	}
 
 	private void UpdateProgressText()
@@ -885,7 +903,7 @@ public class ConcertCard : CardAct
 			DeadCloneAct.diff.AddStat("g_" + guitarObject.name);
 		}
 		yield return new WaitForSeconds(0.3f);
-		if (GameAct.diff.card.id == 27)
+		if (GameAct.diff.card.id == TutorialConcertCardId)
 		{
 			GameAct.diff.scCh.ShowName(GameAct.diff.TreatText(SpeechAct.diff.GetSceneTextFinal("song_tuto")));
 		}
@@ -1166,7 +1184,7 @@ public class ConcertCard : CardAct
 			}
 			break;
 		case MusEffects.endgame:
-			EndGame(won: true);
+			EndGame(MeetsAccuracyRequirement());
 			break;
 		}
 	}
@@ -1410,7 +1428,7 @@ public class ConcertCard : CardAct
 		}
 		mytrans.sizeDelta = new Vector2(360f, 360f);
 		guitarObject = guitars.Find((Guitar it) => it.id == idGuitar);
-		if (GameAct.diff.card.id == 27)
+		if (GameAct.diff.card.id == TutorialConcertCardId)
 		{
 			GameAct.diff.scCh.ShowName(SpeechAct.diff.GetSceneTextFinal("song_tuto"));
 		}
