@@ -2,7 +2,7 @@
 
 ## Player promise
 
-You are not inheriting a fantasy kingdom. You are sitting the HELM ruler-capability examination. In sixteen policy decisions, two playable crises, and roughly eight to twelve minutes, you must turn Lionrise from Earth's poorest ration district into a resilient first-world city.
+You are already inside HELM's Scenario S1 ruler-capability examination. No successor has been chosen. S1 gives the candidate twenty simulated years to take Lionrise from third-world conditions to a resilient first-world civilization; passing proves that the candidate may be fit to become the next ruler, while failure leaves the succession unresolved.
 
 HELM grades outcomes and methods. A beautiful skyline is insufficient if the system depends on fear, cannot hear street-level reality, or collapses when the ruler is wrong.
 
@@ -33,7 +33,7 @@ Lionrise occupies a strategically valuable equatorial sector around an abandoned
 15. Succession through institutions or loyalty
 16. A cascading resource-allocation failure
 
-The four-card introduction ends by explaining the top gauges and swipe preview. The policy sequence is interrupted by a roughly thirty-two-second signal-guitar performance at the equatorial elevator and a twelve-second allocation-pulse stabilization game inside the Civic Eye. The concert requires at least 20 of its 28 signal beats, and successful beats restore only one lost health level. Eight text interludes carry the story between eras without inventing meaningless binary choices or changing the background on every card.
+The seven-card introduction ends by explaining the top gauges and swipe preview. A single music bed carries that briefing even as its visual scenarios move from HELM to Earth, the orbital divide, Lionrise, and back to the examination room. The policy sequence is interrupted by a roughly thirty-two-second signal-guitar performance at the equatorial elevator and a twelve-second allocation-pulse stabilization game inside the Civic Eye. The concert requires at least 20 of its 28 signal beats, and successful beats restore only one lost health level. Eight text interludes carry the story between eras without inventing meaningless binary choices.
 
 ## Capability rubric
 
