@@ -1,0 +1,29 @@
+{
+  "name": "HELM — Scenario S1",
+  "short_name": "HELM",
+  "description": "Take the ruler capability examination. Transform Lionrise in twenty simulated years.",
+  "start_url": "/",
+  "display": "fullscreen",
+  "background_color": "#020304",
+  "theme_color": "#020304",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
