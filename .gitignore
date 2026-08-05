@@ -21,3 +21,10 @@ Recordings/
 *.mdb
 *.opendb
 *.VC.db
+
+# The web deployment includes the compiled Unity player.
+!/web/
+!/web/public/
+!/web/public/game/
+!/web/public/game/Build/
+!/web/public/game/Build/**
